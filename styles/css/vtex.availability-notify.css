@@ -1,0 +1,153 @@
+.notiferContainer .title {
+  font-family: "Corporative", -apple-system, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fb7181;
+  font-size: 1.125rem;
+  text-align: center; }
+  @media screen and (min-width: 1008px) {
+    .notiferContainer .title {
+      margin-top: 5%;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      text-align: left;
+      font-size: 1.08rem; } }
+
+.notiferContainer .notifyLabel {
+  font-family: "Corporative", -apple-system, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #353a42;
+  font-size: 1rem; }
+  @media screen and (min-width: 1008px) {
+    .notiferContainer .notifyLabel {
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start; } }
+
+@media screen and (min-width: 1008px) {
+  .content {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-inline: 0; } }
+
+.content :global(.vtex-input-prefix__group) {
+  border: none;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content; }
+
+.content :global(.vtex-styleguide-9-x-input) {
+  height: 44px; }
+
+.content .inputName::before {
+  content: "Nome";
+  font-family: "Corporative", -apple-system, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 0.875rem;
+  color: #353a42;
+  line-height: 1; }
+
+@media screen and (min-width: 1008px) {
+  .content .inputName {
+    margin-inline: 0; } }
+
+.content .inputEmail::before {
+  content: "E-mail";
+  font-family: "Corporative", -apple-system, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 0.875rem;
+  color: #353a42;
+  line-height: 1; }
+
+@media screen and (min-width: 1008px) {
+  .content .inputEmail {
+    margin-inline: 0; } }
+
+@media screen and (min-width: 1008px) {
+  .content .submit {
+    width: 100%; } }
+
+.content .submit :global(.vtex-button) {
+  width: 100%;
+  padding: 5px;
+  border-radius: 99px;
+  background-color: #cf002e;
+  border: 1px solid #cf002e;
+  margin-top: 0px; }
+  @media screen and (min-width: 1008px) {
+    .content .submit :global(.vtex-button) {
+      height: 47px; } }
+
+.content .submit :global(.vtex-button__label) {
+  color: white;
+  font-family: "Corporative", -apple-system, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
+  text-transform: uppercase; }
+
+.content .success {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.content :global(.vtex-styleguide-9-x-input) {
+  margin-top: 0.5rem;
+  border: 1px solid #ededed;
+  border-radius: 3px;
+  font-size: 1rem; }

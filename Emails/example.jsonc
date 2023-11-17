@@ -1,0 +1,455 @@
+{
+	"package": {
+		"items": [
+			{
+				"itemIndex": 0,
+				"quantity": 1,
+				"price": 22873,
+				"description": "Painel para TV até 50 Polegadas Ripado com Nichos Dj Moveis Nando Carvalho Griz",
+				"unitMultiplier": 0
+			}
+		],
+		"courier": "",
+		"invoiceNumber": "11097",
+		"invoiceValue": 26418,
+		"invoiceUrl": "",
+		"issuanceDate": "2023-06-16T16:37:16Z",
+		"trackingNumber": "testNumber",
+		"invoiceKey": "41230685074623000595550020000110971923748333",
+		"trackingUrl": "testUrl",
+		"embeddedInvoice": "",
+		"type": "Output",
+		"courierStatus": null,
+		"cfop": null,
+		"restitutions": {},
+		"volumes": null,
+		"EnableInferItems": null
+	},
+	"subjectItemAttachment": {
+		"item": "Painel para TV até 5...",
+		"totalItems": 1
+	},
+	"cancellationReason": null,
+	"items": [
+		{
+			"additionalInfo": {
+				"categoriesIds": "/1/2/",
+				"productClusterId": "145,147",
+				"commercialConditionId": "1",
+				"dimension": {
+					"cubicweight": 10.725,
+					"height": 8,
+					"length": 117,
+					"weight": 19900,
+					"width": 55
+				},
+				"brandName": "DJ",
+				"brandId": "1",
+				"offeringInfo": null,
+				"offeringType": null,
+				"offeringTypeId": null
+			},
+			"sellerSku": "7",
+			"priceTable": null,
+			"priceValidUntil": "2024-06-16T13:44:28Z",
+			"callCenterOperator": null,
+			"commission": 0,
+			"freightCommission": 0,
+			"taxCode": "",
+			"catalogProvider": "vrn:vtex.catalog-api-proxy:-:djmoveis:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/7",
+			"uniqueId": "09F2528817304C9FA4DCE0E8256F6E26",
+			"id": "7",
+			"productId": "7",
+			"productRefId": "27419.188",
+			"refId": "27419.188",
+			"ean": "7908365516125",
+			"name": "Painel para TV até 50 Polegadas Ripado com Nichos Dj Moveis Nando Carvalho Griz",
+			"skuName": "Painel para TV até 50 Polegadas Ripado com Nichos Dj Moveis Nando Carvalho Griz",
+			"modalType": null,
+			"parentItemIndex": null,
+			"parentAssemblyBinding": null,
+			"assemblies": [],
+			"tax": 0,
+			"price": 25414,
+			"listPrice": 25414,
+			"manualPrice": null,
+			"manualPriceAppliedBy": null,
+			"sellingPrice": 22873,
+			"rewardValue": 0,
+			"isGift": false,
+			"preSaleDate": null,
+			"productCategoryIds": "/1/2/",
+			"productCategories": {
+				"1": "Sala de Estar",
+				"2": "Painel"
+			},
+			"quantity": 1,
+			"seller": "1",
+			"sellerChain": [
+				"1"
+			],
+			"imageUrl": "http://djmoveis.vteximg.com.br/arquivos/ids/156330-600-600/-----1.jpg?v=638216933620000000",
+			"detailUrl": "/painel-para-tv-ate-50-polegadas-ripado-com-nichos-dj-moveis-nando-carvalho-griz/p",
+			"components": [],
+			"bundleItems": [],
+			"attachments": [],
+			"attachmentOfferings": [],
+			"offerings": [],
+			"priceTags": [
+				{
+					"name": "discount@price-9b164178-a83d-449c-b02b-cfc2424894a0#4dce090a-f945-43be-934b-f4a5db6bb815",
+					"value": -2541,
+					"rawValue": -25.41,
+					"isPercentual": false,
+					"identifier": "9b164178-a83d-449c-b02b-cfc2424894a0"
+				}
+			],
+			"availability": "available",
+			"measurementUnit": "un",
+			"unitMultiplier": 1,
+			"manufacturerCode": null,
+			"priceDefinition": {
+				"calculatedSellingPrice": 22873,
+				"total": 22873,
+				"sellingPrices": [
+					{
+						"value": 22873,
+						"quantity": 1
+					}
+				]
+			}
+		}
+	],
+	"sellers": [
+		{
+			"subSellerId": "1",
+			"fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=djmoveis",
+			"id": "1",
+			"name": "DJ MOVEIS - BR",
+			"logo": ""
+		}
+	],
+	"giftRegistryData": null,
+	"receiptData": null,
+	"contextData": null,
+	"marketPlaceOrderId": "",
+	"marketPlaceOrderGroup": null,
+	"marketplaceServicesEndpoint": null,
+	"orderFormId": "4dfce685492445478f682bdc5456a377",
+	"sequence": "500115",
+	"affiliateId": "",
+	"status": "",
+	"callCenterOperator": "",
+	"userProfileId": "f2728821-4a09-4031-bded-0544f65089c6",
+	"hostName": "djmoveis",
+	"creationVersion": null,
+	"creationEnvironment": null,
+	"lastChangeVersion": null,
+	"workflowInstanceId": null,
+	"marketplacePaymentValue": null,
+	"orderId": "1339980500115-01",
+	"orderGroup": "1339980500115",
+	"state": "invoiced",
+	"isCheckedIn": false,
+	"sellerOrderId": "00-1339980500115-01",
+	"storeId": null,
+	"checkedInPickupPointId": null,
+	"value": 26418,
+	"totals": [
+		{
+			"id": "Items",
+			"name": "Total dos Itens",
+			"value": 25414
+		},
+		{
+			"id": "Discounts",
+			"name": "Total dos Descontos",
+			"value": -2541
+		},
+		{
+			"id": "Shipping",
+			"name": "Total do Frete",
+			"value": 3545
+		},
+		{
+			"id": "Tax",
+			"name": "Total da Taxa",
+			"value": 0
+		}
+	],
+	"clientProfileData": {
+		"email": "a*******************************@c*.v***.c**.b*",
+		"firstName": "D**** ",
+		"lastName": "M********",
+		"document": "0**********",
+		"documentType": "cpf",
+		"phone": "+5***********",
+		"corporateName": null,
+		"tradeName": null,
+		"corporateDocument": null,
+		"stateInscription": "",
+		"corporatePhone": null,
+		"isCorporate": false,
+		"profileCompleteOnLoading": false,
+		"profileErrorOnLoading": false,
+		"customerClass": null
+	},
+	"ratesAndBenefitsData": {
+		"rateAndBenefitsIdentifiers": [
+			{
+				"id": "9b164178-a83d-449c-b02b-cfc2424894a0",
+				"name": "PIX 10%",
+				"featured": false,
+				"description": "PIX 10%",
+				"matchedParameters": {
+					"paymentMethodId": "125"
+				},
+				"additionalInfo": null
+			}
+		],
+		"teaser": []
+	},
+	"shippingData": {
+		"address": {
+			"addressType": "residential",
+			"receiverName": "D****",
+			"addressId": "5060765443221",
+			"isDisposable": false,
+			"postalCode": "8****-2**",
+			"city": "A********",
+			"state": "PR",
+			"country": "BRA",
+			"street": "R** J***** V*******",
+			"number": "2**",
+			"neighborhood": "Parque Industrial V",
+			"complement": null,
+			"reference": null,
+			"geoCoordinates": [
+				-51.44905090332031,
+				-23.379356384277344
+			]
+		},
+		"logisticsInfo": [
+			{
+				"itemIndex": 0,
+				"selectedSla": "Solistica",
+				"selectedDeliveryChannel": "delivery",
+				"addressId": "5060765443221",
+				"slas": [
+					{
+						"id": "Solistica",
+						"deliveryChannel": "delivery",
+						"name": "Solistica",
+						"deliveryIds": [
+							{
+								"courierId": "1c22097",
+								"warehouseId": "1_1",
+								"dockId": "1",
+								"courierName": "Solistica",
+								"quantity": 1,
+								"kitItemDetails": []
+							}
+						],
+						"shippingEstimate": "4bd",
+						"shippingEstimateDate": "2023-06-22T13:59:46.6155739Z",
+						"lockTTL": "12d",
+						"availableDeliveryWindows": [],
+						"deliveryWindow": null,
+						"price": 3545,
+						"listPrice": 3545,
+						"tax": 0,
+						"pickupStoreInfo": {
+							"isPickupStore": false,
+							"friendlyName": null,
+							"address": null,
+							"additionalInfo": null,
+							"dockId": null
+						},
+						"pickupPointId": null,
+						"pickupDistance": 0,
+						"polygonName": "",
+						"transitTime": "3bd"
+					}
+				],
+				"shipsTo": [
+					"BRA"
+				],
+				"itemId": "7",
+				"deliveryChannels": [
+					{
+						"id": "delivery"
+					}
+				]
+			}
+		],
+		"selectedAddresses": [
+			{
+				"addressType": "residential",
+				"receiverName": "D****",
+				"addressId": "5060765443221",
+				"isDisposable": false,
+				"postalCode": "8****-2**",
+				"city": "A********",
+				"state": "PR",
+				"country": "BRA",
+				"street": "R** J***** V*******",
+				"number": "2**",
+				"neighborhood": "Parque Industrial V",
+				"complement": null,
+				"reference": null,
+				"geoCoordinates": [
+					-51.44905090332031,
+					-23.379356384277344
+				]
+			}
+		],
+		"availableAddresses": [
+			{
+				"addressType": "residential",
+				"receiverName": "D****",
+				"addressId": "5060765443221",
+				"isDisposable": false,
+				"postalCode": "8****-2**",
+				"city": "A********",
+				"state": "PR",
+				"country": "BRA",
+				"street": "R** J***** V*******",
+				"number": "2**",
+				"neighborhood": "Parque Industrial V",
+				"complement": null,
+				"reference": null,
+				"geoCoordinates": [
+					-51.44905090332031,
+					-23.379356384277344
+				]
+			}
+		],
+		"pickupPoints": []
+	},
+	"paymentData": {
+		"giftCards": [],
+		"transactions": [
+			{
+				"isActive": true,
+				"transactionId": "7D2785292F8641E1947B9600C2CD9EF7",
+				"merchantName": "DJMOVEIS",
+				"payments": [
+					{
+						"id": "E88C166420AC4606AF967C3F6CA61A18",
+						"paymentSystem": "125",
+						"paymentSystemName": "Pix",
+						"value": 26418,
+						"installments": 1,
+						"connectorResponses": {
+							"Tid": "001000000012568531103982889",
+							"ReturnCode": "6DZ75Y",
+							"Message": "The customer needs to finish the payment flow",
+							"authId": "001000000012568531103982889",
+							"nsu": "001000000012568531103982889",
+							"acquirer": "GETNET"
+						},
+						"referenceValue": 26418,
+						"cardHolder": null,
+						"cardNumber": null,
+						"firstDigits": null,
+						"lastDigits": null,
+						"cvv2": null,
+						"expireMonth": null,
+						"expireYear": null,
+						"url": null,
+						"koinUrl": null,
+						"tid": "001000000012568531103982889",
+						"redemptionCode": null,
+						"giftCardId": null,
+						"giftCardProvider": null,
+						"giftCardAsDiscount": null,
+						"group": "instantPayment",
+						"dueDate": null,
+						"accountId": null,
+						"parentAccountId": null,
+						"bankIssuedInvoiceIdentificationNumber": null,
+						"bankIssuedInvoiceIdentificationNumberFormatted": null,
+						"bankIssuedInvoiceBarCodeNumber": null,
+						"bankIssuedInvoiceBarCodeType": null,
+						"billingAddress": null
+					}
+				],
+				"sharedTransaction": false
+			}
+		]
+	},
+	"clientPreferencesData": {
+		"locale": "pt-BR",
+		"optinNewsLetter": false
+	},
+	"commercialConditionData": null,
+	"marketingData": null,
+	"storePreferencesData": {
+		"countryCode": "BRA",
+		"saveUserData": false,
+		"timeZone": "E. South America Standard Time",
+		"currencyCode": "BRL",
+		"currencyLocale": 1046,
+		"currencySymbol": "R$",
+		"currencyFormatInfo": {
+			"currencyDecimalDigits": 2,
+			"currencyDecimalSeparator": ",",
+			"currencyGroupSeparator": ".",
+			"currencyGroupSize": 3,
+			"startsWithCurrencySymbol": true
+		}
+	},
+	"openTextField": null,
+	"invoiceData": null,
+	"itemMetadata": null,
+	"taxData": null,
+	"customData": null,
+	"hooksData": null,
+	"changeData": null,
+	"subscriptionData": null,
+	"salesChannel": "1",
+	"followUpEmail": "66cb8df98d484cf8b0fdf23cad840bbf@ct.vtex.com.br",
+	"creationDate": "2023-06-16T13:49:30.5240959Z",
+	"lastChange": "2023-06-16T16:56:57.024608Z",
+	"timeZoneCreationDate": "2023-06-16T10:49:30.5240959",
+	"timeZoneLastChange": "2023-06-16T13:56:57.024608",
+	"isCompleted": true,
+	"merchantName": null,
+	"userType": "",
+	"roundingError": 0,
+	"allowEdition": false,
+	"allowCancellation": false,
+	"isUserDataVisible": false,
+	"allowChangeSeller": false,
+	"_accountInfo": {
+		"MainAccountName": "djmoveis",
+		"AccountName": "djmoveis",
+		"Cnpj": "85074623000595",
+		"Id": "ec34bfe5-cfdd-4f5e-8627-f338652d1f59",
+		"AppId": null,
+		"IsActive": true,
+		"IsOperating": true,
+		"CreationDate": "2022-12-23T17:58:27.0146521Z",
+		"OperationDate": "2023-06-12T18:30:24.0730568Z",
+		"CompanyName": "DJ INDUSTRIA E COMERCIO DE MOVEIS LTDA",
+		"TradingName": "DJ MOVEIS - BR",
+		"City": null,
+		"Complement": null,
+		"Country": null,
+		"State": null,
+		"Address": null,
+		"District": null,
+		"Number": null,
+		"PostalCode": null,
+		"Licenses": [
+			7
+		],
+		"ParentAccountId": null,
+		"ParentAccountName": null,
+		"InactivationDate": null,
+		"Platform": "vtex",
+		"Privacy": null,
+		"HasPiiRestriction": false,
+		"Infra": null
+	}
+}

@@ -1,0 +1,42 @@
+:global(.vtex-flex-layout-0-x-flexCol--add-to-cart-button) {
+  margin-bottom: 2rem; }
+  :global(.vtex-flex-layout-0-x-flexCol--add-to-cart-button) :global(.vtex-button) {
+    border-radius: 99px;
+    background-color: #21c05e;
+    border: 1px solid #21c05e;
+    padding: 8px; }
+    :global(.vtex-flex-layout-0-x-flexCol--add-to-cart-button) :global(.vtex-button):hover {
+      background-color: #18a74f; }
+    @media screen and (min-width: 1008px) {
+      :global(.vtex-flex-layout-0-x-flexCol--add-to-cart-button) :global(.vtex-button) {
+        width: 80%;
+        margin-top: 10px;
+        padding: 6px; } }
+    :global(.vtex-flex-layout-0-x-flexCol--add-to-cart-button) :global(.vtex-button):disabled {
+      display: none; }
+  :global(.vtex-flex-layout-0-x-flexCol--add-to-cart-button) .buttonText--product-add-to-cart-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 1rem;
+    font-family: "Corporative", -apple-system, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0.4px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+    :global(.vtex-flex-layout-0-x-flexCol--add-to-cart-button) .buttonText--product-add-to-cart-button::after {
+      content: '';
+      background-image: url("assets/SVG-Icons/icon-cart-btn.svg");
+      background-repeat: no-repeat;
+      width: 24px;
+      height: 24px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-left: 1rem; }

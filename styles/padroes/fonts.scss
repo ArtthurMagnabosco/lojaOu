@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+$fontFamily1: 'Libre Baskerville', serif;
+$fontFamily2: 'Libre Baskerville', serif;
+
+$fontSize1: 0.75rem;
+$fontSize2: 0.875rem;
+$fontSize3: 1rem;
+$fontSize4: 1.125rem;
+$fontSize5: 1.25rem;
+$fontSize6: 1.5rem;
+$fontSize7: 2.5rem; 
+
+$weight1: 300;
+$weight2: 400;
+$weight3: 500;
+$weight4: 600;
+
+$pure-white:#ffffff;
+$pure--black: #000000;  
+
+$color--100:#E6E7E8; 
+$color--200:#939598; 
+$color--300: #58595B;
+
+$color--rgba:rgba(230, 231, 232, 0.90); 
+
+$color--brand--100:#FEF5F7;;
+$color--brand--200:#FCDEE0; 
+$color--brand--300:#E9C0C5;
+$color--brand--400:#F17298; 
+
+$sku--color--creme:#FCE7DD;
+$sku--color--baby-pink:#FCDEE0;
+$sku--color--baby-blue:#B0BBE0;
+$sku--color--sweet-pink:#F493AA;
+$sku--color--super-pink:#FA4F73;
+
+$border--100: 1px solid $color--brand--300;
+$border--200: 1px solid $color--100;
+$border--300: 1px solid $color--300;
+
+@mixin textFormat {
+ text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin italic {
+  font-style: italic;
+   font-weight: $weight1;
+  line-height: normal;
+  letter-spacing: 0px;
+  @include textFormat;
+}
+ 
+@mixin font300 {
+  font-style: normal;
+   font-weight: $weight1;
+  line-height: normal;
+  letter-spacing: 0px;
+  @include textFormat;
+}
+
+@mixin font400 {
+  font-style: normal;
+   font-weight: $weight2;
+  line-height: normal;
+  letter-spacing: 0px;
+  @include textFormat;
+}
+
+@mixin font500 {
+  font-style: normal;
+   font-weight: $weight3;
+  line-height: normal;
+  letter-spacing: 0px;
+  @include textFormat;
+}
+
+@mixin font600 {
+  font-style: normal;
+  font-weight: $weight4;
+  line-height: normal;
+  letter-spacing: 0px;
+  @include textFormat;
+}

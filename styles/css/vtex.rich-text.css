@@ -1,0 +1,346 @@
+.paragraph--info-stripe-header {
+  color: white;
+  margin: 0;
+  padding: 10px 15px;
+  font-size: 12px; }
+
+.paragraph--social-media-title {
+  font-family: "Corporative", -apple-system, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.125rem;
+  margin: 0; }
+
+.paragraph--social-media-subtitle {
+  font-family: "Corporative", -apple-system, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
+  margin-block: 0.5rem 1rem; }
+  @media (min-width: 1008px) {
+    .paragraph--social-media-subtitle {
+      text-align: center;
+      white-space: nowrap; } }
+
+.container--footerMenuTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.paragraph--footerMenuTitle {
+  font-family: "Corporative", -apple-system, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin-top: 2rem;
+  margin-bottom: 0; }
+  @media (min-width: 1008px) {
+    .paragraph--footerMenuTitle {
+      margin-top: 0; } }
+
+.heading--home-title {
+  font-family: "Corporative", -apple-system, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.125rem;
+  text-align: center;
+  margin-block: 0 1.125rem; }
+  @media screen and (min-width: 1008px) {
+    .heading--home-title {
+      font-size: 1.375rem; } }
+
+.container--home-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.container--home-title-desk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .container--home-title-desk .paragraph--home-title-desk {
+    font-weight: 600; }
+  .container--home-title-desk .headingLevel2--home-title-desk {
+    font-size: 1.375rem;
+    margin-block: 0 2rem; }
+
+.paragraph--home-text {
+  font-family: "Corporative", -apple-system, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
+  margin-block: 0; }
+
+.paragraph--titleDestaque {
+  font-family: "Corporative", -apple-system, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 0.813rem;
+  color: #757171;
+  margin-block: 0.625rem 0.3125rem; }
+
+.paragraph--departamento-descricao {
+  font-family: "Corporative", -apple-system, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-block: 0 1.25rem;
+  text-align: center; }
+
+.paragraph--not-found-title {
+  font-weight: bold;
+  text-align: center;
+  color: #353a42; }
+
+.paragraph--not-found-title1 {
+  text-align: center;
+  color: #8a8a8a; }
+
+.container--departamento-descricao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+  width: 100%; }
+
+.container--container-destaque-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .container--container-destaque-text .heading--container-destaque-text {
+    font-size: 1.375rem;
+    margin-top: 0;
+    margin-bottom: 1.25rem; }
+
+.paragraph--blog-item-text {
+  font-size: 1.125rem; }
+
+.container--sobre-nos-title {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 1.375rem;
+  font-weight: 600; }
+  .container--sobre-nos-title .paragraph--sobre-nos-title {
+    margin: 0; }
+
+.paragraph--sobre-nos-text {
+  text-align: center;
+  margin-block: 1.5rem; }
+
+.wrapper--info-text {
+  width: 70%;
+  text-align: center; }
+
+.container--info-text {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+@media screen and (min-width: 1008px) {
+  .container--title-ce {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; } }
+
+.container--title-ce .paragraph--title-ce {
+  font-size: 0.75rem;
+  color: #757171;
+  text-transform: uppercase;
+  margin: 0.875rem 0 0 0; }
+  @media screen and (min-width: 1008px) {
+    .container--title-ce .paragraph--title-ce {
+      font-size: 1.25rem; } }
+
+.container--text-ce {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .container--text-ce .wrapper--text-ce {
+    width: 100%; }
+    .container--text-ce .wrapper--text-ce .paragraph--text-ce {
+      font-size: 1rem;
+      color: #353a42;
+      margin: 0; }
+      @media screen and (min-width: 1008px) {
+        .container--text-ce .wrapper--text-ce .paragraph--text-ce {
+          text-align: center;
+          font-size: 1.375rem; } }
+
+.paragraph--newsletter-title {
+  font-family: "Corporative", -apple-system, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 16px 0 0;
+  font-size: 1.125rem; }
+
+.paragraph--newsletter-subtitle {
+  font-family: "Corporative", -apple-system, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-block: 8px 16px;
+  font-size: 1rem; }
+  @media (min-width: 1008px) {
+    .paragraph--newsletter-subtitle {
+      margin-block: 8px 34px; } }
+
+.paragraph--newsletter-sucess-text {
+  font-family: "Corporative", -apple-system, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
+  margin: 0; }
+
+.paragraph--prod-indisponivel {
+  margin-bottom: 0;
+  font-weight: 600; }
+
+.paragraph--sobre-nos-text {
+  font-family: "Corporative", -apple-system, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
+  text-align: center; }
+  @media (min-width: 1008px) {
+    .paragraph--sobre-nos-text {
+      max-width: 49vw;
+      font-size: 1.125rem; } }
+
+.heading--sobre-nos-title {
+  font-family: "Corporative", -apple-system, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.25rem;
+  margin-bottom: 0; }
+  @media (min-width: 1008px) {
+    .heading--sobre-nos-title {
+      margin-top: 2rem;
+      font-size: 1.375rem; } }
+
+.container--sobre-nos-text {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.container--politicas-title {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .container--politicas-title .headingLevel1 {
+    font-family: "Corporative", -apple-system, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0.4px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 1.25rem; }
+    @media (min-width: 1008px) {
+      .container--politicas-title .headingLevel1 {
+        font-size: 1.375rem;
+        margin-top: 3rem;
+        margin-bottom: 1.5rem; } }
+
+.headingLevel2--politicas-text {
+  font-family: "Corporative", -apple-system, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.125rem; }
+
+.paragraph--politicas-text {
+  font-family: "Corporative", -apple-system, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem; }
+
+.container--politicas-text {
+  margin-bottom: 50px; }
+  @media (min-width: 1008px) {
+    .container--politicas-text {
+      padding-inline: 8%;
+      margin-bottom: 100px; } }

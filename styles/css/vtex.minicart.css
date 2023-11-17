@@ -1,0 +1,299 @@
+.openIconContainer {
+  padding: 0; }
+  .openIconContainer :global(.vtex-button) {
+    background-color: transparent; }
+    .openIconContainer :global(.vtex-button):hover {
+      background-color: transparent;
+      border-color: transparent; }
+    .openIconContainer :global(.vtex-button):active {
+      background-color: transparent;
+      border-color: transparent; }
+    .openIconContainer :global(.vtex-button) :global(.vtex-button__label) {
+      padding-left: 5px;
+      padding-right: 10px; }
+
+:global(.vtex-store-components-3-x-imageElementLink--loginMob) {
+  padding-inline: 5px;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1); }
+  :global(.vtex-store-components-3-x-imageElementLink--loginMob):hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0); }
+
+.minicartIconContainer::before {
+  content: url("assets/SVG-Icons/Minicart-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 23px;
+  height: 22px;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1); }
+
+.minicartIconContainer:hover::before {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0); }
+
+.minicartIconContainer :global(.vtex-store-icons-0-x-cartIcon) {
+  display: none; }
+
+.cartIcon {
+  display: none; }
+
+.minicartQuantityBadge {
+  background-color: #cf002e;
+  top: -10px;
+  right: -10px;
+  text-align: center;
+  line-height: 1; }
+
+.closeIconContainer {
+  position: absolute;
+  right: 0;
+  top: 0; }
+  .closeIconContainer .closeIconButton {
+    padding: 15px 16px 9px; }
+  .closeIconContainer .closeIcon {
+    width: 20px;
+    height: 20px; }
+
+.minicartTitle {
+  font-family: "Corporative", -apple-system, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.125rem;
+  margin: 0;
+  padding: 11px 16px; }
+
+.minicartSideBarContentWrapper :global(.vtex-product-list-0-x-productName) {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow-y: hidden;
+  font-family: "Corporative", -apple-system, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 0.875rem;
+  color: #353a42; }
+
+.minicartSideBarContentWrapper :global(.vtex-product-list-0-x-productBrandName) {
+  display: none; }
+
+.minicartSideBarContentWrapper :global(.vtex-product-list-0-x-productVariationsItem) {
+  display: none; }
+
+.minicartSideBarContentWrapper :global(.vtex-product-list-0-x-productImageContainer) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75px !important;
+  aspect-ratio: 1; }
+  @media screen and (min-width: 1008px) {
+    .minicartSideBarContentWrapper :global(.vtex-product-list-0-x-productImageContainer) {
+      width: 96px !important;
+      display: block; } }
+
+.minicartSideBarContentWrapper :global(.vtex-product-list-0-x-productImage) {
+  border-radius: 0; }
+
+.minicartSideBarContentWrapper :global(.vtex-product-list-0-x-quantitySelectorWrapper) {
+  width: 75px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px; }
+
+.minicartSideBarContentWrapper :global(.vtex-product-list-0-x-quantitySelectorDecrease) {
+  padding: 0;
+  width: 33.3%;
+  border-radius: 0;
+  border-right: none;
+  background-color: transparent; }
+  .minicartSideBarContentWrapper :global(.vtex-product-list-0-x-quantitySelectorDecrease)::before {
+    content: "-";
+    color: #8a8a8a;
+    font-size: 20px;
+    width: 100%; }
+
+.minicartSideBarContentWrapper :global(.vtex-product-list-0-x-quantitySelectorIncrease) {
+  padding: 0;
+  width: 33.3%;
+  border-radius: 0;
+  border-left: none; }
+  .minicartSideBarContentWrapper :global(.vtex-product-list-0-x-quantitySelectorIncrease)::before {
+    content: "+";
+    color: #8a8a8a;
+    font-size: 20px;
+    width: 100%; }
+
+.minicartSideBarContentWrapper :global(.vtex-product-list-0-x-inputContainer) {
+  padding: 0;
+  width: 33.4%; }
+
+.minicartSideBarContentWrapper :global(.vtex-flex-layout-0-x-flexRowContent--minicart-name-garbage) :global(.vtex-flex-layout-0-x-flexColChild):first-child {
+  height: 0 !important; }
+
+.minicartSideBarContentWrapper :global(.vtex-product-list-0-x-productPriceContainer) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline; }
+  .minicartSideBarContentWrapper :global(.vtex-product-list-0-x-productPriceContainer) :global(.vtex-product-list-0-x-productPriceCurrency) {
+    margin-right: 10px; }
+    .minicartSideBarContentWrapper :global(.vtex-product-list-0-x-productPriceContainer) :global(.vtex-product-list-0-x-productPriceCurrency) :global(.vtex-product-list-0-x-currencyContainer) {
+      font-family: "Corporative", -apple-system, sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      letter-spacing: 0.4px;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-size: 11px;
+      color: #8a8a8a; }
+  .minicartSideBarContentWrapper :global(.vtex-product-list-0-x-productPriceContainer) :global(.vtex-product-list-0-x-price) {
+    font-family: "Corporative", -apple-system, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0.4px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #088237;
+    font-size: 1rem; }
+  .minicartSideBarContentWrapper :global(.vtex-product-list-0-x-productPriceContainer) :global(.vtex-product-list-0-x-productPriceCurrency) {
+    font-size: 0.875rem; }
+
+.minicartSideBarContentWrapper :global(.vtex-flex-layout-0-x-flexRowContent--minicart-price-container-mob) {
+  margin-top: 0; }
+
+.minicartSideBarContentWrapper :global(.vtex-flex-layout-0-x-flexColChild--minicart-main-container-mob):last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end; }
+
+.minicartSideBarContentWrapper :global(.vtex-flex-layout-0-x-flexRowContent--product-wrapper-minicart) {
+  position: relative; }
+  .minicartSideBarContentWrapper :global(.vtex-flex-layout-0-x-flexRowContent--product-wrapper-minicart) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child :global(.vtex-flex-layout-0-x-flexRowContent) {
+    margin-top: 0; }
+  @media screen and (min-width: 1008px) {
+    .minicartSideBarContentWrapper :global(.vtex-flex-layout-0-x-flexRowContent--product-wrapper-minicart) :global(.vtex-product-list-0-x-quantitySelectorContainer) {
+      position: absolute;
+      right: 0;
+      bottom: 24px; } }
+
+.minicartSideBarContentWrapper :global(.vtex-product-list-0-x-removeButton) {
+  color: #f2645c !important; }
+
+.minicartSideBarContentWrapper :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+  display: none; }
+
+.minicartSideBarContentWrapper :global(.vtex-checkout-summary-0-x-summaryItemContainer) {
+  margin: 0;
+  padding: 0 !important; }
+  .minicartSideBarContentWrapper :global(.vtex-checkout-summary-0-x-summaryItemContainer) :global(.vtex-checkout-summary-0-x-summaryItemLabel) {
+    font-family: "Corporative", -apple-system, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.4px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 1rem; }
+  .minicartSideBarContentWrapper :global(.vtex-checkout-summary-0-x-summaryItemContainer) :global(.vtex-checkout-summary-0-x-summaryItemPrice) {
+    font-family: "Corporative", -apple-system, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.4px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 1rem;
+    color: #fb7181; }
+  .minicartSideBarContentWrapper :global(.vtex-checkout-summary-0-x-summaryItemContainer):first-child :global(.vtex-checkout-summary-0-x-summaryItemPrice) {
+    color: #353a42 !important; }
+  .minicartSideBarContentWrapper :global(.vtex-checkout-summary-0-x-summaryItemContainer):last-child :global(.vtex-checkout-summary-0-x-summaryItemLabel) {
+    font-family: "Corporative", -apple-system, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0.4px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 1.125rem; }
+  .minicartSideBarContentWrapper :global(.vtex-checkout-summary-0-x-summaryItemContainer):last-child :global(.vtex-checkout-summary-0-x-summaryItemPrice) {
+    font-family: "Corporative", -apple-system, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0.4px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 1.125rem;
+    color: #353a42 !important; }
+
+.minicartSideBarContentWrapper :global(.vtex-checkout-summary-0-x-summarySmallContent) {
+  gap: 0.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.minicartSideBarContentWrapper .minicartSummary {
+  padding: 16px; }
+
+.minicartSideBarContentWrapper .minicartCheckoutButton {
+  margin-block: 0 15px; }
+  .minicartSideBarContentWrapper .minicartCheckoutButton :global(.vtex-button) {
+    font-family: "Corporative", -apple-system, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0.4px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #21c05e;
+    border-color: #21c05e;
+    text-transform: capitalize;
+    border-radius: 100px;
+    font-size: 1rem;
+    color: white;
+    height: 42px; }
+
+.minicartSideBarContentWrapper .vtex-flex-layout-0-x-flexRow--minicart-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
+.childrenContainer {
+  height: 100%; }
+
+.minicartSideBarContentWrapper {
+  height: 100% !important; }
+
+.drawerContent {
+  height: 100% !important; }

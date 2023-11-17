@@ -1,0 +1,10 @@
+.videoContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  aspect-ratio: 338/190; }
+  @media screen and (min-width: 1008px) {
+    .videoContainer {
+      aspect-ratio: 1426/803;
+      width: 60%;
+      margin: auto; } }

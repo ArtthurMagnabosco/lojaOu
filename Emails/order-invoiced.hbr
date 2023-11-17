@@ -1,0 +1,338 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:v="urn:schemas-microsoft-com:vml"
+  style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; box-sizing: border-box; width: 100%; height: 100%; margin: 0; padding: 0; background: #f1f1f1 !important;">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{_accountInfo.TradingName}}</title>
+  <!--[if gte mso 9]>
+  <xml> 
+    <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch> 
+    </o:OfficeDocumentSettings>
+  </xml>
+  <![endif]-->
+  <style>
+    @font-face {
+      font-family: 'Corporative';
+      src: url(https://djmoveis.vteximg.com.br/arquivos/Corporative-Regular.ttf.css);
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    h1, h2, h3, h4, h5, p, a {
+      font-family: 'Corporative', sans-serif !important;
+    }
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+
+
+    }
+
+    a, p, h1, h2, h3, h4, td {
+      color: #353A42;
+      font-size: 16px;
+    }
+
+    td {
+      border-bottom-style: none !important;
+      border-top-style: none !important;
+    }
+  </style>
+  <style>
+    @media (max-width: 600px) {
+
+      img {
+        max-width: 100%;
+        height: auto !important;
+      }
+    }
+  </style>
+</head>
+
+<body
+  style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; box-sizing: border-box; width: 100%; height: 100%; margin: 0; padding: 0; background: #f1f1f1 !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0"
+    style="box-sizing: border-box;background: #f1f1f1; margin: 0; padding: 0; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; width: 100%; height: 100%; line-height: 100% !important;">
+    <tr style="box-sizing: border-box !important;">
+      <td align="left" valign="top"
+        style="font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; text-align: left !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+        <table class="mv4-ns" width="100%" align="center" border="0" cellpadding="0" cellspacing="0"
+          style="box-sizing: border-box; max-width: 40rem; width: 100%; background-color: #fff; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+          bgcolor="#fff">
+
+          <tr style="box-sizing: border-box !important;">
+            <td
+              style="font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; border-bottom-style: solid; border-bottom-width: 1px; border-color: #eee; width: 100%; padding-bottom: 2%; text-align: center !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+              align="center">
+              <div
+                style="box-sizing: border-box; width: 8rem; margin-bottom: 1rem; margin-top: 2rem; margin-right: auto; margin-left: auto !important;">
+                <a href="http://{{_accountInfo.HostName}}.com.br"
+                  style="box-sizing: border-box !important;display: none;">
+                  <img alt="" border="0" width="auto"
+                    src="http://licensemanager.vtex.com.br/api/site/pub/accounts/{{_accountInfo.Id}}/logos/show"
+                    style="vertical-align: top; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; max-width: 100%; border: none; max-height: 80px !important;display: none;">
+                  </img></a>
+              </div>
+              <div style="margin: 0 auto !important; width: 120px;">
+                <a href="https://www.djmoveis.com.br">
+                  <img style="width: 100%;" src="https://djmoveis.vteximg.com.br/arquivos/logo-header-email.png"></img>
+                </a>
+              </div>
+
+              <div style="font-weight: 400;font-size: 20px;box-sizing: border-box; margin-top:40px !important;">
+                <p style="margin-bottom:10px; color: #353A42; font-weight: 400; font-size: 22px;">Pedido <span style="font-weight: 600; color:#353A42">#{{orderId}}</span> faturado</p>
+              </div>
+              <div style="width:94% ;margin:0 auto;">
+                <img style="width:100%" src="https://djmoveis.vteximg.com.br/arquivos/order-invoiced.png"></img>
+
+              </div>
+            </td>
+          </tr>
+
+          <tr style="box-sizing: border-box !important;">
+            <td class="ph4-ns"
+              style="font-size: 16px; line-height: 22px; box-sizing: border-box; border-collapse: collapse; text-align: left; border-top-style: solid; border-top-width: 1px; border-color: #eee; width: 100%; padding-top: .5rem !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+              align="left">
+              <div
+                style="box-sizing: border-box; float: left; _display: inline; width: 100%; padding-bottom: 1rem; vertical-align: top !important;">
+                <p
+                  style="margin:0 3%; margin-top: 40px; margin-bottom: 20px; font-size: 16px; font-weight: 400; box-sizing: border-box !important;">
+                  {{#if orders}}
+                  {{#if orders.0.clientProfileData.firstName}}
+                  {{#compare orders.0.clientProfileData.firstName '!=' 'isAnonymous'}}
+                  Olá, {{orders.0.clientProfileData.firstName}}!
+                  {{/compare}}
+                  {{/if}}
+                  {{else}}
+                  {{#if clientProfileData.firstName}}
+                  {{#compare clientProfileData.firstName '!=' 'isAnonymous'}}
+                  Olá, {{clientProfileData.firstName}}!
+                  {{/compare}}
+                  {{/if}}
+                  {{/if}}
+
+                </p>
+                <p style="margin: 0 3% 20px; font-size: 16px; font-weight: 400; box-sizing: border-box !important;">
+                  Seu pedido foi faturado. 🤩
+                </p>
+
+                <p style="margin: 0 3% 20px; font-size: 16px; font-weight: 400; box-sizing: border-box !important;">
+                  Em breve a sua compra estará em transporte e você receberá instruções de como acompanhar a entrega. 🚛👍
+                </p>
+
+                   <p style="margin: 0 3% 20px; font-size: 16px; font-weight: 400; box-sizing: border-box !important;">
+                 Você pode conferir sua nota fiscal <a style="font-size: 16px; font-weight: 400;color:#a50023;text-decoration-color:#a50023" 
+                  target="_blank"
+                  href="https://www.nfe.fazenda.gov.br/portal/consultaRecaptcha.aspx?tipoConsulta=resumo&tipoConteudo=7PhJ+gAVw2g=&AspxAutoDetectCookieSupport=1"
+                  >aqui</a>.
+                </p>
+
+                <p
+                  style="margin: 0 3%; margin-bottom:0px; font-size: 16px; font-weight: 400; box-sizing: border-box !important;">
+                  A Chave de acesso da sua nota fiscal é: {{package.invoiceKey}}.
+                </p>
+              </div>
+
+            </td>
+          </tr>
+
+
+
+          
+          <tr style="margin-top:0; box-sizing: border-box !important;">
+            <td class="ph4-ns"
+              style="font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; text-align: left; border-top-style: solid; border-top-width: 1px; border-color: #eee; width: 100%; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+              align="left">
+              
+
+
+             
+              {{#richShippingData shippingData}}
+              {{#group logisticsInfo by="addessId"}}
+              <div style="box-sizing: border-box; clear: both; float: none; padding-top: 1rem !important; padding-bottom: 2rem;">
+                {{#eq items.0.selectedDeliveryChannel "pickup-in-point"}}
+                <div style="margin: 0 3%; font-size: 14px; box-sizing: border-box; margin-bottom: 1rem !important;">
+                  <h4
+                    style="margin: 0 0 1% 0; font-size: 20px; line-height: 29px; letter-spacing: .9pt; box-sizing: border-box !important;">
+                    Retirar na Loja</h4>
+                  {{#each items.0.slas}}
+                  {{#compare ../items.0.selectedSla '==' id}}
+                  {{pickupStoreInfo.friendlyName}}
+                  {{#with pickupStoreInfo.address}}
+
+                  <p style="margin: 0">{{street}}, {{number}}{{#if complement}} - {{complement}} {{/if}}
+                    {{neighborhood}} - {{city}} - {{state}}, {{postalCode}}</p>
+                  {{/with}}
+                  {{/compare}}
+                  {{/each}}
+                </div>
+                {{/eq}}
+  
+                {{#group items by="packageId"}}
+
+                {{#compare item.length '>' 1}}
+                <h3
+                  style="margin: 0 3%; font-size: 20px; line-height: 36px; text-transform: uppercase; letter-spacing: 1.2pt; font-weight: 300; margin-top: 16px; box-sizing: border-box; margin-bottom: .5rem !important;">
+                  Pacote {{#math index '+' 1}}{{/math}}</h3>
+                {{/compare}}
+
+                
+
+                <table width="88%" border="0" cellpadding="0" cellspacing="0"
+                  style="margin:0 3%; box-sizing: border-box; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+                  <thead>
+                  </thead>
+                  <tbody>
+                    {{#each items}}
+                    {{#each ../../../../items}}
+                    {{#eq @index ../itemIndex}}
+                    <tr
+                      style="font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; text-align: left; vertical-align: top !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+                      align="left" valign="top">
+
+                      <td style=" font-size:16px; font-weight:600; box-sizing: border-box; line-height: 1.25;">
+                        <p style="margin: 5% 0 2%; font-size:14px;">{{name}}</p>
+                      </td>
+
+
+                    </tr>
+                    <tr style="    display: flex;
+    align-items: center;important;box-sizing: border-box !important;">
+                      <td style="width:36%;">
+                        <img alt="" src="{{imageUrl}}"
+                          style="vertical-align: top; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; max-width: 70% !important;" />
+                      </td>
+
+                      <div>
+                        <td style="width:34%;padding-left: 4%; text-align: center;">
+                          <p style="margin: 0; font-size:12px;">Quantidade</p>
+                          <p style="margin: 0; font-size:16px; font-weight: 600">{{quantity}}
+                          </p>
+                        </td>
+                        <td style="width:30%; text-align: center;">
+                          <p style="margin: 0; font-size:12px;">unitário</p>
+                          <p style="margin: 0; font-size:16px; font-weight: 600; white-space: nowrap;">
+                            {{#if sellingPrice}}
+                            R$ {{formatCurrency sellingPrice}}
+                            {{else}}
+                            Grátis
+                            {{/if}}
+
+                          </p>
+                        </td>
+                      </div>
+
+                    </tr>
+                    {{#each bundleItems}}
+                    {{#if name}}
+                    <tr
+                      style="font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; text-align: left; vertical-align: top !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+                      align="left" valign="top">
+
+                      <td style=" font-size:16px; font-weight:600; box-sizing: border-box; line-height: 1.25;">
+                        <p style="margin: 5% 0 2%; font-size:14px;">{{name}}</p>
+                      </td>
+
+
+                    </tr>
+                    <tr style="    display: flex;
+    align-items: center;important;box-sizing: border-box !important;">
+                      <td style="width:36%;">
+                        <img alt="" src="{{imageUrl}}"
+                          style="vertical-align: top; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; max-width: 70% !important;" />
+                      </td>
+
+                      <div>
+                        <td style="width:34%;padding-left: 4%; text-align: center;">
+                          <p style="margin: 0; font-size:12px;">Quantidade</p>
+                          <p style="margin: 0; font-size:16px; font-weight: 600">{{quantity}}
+                          </p>
+                        </td>
+                        <td style="width:30%; text-align: center;">
+                          <p style="margin: 0; font-size:12px;">unitário</p>
+                          <p style="margin: 0; font-size:16px; font-weight: 600; white-space: nowrap;">
+                            {{#if Price}}
+                            R$ {{formatCurrency sellingPrice}}
+                            {{else}}
+                            Grátis
+                            {{/if}}
+
+                          </p>
+                        </td>
+                      </div>
+
+                    </tr>
+                    {{/if}}
+                    {{/each}}
+                    {{/eq}}
+                    {{/each}}
+                  </tbody>
+                  {{/each}}
+                </table>
+                {{/group}}
+              </div>
+              {{/group}}
+              {{/richShippingData}}
+            </td>
+          </tr>
+          
+
+          
+          </tr>
+          <tr style="box-sizing: border-box !important;">
+                <td
+                  style="font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; text-align: left; border-top-style: solid; border-top-width: 1px; border-color: #eee; padding-top: 1rem; padding-bottom:1rem !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+                  align="left">
+                  <p style="margin: 0 18% 5%;text-align:center;box-sizing: border-box !important;color: #8A8A8A;">
+                    Em caso de dúvidas, nos contate através dos nossos canais de atendimento.
+                  </p>
+
+                  <div style="width: 275px; margin-left: auto; margin-right: auto;">
+                    <a href="https://www.instagram.com/djmoveis/" style="margin: 0 10px"><img
+                        style="width: 21px; height:21px;"
+                        src="https://djmoveis.vteximg.com.br/arquivos/instagram-email.png"></img></a>
+
+                    <a href="https://wa.me/554331727723" style="margin: 0 10px"><img style="width: 21px; height:21px;"
+                        src="https://djmoveis.vteximg.com.br/arquivos/whatsapp-email.png"></img></a>
+
+                    <a href="https://www.facebook.com/djmoveis" style="margin: 0 10px"><img
+                        style="width: 21px; height:21px;"
+                        src="https://djmoveis.vteximg.com.br/arquivos/facebook-email.png"></img></a>
+
+                    <a href="https://br.pinterest.com/djmoveis_/" style="margin: 0 10px"><img
+                        style="width: 23px; height:23px;"
+                        src="https://djmoveis.vteximg.com.br/arquivos/pinterest-email.png"></img></a>
+
+                    <a href="https://www.linkedin.com/company/djmoveis"
+                      style="margin: 0 10px"><img style="width: 23px; height:23px;"
+                        src="https://djmoveis.vteximg.com.br/arquivos/linkedin-email.png"></img></a>
+                    
+                    <a href="https://www.youtube.com/"
+                      style="margin: 0 10px"><img style="width: 22px; height:19px;"
+                        src="https://djmoveis.vteximg.com.br/arquivos/youtube-email.png"></img></a>
+                  </div>
+                  <div style="margin: 4% auto; width: fit-content;">
+                    <a href="https://www.djmoveis.com.br">
+                      <img src="https://djmoveis.vteximg.com.br/arquivos/logo-footer-email.png"></img>
+                    </a>
+                  </div>
+                </td>
+              </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>

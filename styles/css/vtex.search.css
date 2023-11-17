@@ -1,0 +1,139 @@
+.biggy-autocomplete {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 0; }
+  @media (min-width: 1008px) {
+    .biggy-autocomplete {
+      -webkit-box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.05);
+      box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.05);
+      min-width: 330px; } }
+  .biggy-autocomplete .close-btn {
+    display: none; }
+  .biggy-autocomplete .itemListTitle {
+    margin-top: 0;
+    display: none; }
+  @media (min-width: 1008px) {
+    .biggy-autocomplete .tileList {
+      border: none; } }
+  .biggy-autocomplete .tileListTitle {
+    font-family: "Corporative", -apple-system, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.4px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 0;
+    font-size: 1rem;
+    padding-top: 1rem; }
+  .biggy-autocomplete .tileListList {
+    margin-bottom: 0;
+    margin-block: 0; }
+    @media (max-width: 1008px) {
+      .biggy-autocomplete .tileListList {
+        max-height: 400px;
+        overflow: hidden; } }
+  .biggy-autocomplete .tileListItem .element:active {
+    background-color: transparent; }
+  .biggy-autocomplete .tileListItem .element:hover {
+    background-color: transparent; }
+  .biggy-autocomplete .tileListItem .element .imageContainer {
+    max-height: 90px;
+    max-width: 90px;
+    width: 100%;
+    min-width: 90px;
+    min-height: 90px; }
+    .biggy-autocomplete .tileListItem .element .imageContainer .image {
+      width: 100%;
+      height: auto; }
+  .biggy-autocomplete .tileListItem .element .information {
+    height: 110px !important;
+    padding-block: 8px; }
+  .biggy-autocomplete .tileListItem .element .productBrand {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow-y: hidden;
+    font-size: 0.875rem; }
+  .biggy-autocomplete .tileListItem .element .priceContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .biggy-autocomplete .tileListItem .element .priceContainer .listPriceValue {
+      font-family: "Corporative", -apple-system, sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      letter-spacing: 0.4px;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color: #8a8a8a;
+      font-size: 10px; }
+    .biggy-autocomplete .tileListItem .element .priceContainer .sellingPriceValue {
+      font-family: "Corporative", -apple-system, sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 150%;
+      letter-spacing: 0.4px;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color: #088237 !important;
+      font-size: 14px; }
+    .biggy-autocomplete .tileListItem .element .priceContainer .sellingPrice--hasListPrice .sellingPriceValue {
+      color: #088237 !important; }
+  .biggy-autocomplete .tileListSeeMore {
+    font-family: "Corporative", -apple-system, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.4px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    line-height: 1;
+    color: #353a42;
+    padding-block: 1rem 1.5rem;
+    background-color: white;
+    font-size: 1rem; }
+  .biggy-autocomplete .itemListLink .itemListPrefix {
+    font-family: "Corporative", -apple-system, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0.4px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #8a8a8a;
+    font-size: 16px; }
+  .biggy-autocomplete .itemListLink .itemListLinkTitle {
+    font-family: "Corporative", -apple-system, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.4px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #353a42;
+    font-size: 16px; }
+  .biggy-autocomplete .history-and-top-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }

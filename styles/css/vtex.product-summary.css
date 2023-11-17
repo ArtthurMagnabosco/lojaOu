@@ -1,0 +1,25 @@
+.container {
+  max-width: unset !important;
+  border-radius: 0; }
+
+.imageNormal {
+  max-height: unset !important;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px; }
+
+.imageContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.element {
+  padding: 0; }
+
+.brandName {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow-y: hidden; }
+
+:global(.vtex-product-summary-2-x-hoverImage) {
+  z-index: 2; }

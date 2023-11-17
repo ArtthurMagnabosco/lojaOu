@@ -1,0 +1,313 @@
+@charset "UTF-8";
+.content--emailAndPassword {
+  padding: 0.8rem; }
+  .content--emailAndPassword .inputContainerEmail::before {
+    content: "E-mail";
+    padding-bottom: 10px;
+    font-size: 0.875rem; }
+  .content--emailAndPassword .inputContainerPassword::before {
+    content: "Senha";
+    padding: 10px 0;
+    font-size: 0.875rem; }
+
+.content {
+  margin-bottom: 70px; }
+
+.contentForm {
+  padding: 0;
+  margin: 0;
+  width: 100%; }
+  .contentForm .formTitle {
+    padding-bottom: 0;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    font-weight: bold; }
+  .contentForm .inputContainerEmail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .contentForm .inputContainerEmail :global(.vtex-input-prefix__group) {
+      border: none;
+      border: 1px solid #ededed;
+      border-radius: 5px; }
+  .contentForm .inputContainerPassword {
+    padding-top: 0;
+    padding-bottom: 0; }
+    .contentForm .inputContainerPassword :global(.vtex-input-prefix__group) {
+      border: none;
+      border: 1px solid #ededed;
+      border-radius: 5px; }
+  .contentForm .formLinkContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start; }
+    .contentForm .formLinkContainer .forgotPasswordLink {
+      font-size: 0.75rem;
+      text-decoration: underline;
+      text-underline-offset: 4px;
+      font-weight: bold; }
+  .contentForm .formLinkContainer:last-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .contentForm .formLinkContainer:last-child .dontHaveAccount {
+      font-size: 0.75rem;
+      text-decoration: underline;
+      text-underline-offset: 4px;
+      font-weight: bold; }
+  .contentForm .formFooter {
+    padding-top: 0;
+    border: none; }
+  .contentForm .sendButton :global(.vtex-button) {
+    background-color: #cf002e;
+    border-radius: 100px;
+    width: 100%;
+    margin: 4px auto !important;
+    padding: 10px 0;
+    border-color: #cf002e;
+    color: #ffffff; }
+    .contentForm .sendButton :global(.vtex-button) :global(.vtex-button__label) {
+      text-transform: uppercase;
+      color: #ffffff;
+      font-weight: bold;
+      white-space: nowrap; }
+      .contentForm .sendButton :global(.vtex-button) :global(.vtex-button__label) :global(.t-small) {
+        font-size: 1rem !important; }
+
+.loginOptionsContainer {
+  width: 100%; }
+  .loginOptionsContainer .options {
+    min-width: unset; }
+  .loginOptionsContainer .formTitle {
+    display: none; }
+
+.sendButton :global(.vtex-button) {
+  background-color: #cf002e;
+  border-radius: 100px;
+  width: 100%;
+  margin: 4px auto !important;
+  padding: 5px 0;
+  border-color: #cf002e;
+  color: #ffffff; }
+  .sendButton :global(.vtex-button) :global(.vtex-button__label) {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    white-space: nowrap; }
+
+.content--emailVerification .formTitle {
+  margin-top: 138px;
+  white-space: nowrap;
+  font-size: 1.25rem; }
+
+.content--emailVerification .formTitle::before {
+  content: "Acesse ou crie sua conta para acompanhar seus pedidos, ter acesso à ofertas e muito mais!";
+  font-size: 1rem;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: -70px;
+  white-space: normal;
+  font-weight: normal; }
+
+.content--emailVerification .formTitle::after {
+  content: "Informe seu e-mail para receber uma chave de acesso rápido!";
+  font-size: 1rem;
+  white-space: normal;
+  font-weight: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 10px; }
+
+.content--emailVerification .inputContainerEmail::before {
+  content: "Minha Conta";
+  position: absolute;
+  top: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0 !important;
+  width: 90%;
+  font-weight: bold;
+  font-size: 1.25rem; }
+
+.content--emailVerification .emailPasswordOptionBtn :global(.vtex-button) {
+  background: transparent; }
+
+.content--emailVerification .emailPasswordOptionBtn .button {
+  border-radius: 10px; }
+
+.content--emailVerification .emailPasswordOptionBtn :global(.vtex-button__label) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
+  justify-content: left; }
+
+.content--emailVerification :global(.vtex-login-2-x-buttonSocial) :global(.vtex-button) :global(.vtex-button__label) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: left !important;
+  -ms-flex-pack: left !important;
+  justify-content: left !important; }
+  .content--emailVerification :global(.vtex-login-2-x-buttonSocial) :global(.vtex-button) :global(.vtex-button__label) span {
+    font-size: 1rem; }
+
+.content--codeConfirmation .accessCodeOptionBtn {
+  display: none; }
+
+.content--codeConfirmation .sendButton {
+  margin-left: 0;
+  width: 100%; }
+
+.content--codeConfirmation .inputContainerAccessCode {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .content--codeConfirmation .inputContainerAccessCode :global(.vtex-input-prefix__group) {
+    border: none;
+    border: 1px solid #ededed;
+    border-radius: 5px; }
+
+.content--codeConfirmation .backButton {
+  display: none; }
+
+.content--codeConfirmation .formTitle {
+  font-size: 1.125rem;
+  font-weight: bold; }
+
+.content--codeConfirmation .formFooter {
+  padding-top: 0; }
+
+.content--beginCreatePass .backButton {
+  display: none; }
+
+.content--beginCreatePass .sendButton {
+  width: 100%; }
+
+.content--recoveryPassword .backButton {
+  display: none; }
+
+.content--recoveryPassword .sendButton {
+  width: 100%; }
+
+.content--recoveryPassword :global(.vtex-input-prefix__group) {
+  border: none;
+  border: 1px solid #ededed;
+  border-radius: 5px; }
+
+.content--recoveryPassword .inputContainerPassword {
+  padding-bottom: 0.8rem !important; }
+
+.content :global(.vtex-input-prefix__group) {
+  color: #353a42; }
+  .content :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
+    color: #353a42;
+    font-family: "Corporative", -apple-system, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.4px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+    .content :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input):-webkit-autofill {
+      -webkit-text-fill-color: #353a42 !important; }
+    .content :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input):autofill {
+      -webkit-text-fill-color: #353a42 !important; }
+
+.optionsList {
+  position: relative;
+  margin-top: 60px; }
+  .optionsList::before {
+    content: "Entre com Google ou E-mail e senha";
+    font-size: 1rem;
+    position: absolute;
+    top: -30px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center; }
+  .optionsList .optionsListItem {
+    margin-bottom: 10px; }
+    .optionsList .optionsListItem :global(.vtex-button) {
+      background: transparent; }
+
+@media screen and (min-width: 1008px) {
+  .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    width: 600px;
+    background: white;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 5px; }
+  .inputContainerEmail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .inputContainerEmail::before {
+      font-size: 1.875rem !important; }
+  .contentForm .formTitle {
+    text-align: center !important;
+    font-size: 1.125rem; }
+    .contentForm .formTitle::before {
+      left: 0;
+      font-size: 1rem; }
+    .contentForm .formTitle::after {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      font-size: 1rem; }
+  .optionsList::before {
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    top: -40px; }
+  .content--emailAndPassword .optionsList {
+    margin-top: 60px; }
+  .content--emailAndPassword .inputContainerEmail {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+    .content--emailAndPassword .inputContainerEmail::before {
+      font-size: 0.875rem !important; }
+  .content--emailAndPassword .formLinkContainer {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content; } }
