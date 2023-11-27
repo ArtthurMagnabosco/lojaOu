@@ -1,1 +1,17 @@
-{}
+{
+    "header-layout.desktop": {
+        "title": "Header Desktop",
+        "children": ["header-row#desk", "csstag"]
+      },
+      "header-row#desk": {
+        "title": "Conteúdo",
+        "children": [],
+        "props": {
+          "zIndex": 5,
+          "sticky": true,
+          "fullWidth": true,
+          "inverted": false,
+          "blockClass": "header-container-master"
+        }
+      },
+}

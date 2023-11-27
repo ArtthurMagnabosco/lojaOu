@@ -1,1 +1,107 @@
-@import './fonts.scss';
+$fontFamily: 'SofiaPro';
+
+
+$fontSize1: 0.75rem;
+$fontSize2: 0.875rem;
+$fontSize3: 1rem;
+$fontSize4: 1.125rem;
+$fontSize5: 1.25rem;
+$fontSize6: 1.5rem;
+$fontSize7: 2rem;
+$fontSize8: 2.5rem;
+
+$weight1: 300;
+$weight2: 400;
+$weight3: 500;
+$weight4: 600;
+$weight5: 700;
+
+$color--gray-50: #f9f9f9;
+$color--gray-100: #ebebeb;
+$color--gray-200: #c8c8c8;
+$color--gray-300: #838383;
+
+
+$color--brand--primary: #3e3e3d;
+$color--brand--secondary: #ffffff;
+$color--brand--sustentability: #a4a792;
+$color--brand--confort: #e5ddd2;
+$color--brand--inovation: #bdcfdb;
+
+
+
+$border--50: 1px solid $color--gray-50;
+$border--100: 1px solid $color--gray-100;
+$border--200: 1px solid $color--gray-200;
+$border--300: 1px solid $color--gray-300;
+
+$border-radius-sm: 0.25rem;
+$border-radius-md: 0.5rem;
+$border-radius-lg: 1rem;
+$border-radius-circle: 50%;
+
+
+@mixin btn1 {
+  background-color: $color--brand--primary;
+  border: none;
+  border-radius: none;
+}
+
+
+$margin: 20px;
+//$marginDesk: ;
+@mixin fullWidth {
+  width: calc(100% + 40px) !important;
+  margin-inline: -$margin;
+  @media (min-width: 1008px) {
+    width: calc(100% + 4.4vw) !important;
+    margin-inline: -2.2vw;
+  }
+}
+
+@mixin textFormat {
+  font-family: $fontFamily;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin italic {
+  font-style: italic;
+  font-weight: $weight1;
+  line-height: normal;
+  letter-spacing: 0px;
+  @include textFormat;
+}
+
+@mixin font300 {
+  font-style: normal;
+  font-weight: $weight1;
+  line-height: normal;
+  letter-spacing: 0px;
+  @include textFormat;
+}
+
+@mixin font400 {
+  font-style: normal;
+  font-weight: $weight2;
+  line-height: normal;
+  letter-spacing: 0px;
+  @include textFormat;
+}
+
+@mixin font500 {
+  font-style: normal;
+  font-weight: $weight3;
+  line-height: normal;
+  letter-spacing: 0px;
+  @include textFormat;
+}
+
+@mixin font600 {
+  font-style: normal;
+  font-weight: $weight4;
+  line-height: normal;
+  letter-spacing: 0px;
+  @include textFormat;
+}

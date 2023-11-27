@@ -1,1 +1,39 @@
-{}
+{
+    "header-layout.mobile": {
+        "title": "Header Mobile",
+        "children": ["header-row#mob", "csstag"]
+      },
+    
+      "header-row#mob": {
+        "title": "Conteúdo",
+        "children": ["flex-layout.col#header-container-mob"],
+        "props": {
+          "zIndex": 5,
+          "sticky": true,
+          "fullWidth": true,
+          "inverted": false
+        }
+      },
+
+      "flex-layout.col#header-container-mob": {
+        "children": [
+         //slickslide tarja
+         "flex-layout.row#header-main-mobile"
+         //search
+        ],
+        "props": {
+          "blockClass": "header-container-mob"
+        }
+      },
+
+      "flex-layout.row#header-main-mobile": {
+        "children": [
+         //menu
+         //logo
+         //icons
+        ],
+        "props": {
+          "blockClass": "header-main-mobile"
+        }
+      }
+}

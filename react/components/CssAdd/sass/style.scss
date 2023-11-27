@@ -1,0 +1,24 @@
+@import '../../../../styles/padroes/padroes.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: $fontFamily;
+}
+
+:focus {
+  outline: transparent;
+}
+
+li {
+  list-style: none;
+}
+
+// .ph3 {
+//   padding-left: 1.25rem !important;
+//   padding-right: 1.25rem !important;
+// }
+

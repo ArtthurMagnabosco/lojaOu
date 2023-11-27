@@ -1,6 +1,6 @@
 {
-  "vendor": "pituchinhus",
-  "name": "loja-pituchinhus",
+  "vendor": "ou",
+  "name": "loja-ou",
   "version": "1.0.0",
   "builders": {
     "styles": "2.x",

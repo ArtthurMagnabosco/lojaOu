@@ -1,2 +1,13 @@
 @import "./../padroes/padroes.scss";
 
+.container {
+    padding-inline: $margin;
+  
+    @media (min-width: 1008px) {
+      max-width: unset !important;
+      padding-inline: $marginDesk;
+    }
+    .container {
+      padding: 0 !important;
+    }
+  }

@@ -1,1 +1,31 @@
-{}
+{
+    "footer-layout.mobile": {
+        "title": "Footer Mobile",
+        "children": ["flex-layout.row#footer-mobile"]
+      },
+    
+      "flex-layout.row#footer-mobile": {
+        "title": "",
+        "children": [
+            "flex-layout.col#footer-mobile"
+        ],
+        "props": {
+          "blockClass": "footer-container-master-mobile"
+        }
+      },
+
+      "flex-layout.col#footer-mobile": {
+        "title": "Conteúdo",
+        "children": [
+        //componente svg + infos(?)
+        //newsletter
+        //componente sobre nós abre fecha
+        //formas de pagamento
+        //certificados e selos
+        //end footer
+        ],
+        "props": {
+          "blockClass": "footer-col-mobile"
+        }
+      }
+}
