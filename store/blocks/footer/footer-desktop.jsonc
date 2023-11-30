@@ -1,14 +1,14 @@
 {
-    "footer-layout.desktop": {
-        "title": "Footer Desktop",
-        "children": ["flex-layout.row#footer-desk"]
-      },
-    
-      "flex-layout.row#footer-desk": {
-        "title": "",
-        "children": [],
-        "props": {
-          "blockClass": "footer-container-master-desk"
-        }
-      },
+  "footer-layout.desktop": {
+    "title": "Footer Desktop",
+    "children": ["flex-layout.row#footer-desk"]
+  },
+
+  "flex-layout.row#footer-desk": {
+    "title": "",
+    "children": [],
+    "props": {
+      "blockClass": "footer-container-master-desk"
+    }
+  }
 }
