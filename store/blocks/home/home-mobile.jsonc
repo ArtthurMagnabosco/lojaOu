@@ -38,8 +38,8 @@
     "children": [
       //componente categoria???
       "rich-text#home-products-1-title1",
-      "rich-text#home-products-1-text1",
-      "list-context.product-list#slider-products"
+      "rich-text#home-products-1-text1"
+      // "list-context.product-list#slider-products"
     ],
     "props": {
       "blockClass": "home-conatiner-products"
