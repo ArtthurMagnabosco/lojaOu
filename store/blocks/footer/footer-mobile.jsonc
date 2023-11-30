@@ -1,31 +1,126 @@
 {
-    "footer-layout.mobile": {
-        "title": "Footer Mobile",
-        "children": ["flex-layout.row#footer-mobile"]
-      },
-    
-      "flex-layout.row#footer-mobile": {
-        "title": "",
-        "children": [
-            "flex-layout.col#footer-mobile"
-        ],
-        "props": {
-          "blockClass": "footer-container-master-mobile"
-        }
-      },
+  "footer-layout.mobile": {
+    "title": "Footer Mobile",
+    "children": ["flex-layout.row#footer-mobile"]
+  },
 
-      "flex-layout.col#footer-mobile": {
-        "title": "Conteúdo",
-        "children": [
-        //componente svg + infos(?)
-        //newsletter
-        //componente sobre nós abre fecha
-        //formas de pagamento
-        //certificados e selos
-        //end footer
-        ],
-        "props": {
-          "blockClass": "footer-col-mobile"
-        }
-      }
+  "flex-layout.row#footer-mobile": {
+    "title": "",
+    "children": ["flex-layout.col#footer-mobile"],
+    "props": {
+      "blockClass": "footer-container-master-mobile"
+    }
+  },
+
+  "flex-layout.col#footer-mobile": {
+    "title": "Conteúdo",
+    "children": [
+      //componente svg + infos(?)
+      "flex-layout.col#newsletter-container",
+      //componente sobre nós abre fecha
+      //formas de pagamento
+      //certificados e selos
+      "flex-layout.col#info-wec-end-container"
+    ],
+    "props": {
+      "blockClass": "footer-col-mobile"
+    }
+  },
+
+  "flex-layout.col#newsletter-container": {
+    "title": "Newsletter Container",
+    "children": [
+      "flex-layout.col#newsletter-text-container"
+      //flex form col
+    ],
+    "props": {
+      "blockClass": "news-container"
+    }
+  },
+
+  "flex-layout.col#newsletter-text-container": {
+    "title": "Text container",
+    "children": ["rich-text#newsletter-tittle", "rich-text#newsletter-text"],
+    "props": {
+      "blockClass": "news-text-container"
+    }
+  },
+
+  "rich-text#newsletter-tittle": {
+    "title": "Título",
+    "props": {
+      "text": "Newsletter",
+      "blockClass": "news-tittle"
+    }
+  },
+
+  "rich-text#newsletter-text": {
+    "title": "Text",
+    "props": {
+      "text": "Inscreva-se e não perca nenhuma novidade da OU!",
+      "blockClass": "news-text"
+    }
+  },
+
+  "flex-layout.col#info-wec-end-container": {
+    "title": "Info - Wec",
+    "children": [
+      "flex-layout.col#info-end-container",
+      "flex-layout.row#bywecode"
+    ],
+    "props": {
+      "blockClass": "info-wec-container"
+    }
+  },
+
+  "flex-layout.col#info-end-container": {
+    "title": "Info",
+    "children": [
+      "rich-text#info-end-wec-text-caps",
+      "rich-text#info-end-wec-text-normal"
+    ],
+    "props": {
+      "blockClass": "info-container"
+    }
+  },
+
+  "rich-text#info-end-wec-text-caps": {
+    "title": "Text 1",
+    "props": {
+      "text": "© 2021 MARTIPLAST INDÚSTRIA E COMÉRCIO DE PLÁSTICOS LTDA.",
+      "blockClass": "info-text-caps"
+    }
+  },
+
+  "rich-text#info-end-wec-text-normal": {
+    "title": "Text 2",
+    "props": {
+      "text": "RS 122, Km 76,45 no 36055, CNPJ: 73.445.454/0001-40",
+      "blockClass": "info-text-normal"
+    }
+  },
+
+  "flex-layout.row#bywecode": {
+    "title": "By Wecode",
+    "children": ["image#wecode"],
+    "props": {
+      "blockClass": "bywecode-container"
+    }
+  },
+
+  "image#wecode": {
+    "props": {
+      "title": "By Wecode",
+      "src": "",
+      "link": {
+        "url": "https://www.wecode.digital",
+        "newTab": true,
+        "attributeNofollow": true
+      },
+      "maxWidth": "133px",
+      "maxHeight": "20px",
+      "preventHorizontalStretch": true,
+      "blockClass": "wecodeCopy"
+    }
+  }
 }

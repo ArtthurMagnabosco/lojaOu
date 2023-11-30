@@ -1,0 +1,38 @@
+{
+  "search-bar": {
+    "title": "Busca",
+    "props": {
+      "autocompleteFullWidth": true,
+      "autoFocus": true,
+      "blurOnSubmit": false,
+      "autocompleteAlignment": "left",
+      "compactMode": false,
+      "displayMode": "search-and-clear-buttons",
+      "maxWidth": "100vw",
+      "openAutocompleteOnFocus": true,
+      "placeholder": "O que você procura?",
+      // "inputType": "search",
+      "containerMode": "overlay",
+      "productLayout": "HORIZONTAL",
+      "maxTopSearches": 3,
+      "maxHistory": 3,
+      "maxSuggestedProducts": 3,
+      "maxSuggestedTerms": 3
+    },
+    "blocks": ["autocomplete-result-list.v2"]
+  },
+
+  "autocomplete-result-list.v2": {
+    "title": "Autocomplete da busca",
+    "blocks": ["product-summary"],
+    "props": {
+      "maxTopSearches": 3,
+      "maxHistory": 3,
+      "maxSuggestedProducts": 3,
+      "maxSuggestedTerms": 3,
+      "autocompleteWidth": "100vw",
+      "productLayout": "HORIZONTAL",
+      "simulationBehavior": "skip"
+    }
+  }
+}

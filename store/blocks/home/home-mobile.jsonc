@@ -1,1 +1,65 @@
-{}
+{
+  "responsive-layout.mobile#home": {
+    "title": "Home Mobile",
+    "children": ["flex-layout.row#home"]
+  },
+
+  "flex-layout.row#home": {
+    "children": [
+      //componente banner principal
+      //   "flex-layout.col#home-container-mobile"
+    ],
+    "props": {
+      "blockClass": "home-row-container"
+    }
+  },
+
+  //container
+  "flex-layout.col#home-container-mobile": {
+    "title": "Container Home",
+    "children": [
+      //componente categoria??
+      //   "flex-layout.col#home-container-products-1",
+      //slider ambiente
+      //componente explore mais
+      //   "flex-layout.col#home-container-products-2",
+      //componente mosaico
+      //   "flex-layout.col#home-container-products-3",
+      //trust vox
+    ],
+    "props": {
+      "blockClass": "home-container-mobile"
+    }
+  },
+
+  //bloco produto começo
+  "flex-layout.col#home-container-products-1": {
+    "title": "Bloco de Carrossel 1",
+    "children": [
+      //componente categoria???
+      "rich-text#home-products-1-title1",
+      "rich-text#home-products-1-text1",
+      "list-context.product-list#slider-products"
+    ],
+    "props": {
+      "blockClass": "home-conatiner-products"
+    }
+  },
+
+  "rich-text#home-products-1-title1": {
+    "title": "Título",
+    "props": {
+      "text": "## Mais vendidos",
+      "blockClass": "home-products-title"
+    }
+  },
+
+  "rich-text#home-products-1-text1": {
+    "title": "Texto",
+    "props": {
+      "text": "Conheça os produtos que estão fazendo sucesso na casa dos nossos clientes",
+      "blockClass": "home-products-text"
+    }
+  }
+  //bloco produto fim
+}

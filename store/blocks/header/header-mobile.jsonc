@@ -1,39 +1,85 @@
 {
-    "header-layout.mobile": {
-        "title": "Header Mobile",
-        "children": ["header-row#mob", "csstag"]
-      },
-    
-      "header-row#mob": {
-        "title": "Conteúdo",
-        "children": ["flex-layout.col#header-container-mob"],
-        "props": {
-          "zIndex": 5,
-          "sticky": true,
-          "fullWidth": true,
-          "inverted": false
-        }
-      },
+  "header-layout.mobile": {
+    "title": "Header Mobile",
+    "children": ["header-row#mob", "csstag"]
+  },
 
-      "flex-layout.col#header-container-mob": {
-        "children": [
-         //slickslide tarja
-         "flex-layout.row#header-main-mobile"
-         //search
-        ],
-        "props": {
-          "blockClass": "header-container-mob"
-        }
-      },
+  "header-row#mob": {
+    "title": "Conteúdo",
+    "children": ["flex-layout.col#header-container-mob"],
+    "props": {
+      "zIndex": 5,
+      "sticky": true,
+      "fullWidth": true,
+      "inverted": false
+    }
+  },
 
-      "flex-layout.row#header-main-mobile": {
-        "children": [
-         //menu
-         //logo
-         //icons
-        ],
-        "props": {
-          "blockClass": "header-main-mobile"
-        }
-      }
+  "flex-layout.col#header-container-mob": {
+    "children": [
+      //slickslide tarja
+      "flex-layout.row#header-main-mobile",
+      "search-bar"
+    ],
+    "props": {
+      "blockClass": "header-container-mob"
+    }
+  },
+
+  "flex-layout.row#header-main-mobile": {
+    "children": [
+      "image#menuTemporario",
+      "logo",
+      "flex-layout.row#header-icons-mobile"
+    ],
+    "props": {
+      "blockClass": "header-main-mobile"
+    }
+  },
+
+  "image#menuTemporario": {
+    "title": "Imagem menu",
+    "props": {
+      "src": "",
+      "maxWidth": "24px",
+      "maxHeight": "24px",
+      "blockClass": "menuMob"
+    }
+  },
+
+  "logo": {
+    "title": "Logo",
+    "props": {
+      //"mobileWidth": 130,
+      // "mobileHeight": 18,
+      "href": "/",
+      "url": ""
+    }
+  },
+
+  "flex-layout.row#header-icons-mobile": {
+    "children": [
+      "image#loginMob"
+      //  "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "header-icons-mobile"
+    }
+  },
+
+  "image#loginMob": {
+    "title": "Imagem login",
+    "props": {
+      "src": "",
+      "link": {
+        "url": "/account",
+        "newTab": false,
+        "attributeNofollow": true
+      },
+      "alt": "login",
+      "maxWidth": "24px",
+      "maxHeight": "24px",
+      "blockClass": "loginMob"
+    }
+  }
 }
