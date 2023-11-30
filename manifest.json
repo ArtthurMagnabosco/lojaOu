@@ -1,6 +1,6 @@
 {
-  "vendor": "ou",
-  "name": "loja-ou",
+  "vendor": "lojaou",
+  "name": "lojaou",
   "version": "1.0.1",
   "builders": {
     "styles": "2.x",
