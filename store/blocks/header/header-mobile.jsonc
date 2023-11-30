@@ -1,7 +1,7 @@
 {
   "header-layout.mobile": {
-    "title": "Header Mobile",
-    "children": ["header-row#mob", "csstag"]
+    "title": "Header Mobile"
+    // "children": ["header-row#mob", "csstag"]
   },
 
   "header-row#mob": {
