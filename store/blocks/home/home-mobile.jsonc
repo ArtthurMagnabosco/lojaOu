@@ -7,7 +7,7 @@
   "flex-layout.row#home": {
     "children": [
       //componente banner principal
-      //   "flex-layout.col#home-container-mobile"
+      "flex-layout.col#home-container-mobile"
     ],
     "props": {
       "blockClass": "home-row-container"
@@ -19,7 +19,7 @@
     "title": "Container Home",
     "children": [
       //componente categoria??
-      //   "flex-layout.col#home-container-products-1",
+      "flex-layout.col#home-container-products-1"
       //slider ambiente
       //componente explore mais
       //   "flex-layout.col#home-container-products-2",
