@@ -2,7 +2,8 @@
   "header.full": {
     "title": "Header",
     "blocks": [
-      // "header-layout.mobile", "header-layout.desktop"
+      "header-layout.mobile"
+      //,"header-layout.desktop"
     ]
   }
 }

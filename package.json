@@ -31,6 +31,12 @@
     "typescript": "3.8.3"
   },
   "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "node-sass": "^9.0.0",
     "vtex": "^4.0.4"
   }
 }
