@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 const gulp = require('gulp'),
   sass = require('gulp-sass')(require('node-sass')),
   autoprefixer = require('gulp-autoprefixer'),

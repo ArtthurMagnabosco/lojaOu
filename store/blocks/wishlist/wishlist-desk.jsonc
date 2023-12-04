@@ -1,1 +1,9 @@
-{}
+{
+  "responsive-layout.desktop#wishlist": {
+    "children": [
+      "flex-layout.row#wishlistTop",
+      "flex-layout.row#wishlistContainer"
+    ],
+    "title": "Desktop"
+  }
+}

@@ -1,2 +1,8 @@
 @import "./../padroes/padroes.scss";
 
+.paragraph--wishlist-title {
+    @include font400;
+    font-family: $fontFamily;
+    font-size: $fontSize6;
+}
+
