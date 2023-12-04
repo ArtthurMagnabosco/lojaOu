@@ -6,7 +6,7 @@
 
   "header-row#mob": {
     "title": "Conteúdo",
-    "children": ["flex-layout.col#header-container-mob"],
+    "children": ["flex-layout.row#header-container-mob"],
     "props": {
       "zIndex": 5,
       "sticky": true,
@@ -14,72 +14,171 @@
       "inverted": false
     }
   },
-
-  "flex-layout.col#header-container-mob": {
+  "flex-layout.row#header-container-mob": {
     "children": [
-      //slickslide tarja
-      "flex-layout.row#header-main-mobile",
-      "search-bar"
+      "flex-layout.row#header-mob-menu",
+      "flex-layout.row#header-mob-logo",
+      "flex-layout.row#header-mob-icons"
     ],
     "props": {
       "blockClass": "header-container-mob"
     }
   },
 
-  "flex-layout.row#header-main-mobile": {
-    "children": [
-      "image#menuTemporario",
-      "logo",
-      "flex-layout.row#header-icons-mobile"
-    ],
+  "flex-layout.row#header-mob-menu": {
+    // "children": ["MenuMobile"],
+    "children": ["image#menu"],
     "props": {
-      "blockClass": "header-main-mobile"
+      "blockClass": "mob-menu-search-container"
     }
   },
 
-  "image#menuTemporario": {
-    "title": "Imagem menu",
+  "image#menu": {
     "props": {
-      "src": "assets/png/menu-hamburguer.png",
-      "maxWidth": "24px",
-      "maxHeight": "24px",
-      "blockClass": "menuMob"
+      "src": "assets/svg/icon-menu-white.svg"
+    }
+  },
+
+  // "autocomplete-result-list.v2": {
+  //   "title": "Autocomplete da busca",
+  //   "blocks": ["product-summary"],
+  //   "props": {
+  //     "maxTopSearches": 3,
+  //     "maxHistory": 3,
+  //     "maxSuggestedProducts": 2,
+  //     "maxSuggestedTerms": 3,
+  //     "autocompleteWidth": "100vw",
+  //     "productLayout": "HORIZONTAL",
+  //     "simulationBehavior": "skip"
+  //   }
+  // },
+
+  "flex-layout.row#header-mob-logo": {
+    "title": "Logo",
+    "children": ["logo"],
+    "props": {
+      "blockClass": "header-mob-logo"
     }
   },
 
   "logo": {
     "title": "Logo",
     "props": {
-      //"mobileWidth": 130,
-      // "mobileHeight": 18,
       "href": "/",
-      "url": "assets/png/logo-header.png"
+      "url": "assets/svg/logo-ou-white.svg"
     }
   },
 
-  "flex-layout.row#header-icons-mobile": {
-    "children": [
-      "image#loginMob"
-      //  "minicart.v2"
-    ],
+  "flex-layout.row#header-mob-icons": {
+    "title": "Icones - Login e minicart",
+    "children": ["image#login", "minicart.v2"],
     "props": {
-      "blockClass": "header-icons-mobile"
+      "blockClass": "header-mob-icons"
     }
   },
-
-  "image#loginMob": {
-    "title": "Imagem login",
+  "image#login": {
     "props": {
-      "src": "",
-      "link": {
-        "url": "/account",
-        "newTab": false,
-        "attributeNofollow": true
-      },
-      "alt": "login",
-      "maxWidth": "24px",
-      "maxHeight": "24px",
-      "blockClass": "loginMob"
+      "src": "assets/svg/icon-person.svg"
     }
   }
 }
+
+// "SearchInput": {
+//   "props": {
+//     "SearchBar": "search-bar"
+//   }
+// },
+
+//   "search-bar": {
+//     "title": "Busca",
+//     "props": {
+//       "autocompleteFullWidth": true,
+//       "autoFocus": true,
+//       "blurOnSubmit": false,
+//       "autocompleteAlignment": "left",
+//       "compactMode": false,
+//       "displayMode": "search-and-clear-buttons",
+//       "maxWidth": "100vw",
+//       "openAutocompleteOnFocus": true,
+//       "placeholder": "Digite sua busca",
+//       "inputType": "search",
+//       "containerMode": "overlay",
+//       "productLayout": "HORIZONTAL"
+//       // "maxTopSearches": 3,
+//       // "maxHistory": 3,
+//       // "maxSuggestedProducts": 3,
+//       // "maxSuggestedTerms": 3
+//     },
+//     "blocks": ["autocomplete-result-list.v2"]
+//   }
+// }
+
+//   "flex-layout.col#header-container-mob": {
+//     "children": [
+//       //slickslide tarja
+//       "flex-layout.row#header-main-mobile",
+//       "search-bar"
+//     ],
+//     "props": {
+//       "blockClass": "header-container-mob"
+//     }
+//   },
+
+//   "flex-layout.row#header-main-mobile": {
+//     "children": [
+//       "image#menuTemporario",
+//       "logo",
+//       "flex-layout.row#header-icons-mobile"
+//     ],
+//     "props": {
+//       "blockClass": "header-main-mobile"
+//     }
+//   },
+
+//   "image#menuTemporario": {
+//     "title": "Imagem menu",
+//     "props": {
+//       "src": "assets/png/slider-header.png",
+//       "maxWidth": "24px",
+//       "maxHeight": "24px",
+//       "blockClass": "menuMob"
+//     }
+//   },
+
+//   "logo": {
+//     "title": "Logo",
+//     "props": {
+//       //"mobileWidth": 130,
+//       // "mobileHeight": 18,
+//       "src":"assets/svg/logo-preto.svg",
+//       "href": "/",
+//       "url": ""
+//     }
+//   },
+
+//   "flex-layout.row#header-icons-mobile": {
+//     "children": [
+//       "image#loginMob",
+//        "minicart.v2"
+//     ],
+//     "props": {
+//       "blockClass": "header-icons-mobile"
+//     }
+//   },
+
+//   "image#loginMob": {
+//     "title": "Imagem login",
+//     "props": {
+//       "src": "",
+//       "link": {
+//         "url": "/account",
+//         "newTab": false,
+//         "attributeNofollow": true
+//       },
+//       "alt": "login",
+//       "maxWidth": "24px",
+//       "maxHeight": "24px",
+//       "blockClass": "loginMob"
+//     }
+//   }
+//}

@@ -1,2 +1,13 @@
 @import "./../padroes/padroes.scss";
 
+.flexRowContent--header-container-mob{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 100%;
+}
+
+// .flexRowContent--header-mob-icons{
+//      display: flex;
+//     flex-direction: row;
+// }

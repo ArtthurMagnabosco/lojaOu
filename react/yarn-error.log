@@ -94,7 +94,7 @@ npm manifest:
       "vtex.tab-layout": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.tab-layout@0.4.3/public/@types/vtex.tab-layout",
       "vtex.toggle-layout": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.toggle-layout@0.0.3/public/@types/vtex.toggle-layout",
       "vtex.wish-list": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.wish-list@1.16.0/public/@types/vtex.wish-list",
-      "yourviews.yourviewsreviews": "http://yourviews.vtexassets.com/_v/public/typings/v1/yourviews.yourviewsreviews@0.81.0/public/@types/yourviews.yourviewsreviews"
+     
     }
   }
 

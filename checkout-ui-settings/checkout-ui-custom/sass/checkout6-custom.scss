@@ -17,7 +17,7 @@ tr,
 button,
 strong,
 small {
-  @include padrao;
+//  @include padrao;
   font-size: 0.875rem;
 }
 
@@ -80,7 +80,7 @@ small {
   }
 
   .rewards-progress-fill {
-    background-color: $otherColor3;
+  //  background-color: $otherColor3;
     height: 100%;
     width: 100%;
     left: 0;
@@ -102,21 +102,21 @@ small {
   }
 
   .receive-text {
-    @include bold;
+  //  @include bold;
     margin-bottom: 0;
     font-size: 14px;
-    color: $baseColor;
+    // color: $baseColor;
     font-weight: 500;
 
     span {
       font-weight: bold;
-      color: $otherColor3;
+      // color: $otherColor3;
     }
   }
 }
 
 .header-container {
-  background: $otherColor2;
+  // background: $otherColor2;
   display: flex;
   padding: 10px 15px;
   justify-content: space-between;
@@ -140,7 +140,7 @@ small {
   }
 
   .header-text {
-    @include padrao;
+    // @include padrao;
     color: white;
     margin-bottom: 0 !important;
     padding: 0;
@@ -184,7 +184,7 @@ body {
 }
 
 .checkout-container {
-  background: $bodyBackground;
+  // background: $bodyBackground;
   margin-bottom: 0;
 
   input:focus {
@@ -210,7 +210,7 @@ body {
             background: transparent !important;
           }
           .available-gift-quantity {
-            font-family: $fontFamily;
+            // font-family: $fontFamily;
             font-size: 1.125rem;
             font-weight: 500;
             margin-top: 0;
@@ -230,20 +230,20 @@ body {
             .vtex-shipping-preview-0-x-postalCodeForgotten {
               position: relative !important;
               #cart-shipping-calculate {
-                @include bold;
+                // @include bold;
                 position: absolute !important;
-                background: $otherColor3;
+                // background: $otherColor3;
                 color: white;
                 border-radius: 25px;
                 padding-inline: 16px;
                 // border-top-right-radius: 4px;
                 // border-bottom-right-radius: 4px;
-                border: $otherColor3 !important;
+                // border: $otherColor3 !important;
                 text-transform: uppercase;
                 top: 20px !important;
                 &:hover {
-                  background-color: $otherColor3Hover;
-                  border-color: $otherColor3Hover !important;
+                  // background-color: $otherColor3Hover;
+                  // border-color: $otherColor3Hover !important;
                 }
                 @media (max-width: 1008px) {
                   right: 0 !important;
@@ -251,13 +251,13 @@ body {
               }
             }
             .srp-main-title {
-              @include bold;
-              font-family: $fontFamily;
+              // @include bold;
+              // font-family: $fontFamily;
               font-size: 1.125rem;
               // font-weight: 600;
             }
             .srp-description {
-              @include padrao;
+              // @include padrao;
               font-size: 1rem;
               @media (min-width: 1008px) {
                 max-width: unset !important;
@@ -273,13 +273,13 @@ body {
               .ship-postalCode {
                 small {
                   a {
-                    color: $baseColor;
+                    // color: $baseColor;
                     text-decoration: underline;
                     text-underline-offset: 4px;
                     font-weight: 500;
                     font-size: 0.75rem;
                     &:hover {
-                      color: $linkHover !important;
+                      // color: $linkHover !important;
                     }
                   }
                 }
@@ -292,8 +292,8 @@ body {
               }
 
               #shipping-calculate-link {
-                @include padrao;
-                background: $otherColor3;
+                // @include padrao;
+                // background: $otherColor3;
                 color: white;
                 width: 136px !important;
                 margin: 0 !important;
@@ -302,8 +302,8 @@ body {
                 font-size: 1rem;
                 border-radius: 100px;
                 &:hover {
-                  background-color: $otherColor3Hover;
-                  border-color: $otherColor3Hover !important;
+                  // background-color: $otherColor3Hover;
+                  // border-color: $otherColor3Hover !important;
                 }
               }
 
@@ -311,11 +311,11 @@ body {
                 white-space: unset !important;
 
                 .srp-shipping-current-single__sla {
-                  color: $baseColor !important;
+                  // color: $baseColor !important;
                 }
               }
               .srp-shipping-current-single__price {
-                color: $baseColor !important;
+                // color: $baseColor !important;
                 font-weight: 600;
               }
               .srp-postal-code {
@@ -344,7 +344,7 @@ body {
                 box-shadow: none !important;
                 border: none;
                 // border-radius: 0;
-                background: $white !important;
+                // background: $white !important;
                 display: flex !important;
                 flex-wrap: wrap;
                 align-items: flex-start;
@@ -353,7 +353,7 @@ body {
 
                 .quantity {
                   order: 3;
-                  border: $border !important;
+                  // border: $border !important;
                   border-radius: 0;
                   margin-top: 10px !important;
                   margin-left: 0 !important;
@@ -361,18 +361,18 @@ body {
                   position: static;
                   display: flex;
                   input {
-                    @include padrao;
+                    // @include padrao;
                     border-radius: 0;
                     font-size: 0.75rem;
                     font-weight: 500;
                     background: white;
                     width: 34% !important;
-                    color: $neutralGrey;
+                    // color: $neutralGrey;
                   }
                   a {
                     width: 33%;
                     i::before {
-                      color: $neutralGrey;
+                      // color: $neutralGrey;
                     }
                   }
                 }
@@ -386,7 +386,7 @@ body {
                     padding-block: 0;
                     padding-inline: 10px 30px;
                     font-size: 0.875rem;
-                    @include padrao;
+                    // @include padrao;
                     display: -webkit-box;
                     -webkit-line-clamp: 2;
                     -webkit-box-orient: vertical;
@@ -409,17 +409,17 @@ body {
                     display: flex;
                   }
                   .new-product-price {
-                    @include bold;
+                    // @include bold;
                     font-size: 1rem;
                     // color: $baseColor;
                     color: #088237 !important;
                     padding-right: 1rem;
                   }
                   .old-product-price {
-                    @include padrao;
+                    // @include padrao;
                     font-size: 0.625rem;
                     text-decoration: line-through;
-                    color: $neutralGrey;
+                    // color: $neutralGrey;
                     padding-right: 10px;
                     @media (min-width: 1008px) {
                       padding-left: 0;
@@ -499,19 +499,19 @@ body {
           }
 
           .btn {
-            @include bold;
+            // @include bold;
             font-size: 1rem;
-            color: $white;
+            // color: $white;
             width: 100%;
             margin: 4px auto !important;
             padding: 10px 0;
             text-transform: uppercase;
-            background: $sucess;
-            border-color: $sucess;
+            // background: $sucess;
+            // border-color: $sucess;
             border-radius: 99px;
             &:hover {
-              background-color: $sucessHover;
-              border-color: $sucessHover;
+              // background-color: $sucessHover;
+              // border-color: $sucessHover;
             }
             @media screen and (min-width: 768px) and (max-height: 1180px) {
               width: 100%;
@@ -532,8 +532,8 @@ body {
                 padding: 0;
 
                 .info {
-                  @include padrao;
-                  color: $baseColor !important;
+                  // @include padrao;
+                  // color: $baseColor !important;
                   font-size: 1rem !important;
                   padding-bottom: 5px !important;
                   @media (min-width: 1008px) {
@@ -541,8 +541,8 @@ body {
                   }
                 }
                 .monetary {
-                  @include padrao;
-                  color: $baseColor !important;
+                  // @include padrao;
+                  // color: $baseColor !important;
                   width: 150px;
                   font-size: 1rem !important;
                   @media (min-width: 1008px) {
@@ -557,21 +557,21 @@ body {
               }
               tfoot {
                 .info {
-                  @include bold;
+                  // @include bold;
                   text-transform: capitalize !important;
                   font-size: 1.125rem;
                   padding: 0 0 14px 0 !important;
-                  color: $baseColor !important;
+                  // color: $baseColor !important;
 
                   // @media (min-width: 1008px) {
                   //   font-weight: 500;
                   // }
                 }
                 .monetary {
-                  @include bold;
+                  // @include bold;
                   font-size: 1.125rem;
                   padding: 0 0 14px 0 !important;
-                  color: $baseColor !important;
+                  // color: $baseColor !important;
                   width: 150px;
 
                   // @media (min-width: 1008px) {
@@ -619,7 +619,7 @@ body {
         margin-bottom: 5px;
         font-weight: 400;
         font-size: 0.875rem;
-        color: $baseColor;
+        // color: $baseColor;
         @media (min-width: 1008px) {
           font-size: 1rem;
         }
@@ -635,7 +635,7 @@ body {
   margin-right: 0;
   border-radius: 0;
   font-size: 1rem;
-  border: $border;
+  // border: $border;
   height: 44px !important;
   box-shadow: none;
   text-transform: uppercase;
@@ -662,8 +662,8 @@ body {
 }
 
 #cart-coupon-add {
-  @include btn1;
-  @include bold;
+  // @include btn1;
+  // @include bold;
   color: #757171 !important;
   font-size: 1rem;
   height: 44px !important;
@@ -679,10 +679,10 @@ body {
   border: 1px solid #231f20 !important;
   padding: 10px;
   display: flex !important;
-  border-color: $neutralLight !important;
+  // border-color: $neutralLight !important;
   &.select-gift.active {
     box-shadow: none !important;
-    border-color: $otherColor2 !important;
+    // border-color: $otherColor2 !important;
   }
   .brand {
     display: none;
@@ -690,7 +690,7 @@ body {
   .product-name {
     display: flex;
     align-items: center;
-    color: $baseColor !important;
+    // color: $baseColor !important;
     @media (min-width: 1008px) {
       padding-left: 10px !important;
     }
@@ -725,7 +725,7 @@ body {
   //   padding-bottom: 80px;
   // }
 
-  background-color: $white;
+  // background-color: $white;
   .orderform-template-holder {
     .client-pre-email {
       background: white !important;
@@ -739,7 +739,7 @@ body {
         padding-right: 0 !important;
         margin-top: 0;
         h3 {
-          color: $baseColor;
+          // color: $baseColor;
         }
         span {
           font-size: 0.875rem;
@@ -753,21 +753,21 @@ body {
 
       #btn-client-pre-email {
         padding: 10px;
-        background: $sucess;
-        color: $white;
+        // background: $sucess;
+        // color: $white;
         bottom: 20px !important;
-        border-color: $sucess;
+        // border-color: $sucess;
         width: calc(100% - 32px);
         @media (min-width: 1008px) {
           width: 55%;
         }
         &:hover {
-          background-color: $sucessHover;
-          border-color: $sucessHover;
+          // background-color: $sucessHover;
+          // border-color: $sucessHover;
         }
         span {
-          @include bold;
-          color: $white;
+          // @include bold;
+          // color: $white;
           text-transform: uppercase;
           font-size: 1rem !important;
         }
@@ -791,13 +791,13 @@ body {
       //     padding-left: 40px;
       //     position: relative;
       //     a {
-      //       color: $SrdColor;
+            // color: $SrdColor;
       //       font-weight: 500;
       //       text-transform: uppercase;
       //       text-decoration: underline;
       //       position: relative;
       //       // &:hover {
-      //       //   // color: $PstButtonHover;
+            //   // color: $PstButtonHover;
       //       // }
       //     }
       //     svg {
@@ -812,7 +812,7 @@ body {
 
     #client-profile-data {
       .client-pre-email {
-        background: $bodyBackground;
+        // background: $bodyBackground;
         margin-bottom: 0 !important;
         border-radius: 0 !important;
         .client-pre-email-h {
@@ -830,7 +830,7 @@ body {
               margin-right: 0 !important;
               background: transparent;
               border-color: transparent;
-              color: $baseColor;
+              // color: $baseColor;
 
               font-weight: 600;
               font-size: 1.125rem;
@@ -842,7 +842,7 @@ body {
               border: none;
             }
             &:after {
-              color: $baseColor;
+              // color: $baseColor;
               font-weight: 600;
               font-size: 1.125rem;
               margin-left: -14px;
@@ -862,7 +862,7 @@ body {
         margin: 0 !important;
         background: white;
         border-radius: 0 !important;
-        border: $border;
+        // border: $border;
         padding-inline: 16px;
         .accordion-toggle.collapsed {
           padding: 0 !important;
@@ -875,13 +875,13 @@ body {
             line-height: initial;
             align-items: baseline;
             display: flex;
-            color: $baseColor;
+            // color: $baseColor;
             &:before {
               font-weight: 600;
               font-size: 1.125rem;
               background: transparent;
               border-color: transparent;
-              color: $baseColor;
+              // color: $baseColor;
               margin: 0 !important;
               height: fit-content;
               width: fit-content !important;
@@ -915,7 +915,7 @@ body {
         span {
           align-items: baseline;
           display: flex;
-          color: $baseColor;
+          // color: $baseColor;
         }
         &:before {
           margin: 0 !important;
@@ -940,29 +940,29 @@ body {
           .vtex-omnishipping-1-x-SummaryItemContent {
             .vtex-omnishipping-1-x-SummaryItemInfo {
               .v-changeShippingTimeInfo-elem-active {
-                color: $neutralGrey;
+                // color: $neutralGrey;
                 strong {
-                  color: $neutralGrey;
+                  // color: $neutralGrey;
                 }
               }
               .address-summary {
                 span {
-                  color: $baseColor;
+                  // color: $baseColor;
                 }
               }
             }
             .vtex-omnishipping-1-x-SummaryItemPrice {
-              color: $baseColor;
+              // color: $baseColor;
               // color: #088237 !important;
               font-weight: 600;
             }
           }
           #open-shipping {
-            @include padrao;
+            // @include padrao;
             font-weight: 600;
             font-size: 1rem;
-            color: $white;
-            background: $otherColor2;
+            // color: $white;
+            // background: $otherColor2;
             border: none;
             border-radius: 99px;
             padding: 10px 0;
@@ -978,7 +978,7 @@ body {
     #payment-data {
       background: white !important;
       margin: 0 !important;
-      border: $border !important;
+      // border: $border !important;
       padding-inline: 16px;
       @media (max-width: 1008px) {
         border-bottom: none !important;
@@ -996,12 +996,12 @@ body {
           font-weight: 600;
           align-items: baseline;
           display: flex;
-          color: $baseColor;
+          // color: $baseColor;
           &:before {
             margin-right: 0 !important;
             background: transparent;
             border-color: transparent;
-            color: $baseColor;
+            // color: $baseColor;
             font-weight: 600;
             font-size: 1.125rem;
             height: fit-content;
@@ -1014,11 +1014,11 @@ body {
       }
       .payment-group-list-btn {
         .v-custom-payment-item-wrap {
-          background: $white !important;
-          border: $border !important;
+          // background: $white !important;
+          // border: $border !important;
           .payment-group-item {
-            background: $white !important;
-            border: $neutralLight !important;
+            // background: $white !important;
+            // border: $neutralLight !important;
           }
         }
       }
@@ -1034,7 +1034,7 @@ body {
           margin-top: 0;
           padding-right: 20px;
           right: 0;
-          color: $baseColor;
+          // color: $baseColor;
           small {
             text-underline-offset: 2px;
             text-decoration-color: #8a8a8a;
@@ -1063,8 +1063,8 @@ body {
         }
       }
       h2 {
-        @include bold;
-        color: $baseColor;
+        // @include bold;
+        // color: $baseColor;
         font-size: 1rem;
       }
 
@@ -1094,7 +1094,7 @@ body {
           height: auto;
           margin-left: 85px;
           width: fit-content;
-          color: $baseColor;
+          // color: $baseColor;
           display: -webkit-box;
           -webkit-line-clamp: 2;
           -webkit-box-orient: vertical;
@@ -1132,15 +1132,15 @@ body {
     .cart-totalizers {
       .accordion-inner {
         .info {
-          @include bold;
-          color: $baseColor;
+          // @include bold;
+          // color: $baseColor;
           font-size: 1.125rem;
           padding: 5px 0 !important;
         }
         .monetary {
-          @include bold;
+          // @include bold;
           font-size: 1.125rem;
-          color: $baseColor !important;
+          // color: $baseColor !important;
           padding: 5px 0 !important;
           width: 150px;
         }
@@ -1148,11 +1148,11 @@ body {
           border: none !important;
           padding: 0;
           .info {
-            @include padrao;
+            // @include padrao;
             font-size: 1rem;
           }
           .monetary {
-            @include padrao;
+            // @include padrao;
             font-size: 1rem;
             width: 150px;
           }
@@ -1186,7 +1186,7 @@ body {
       .pre-email {
         .client-email {
           #client-pre-email {
-            color: $baseColor !important;
+            // color: $baseColor !important;
             // &:-webkit-autofill{
             //   background: #F8F8F8;
             //   &:hover{
@@ -1217,7 +1217,7 @@ body {
     padding-top: 25px !important;
     // .row-fluid::before {
     //   content: "Adicione seu cupom:";
-    //   @include padrao;
+      // @include padrao;
     //   font-size: 1rem;
     // }
   }
@@ -1233,9 +1233,9 @@ body {
         z-index: 2;
         right: 20px;
         a {
-          @include padrao;
+          // @include padrao;
           font-size: 0.875rem;
-          color: $baseColor !important;
+          // color: $baseColor !important;
           text-decoration: underline;
           text-underline-offset: 4px;
         }
@@ -1263,20 +1263,20 @@ body {
           padding-top: 5px !important;
           .box-client-info-pf {
             label {
-              @include padrao;
+              // @include padrao;
               font-size: 0.875rem;
-              color: $baseColor;
+              // color: $baseColor;
             }
           }
           .email {
-            color: $baseColor;
+            // color: $baseColor;
           }
           .client-profile-summary {
             .name {
-              color: $baseColor;
+              // color: $baseColor;
             }
             .tel {
-              color: $baseColor;
+              // color: $baseColor;
             }
           }
         }
@@ -1284,20 +1284,20 @@ body {
     }
 
     #go-to-shipping {
-      @include bold;
+      // @include bold;
       font-size: 1rem;
-      color: $white;
+      // color: $white;
       width: 100%;
       margin: 4px auto !important;
       padding: 10px 0;
       // text-decoration: underline;
       // text-underline-offset: 4px;
       text-transform: uppercase;
-      background: $sucess;
-      border-color: $sucess;
+      // background: $sucess;
+      // border-color: $sucess;
       &:hover {
-        background-color: $sucessHover;
-        border-color: $sucessHover;
+        // background-color: $sucessHover;
+        // border-color: $sucessHover;
       }
       // @media (min-width: 1008px) {
       //   width: 55%;
@@ -1309,7 +1309,7 @@ body {
     padding-top: 25px !important;
     // .row-fluid::before {
     //   content: "Adicione seu cupom:";
-    //   @include padrao;
+      // @include padrao;
     //   font-size: 1rem;
     // }
   }
@@ -1327,9 +1327,9 @@ body {
       z-index: 2;
       right: 20px;
       a {
-        @include padrao;
+        // @include padrao;
         font-size: 0.875rem;
-        color: $baseColor !important;
+        // color: $baseColor !important;
         text-decoration: underline;
         text-underline-offset: 4px;
       }
@@ -1341,9 +1341,9 @@ body {
   .box-step {
     .ship-postalCode {
       label {
-        @include padrao;
+        // @include padrao;
         font-size: 0.875rem;
-        color: $baseColor !important;
+        // color: $baseColor !important;
       }
       small {
         position: relative;
@@ -1352,7 +1352,7 @@ body {
         height: 35px;
         margin: 0 !important;
         a {
-          color: $baseColor;
+          // color: $baseColor;
           text-decoration: underline;
           text-underline-offset: 4px;
           font-weight: 500;
@@ -1367,12 +1367,12 @@ body {
 
 .box-step {
   .delivery-address-title {
-    color: $baseColor !important;
+    // color: $baseColor !important;
   }
   .vtex-omnishipping-1-x-address {
     label {
-      @include padrao;
-      color: $baseColor !important;
+      // @include padrao;
+      // color: $baseColor !important;
       font-size: 0.875rem;
     }
     .ship-street {
@@ -1388,7 +1388,7 @@ body {
     .vtex-omnishipping-1-x-optionPrice {
       font-size: 0.875rem;
       font-weight: 500;
-      color: $baseColor;
+      // color: $baseColor;
     }
 
     .vtex-omnishipping-1-x-leanShippingText {
@@ -1408,19 +1408,19 @@ body {
     margin-top: 0 !important;
     .box-client-info-pf {
       label {
-        @include padrao;
+        // @include padrao;
         font-size: 0.875rem;
       }
     }
     .email {
-      color: $baseColor;
+      // color: $baseColor;
     }
     .client-profile-summary {
       .name {
-        color: $baseColor;
+        // color: $baseColor;
       }
       .tel {
-        color: $baseColor;
+        // color: $baseColor;
       }
     }
     .box-client-info {
@@ -1433,10 +1433,10 @@ body {
 }
 
 #go-to-payment {
-  @include padrao;
+  // @include padrao;
   font-weight: 500;
   font-size: 1rem;
-  color: $white;
+  // color: $white;
   // border-radius: 100px;
   width: 90%;
   margin: 4px auto !important;
@@ -1444,30 +1444,30 @@ body {
   // text-decoration: underline;
   // text-underline-offset: 4px;
   text-transform: uppercase;
-  background: $buyButton;
-  border-color: $buyButton;
+  // background: $buyButton;
+  // border-color: $buyButton;
   // &:hover {
-  //   // background: $buyButtonHover;
+    // background: $buyButtonHover;
   // }
 }
 
 #btn-go-to-payment {
-  @include padrao;
+  // @include padrao;
   font-weight: 500;
   font-size: 1rem;
-  color: $white;
+  // color: $white;
   width: 100%;
   margin: 4px auto !important;
   padding: 10px 0;
   text-transform: uppercase;
-  background: $sucess;
-  border-color: $sucess;
+  // background: $sucess;
+  // border-color: $sucess;
   @media (min-width: 1008px) {
     width: 55%;
   }
   &:hover {
-    background-color: $sucessHover;
-    border-color: $sucessHover;
+    // background-color: $sucessHover;
+    // border-color: $sucessHover;
   }
 }
 
@@ -1490,17 +1490,17 @@ body {
     padding-top: 25px !important;
     // .row-fluid::before {
     //   content: "Adicione seu cupom:";
-    //   @include padrao;
+      // @include padrao;
     //   font-size: 1rem;
     // }
   }
 
   .client-profile-summary {
     .name-label {
-      color: $neutralGrey !important;
+      // color: $neutralGrey !important;
     }
     .tel-label {
-      color: $neutralGrey !important;
+      // color: $neutralGrey !important;
     }
   }
 }
@@ -1522,20 +1522,20 @@ body {
         margin: 0 auto !important;
         padding: 10px 0;
         text-transform: uppercase;
-        background: $sucess;
-        border-color: $sucess;
+        // background: $sucess;
+        // border-color: $sucess;
         border-radius: 99px !important;
         &:hover {
-          background-color: $sucessHover;
-          border-color: $sucessHover;
+          // background-color: $sucessHover;
+          // border-color: $sucessHover;
         }
         .icon-lock {
           display: none !important;
         }
         span {
-          @include padrao;
+          // @include padrao;
           font-size: 1rem;
-          color: $white;
+          // color: $white;
           text-decoration: none;
           text-transform: uppercase;
           display: block !important;
@@ -1567,9 +1567,9 @@ body {
       display: flex !important;
 
       #cart-choose-products {
-        //@include h1Home;
+        // @include h1Home;
         font-size: 1rem !important;
-        color: $white !important;
+        // color: $white !important;
         // border-radius: 100px !important;
         width: 75% !important;
         margin: 4px auto !important;
@@ -1577,8 +1577,8 @@ body {
         // text-decoration: underline !important;
         // text-underline-offset: 4px !important;
         text-transform: uppercase !important;
-        background: $buyButton !important;
-        border-color: $buyButton !important;
+        // background: $buyButton !important;
+        // border-color: $buyButton !important;
         // &:hover {
         // background-color: $buyButtonHover;
         // }
@@ -1592,7 +1592,7 @@ body {
   }
   .address-list {
     .address-item {
-      background: $bodyBackground !important;
+      // background: $bodyBackground !important;
       border: none !important;
       box-shadow: none !important;
     }
@@ -1602,7 +1602,7 @@ body {
     .vtex-omnishipping-1-x-addressSummaryActive {
       .address-summary {
         background: none !important;
-        background: $white !important;
+        // background: $white !important;
         padding-left: 12px !important;
         @media (min-width: 1008px) {
           align-items: center;
@@ -1618,7 +1618,7 @@ body {
     padding-top: 25px !important;
     // .row-fluid::before {
     //   content: "Adicione seu cupom:";
-    //   @include padrao;
+      // @include padrao;
     //   font-size: 1rem;
     // }
   }
@@ -1626,7 +1626,7 @@ body {
 
 .corporate-info-box {
   label {
-    @include padrao;
+    // @include padrao;
     font-size: 0.75rem;
   }
 }
@@ -1638,7 +1638,7 @@ body {
   .pre-email {
     .client-email {
       #client-pre-email {
-        color: $baseColor !important;
+        // color: $baseColor !important;
         font-size: 0.875rem;
 
         // &:-webkit-autofill:hover{
@@ -1659,7 +1659,7 @@ body {
     .pre-email {
       .client-email {
         #client-pre-email {
-          color: $neutralGrey !important;
+          // color: $neutralGrey !important;
           font-size: 1rem;
 
           // &:-webkit-autofill:hover{
@@ -1682,14 +1682,14 @@ body {
   position: inherit !important;
 }
 .vtex-omnishipping-1-x-shippingSectionTitle {
-  color: $baseColor !important;
+  // color: $baseColor !important;
 }
 
 #is-corporate-client {
   text-decoration: underline;
   text-underline-offset: 4px;
   // &:hover {
-  //   // color: $buyButtonHover;
+    // color: $buyButtonHover;
   // }
 }
 
@@ -1720,7 +1720,7 @@ body {
     }
   }
   .orderform-template-holder #client-profile-data form.client-pre-email.client-pre-email {
-    border: $border;
+    // border: $border;
     // border-radius: 5px !important;
     padding: 15px;
   }
@@ -1894,14 +1894,14 @@ body {
 
   .v-custom-step-email {
     .orderform-active {
-      background: $bodyBackground;
+      // background: $bodyBackground;
     }
     .orderform-template-holder {
       #client-profile-data {
-        background: $bodyBackground;
+        // background: $bodyBackground;
         form.client-pre-email.client-pre-email {
           background: white !important;
-          border: $border;
+          // border: $border;
           // border-radius: 5px !important;
           padding: 20px 20px 70px !important;
           .emailInfo {
@@ -1935,7 +1935,7 @@ body {
           padding-bottom: 15px !important;
           padding-top: 0 !important;
           label {
-            color: $baseColor;
+            // color: $baseColor;
             font-size: 0.875rem !important;
           }
           input {
@@ -1990,7 +1990,7 @@ body {
       flex-wrap: wrap;
       display: flex;
       span {
-        color: $baseColor;
+        // color: $baseColor;
         font-size: 0.875rem;
       }
     }
@@ -2025,7 +2025,7 @@ body {
           padding: 0;
           .payment-group-item-text {
             font-size: 1rem !important;
-            color: $baseColor !important;
+            // color: $baseColor !important;
           }
           &:focus {
             outline: none !important;
@@ -2035,7 +2035,7 @@ body {
           padding: 0;
           .payment-group-item-text {
             font-size: 1rem !important;
-            color: $baseColor !important;
+            // color: $baseColor !important;
           }
           &:focus {
             outline: none !important;
@@ -2045,7 +2045,7 @@ body {
           padding: 0;
           .payment-group-item-text {
             font-size: 1rem !important;
-            color: $baseColor !important;
+            // color: $baseColor !important;
           }
           &:focus {
             outline: none !important;
@@ -2071,7 +2071,7 @@ body {
           background-color: white;
           #app-container div div div div div {
             label {
-              color: $baseColor;
+              // color: $baseColor;
             }
             input {
               width: 99%;
@@ -2085,10 +2085,10 @@ body {
     }
     .CardForm {
       .FormFieldLabel {
-        color: $baseColor;
+        // color: $baseColor;
       }
       .input-mini {
-        color: $neutralLight;
+        // color: $neutralLight;
       }
     }
   }
@@ -2119,7 +2119,7 @@ body {
         padding: 0.8rem !important;
         margin: 19px 0 0 0 !important;
         // border-radius: 5px !important;
-        border: $border;
+        // border: $border;
         background-color: white !important;
         .accordion-toggle {
           font-size: 1.25rem;
@@ -2169,7 +2169,7 @@ body {
       // top: 25px !important;
       // border: 1px solid $PstButton !important;
       // &:hover {
-      //   // background-color: $PstButtonHover;
+        // background-color: $PstButtonHover;
       // }
     }
     .ship-postalCode {
@@ -2213,7 +2213,7 @@ body {
   .orderform-template-holder #shipping-data .shipping-container .shipping-summary-placeholder {
     #open-shipping {
       // &:hover {
-      //   // background: $buyButtonHover;
+        // background: $buyButtonHover;
       // }
     }
   }
@@ -2266,11 +2266,11 @@ body {
 .orderform-template-holder #payment-data p.payment-discounts-options {
   padding: 15px 10px;
   flex-wrap: wrap;
-  border: $border;
+  // border: $border;
   label {
     width: 100%;
     margin-bottom: 10px;
-    color: $baseColor !important;
+    // color: $baseColor !important;
   }
   input#payment-discounts-code {
     width: calc(100% - 100px) !important;
@@ -2278,16 +2278,16 @@ body {
     border-radius: 0;
   }
   button#btn-add-gift-card {
-    background: $buyButton;
+    // background: $buyButton;
     color: white;
     border-radius: 0;
     width: 99px;
-    border-color: $buyButton;
+    // border-color: $buyButton;
     font-weight: 600;
     text-transform: uppercase;
     // &:hover {
-    //   // background: $buyButtonHover;
-    //   // border-color: $buyButtonHover;
+      // background: $buyButtonHover;
+      // border-color: $buyButtonHover;
     // }
   }
 }
@@ -2295,7 +2295,7 @@ body {
 .cart-select-gift-placeholder {
   margin: 0 !important;
   .icon-check-sign {
-    color: $otherColor2 !important;
+    // color: $otherColor2 !important;
   }
   .available-gift {
     margin: 20px 16px;
@@ -2354,7 +2354,7 @@ span.error {
 .vtex-omnishipping-1-x-deliveryChannelsWrapper {
   margin: 20px 0 !important;
   .vtex-omnishipping-1-x-deliveryOptionActive {
-    background-color: $otherColor3 !important;
+    // background-color: $otherColor3 !important;
     .shp-method-option-text {
       color: white !important;
       font-weight: 500;
@@ -2364,7 +2364,7 @@ span.error {
   .vtex-omnishipping-1-x-deliveryOptionInactive {
     background-color: white !important;
     .shp-method-option-text {
-      color: $otherColor3 !important;
+      // color: $otherColor3 !important;
       font-weight: 500;
       font-size: 1rem;
     }
@@ -2385,10 +2385,10 @@ span.error {
 }
 .srp-toggle__delivery {
   background-color: white !important;
-  color: $otherColor3 !important;
+  // color: $otherColor3 !important;
   font-weight: 500;
   font-size: 1rem;
-  border: 1px solid $otherColor3;
+  // border: 1px solid $otherColor3;
   font-size: 0;
   align-items: center;
   display: flex;
@@ -2401,24 +2401,24 @@ span.error {
   }
 
   &.blue {
-    background-color: $otherColor3 !important;
+    // background-color: $otherColor3 !important;
     color: white !important;
     font-weight: 500;
     font-size: 0;
 
-    border: 1px solid $otherColor3;
+    // border: 1px solid $otherColor3;
   }
 }
 .srp-toggle__pickup {
   background-color: white !important;
-  color: $otherColor3 !important;
+  // color: $otherColor3 !important;
   font-weight: 500;
   font-size: 0;
   align-items: center;
   display: flex;
   justify-content: center;
 
-  border: 1px solid $otherColor3;
+  // border: 1px solid $otherColor3;
   font-size: 0;
 
   &::before {
@@ -2427,18 +2427,18 @@ span.error {
     text-transform: capitalize;
   }
   &.blue {
-    background-color: $otherColor3 !important;
+    // background-color: $otherColor3 !important;
     color: white !important;
     font-weight: 500;
     font-size: 0;
-    border: 1px solid $otherColor3;
+    // border: 1px solid $otherColor3;
   }
 }
 #find-pickup-link {
   background-color: transparent !important;
   border-color: transparent !important;
   span {
-    color: $baseColor;
+    // color: $baseColor;
     text-decoration: underline;
     text-transform: capitalize;
     font-weight: 500;
@@ -2461,7 +2461,7 @@ span.error {
 .box-client-info-pj {
   padding-top: 0 !important;
   label {
-    color: $baseColor !important;
+    // color: $baseColor !important;
     font-size: 0.875rem;
   }
 }
@@ -2504,7 +2504,7 @@ span.error {
 }
 .srp-icon-radio-selected {
   path {
-    fill: $otherColor3;
+    // fill: $otherColor3;
   }
 }
 
@@ -2520,12 +2520,12 @@ span.error {
 }
 .vtex-omnishipping-1-x-buttonEditAddress {
   &:hover {
-    color: $otherColor3Hover;
+    // color: $otherColor3Hover;
   }
 }
 .vtex-omnishipping-1-x-buttonCreateAddress {
   &:hover {
-    color: $otherColor3Hover;
+    // color: $otherColor3Hover;
   }
 }
 .item-unit-label {
@@ -2537,7 +2537,7 @@ span.error {
 .summary-template-holder span.link-choose-more-products-wrapper {
   display: flex !important;
   #cart-choose-more-products {
-    @include btn1;
+    // @include btn1;
     margin: 4px auto !important;
     max-height: 43px;
     height: 45px;
@@ -2548,7 +2548,7 @@ span.error {
 
     // font-size: 1rem;
     font-weight: 500;
-    color: $baseColor;
+    // color: $baseColor;
     text-decoration: none;
     text-transform: uppercase;
 
@@ -2558,7 +2558,7 @@ span.error {
 
     // }
     &:visited {
-      color: $baseColor;
+      // color: $baseColor;
       text-decoration: none;
     }
     @media screen and (min-width: 768px) and (max-height: 1180px) {
