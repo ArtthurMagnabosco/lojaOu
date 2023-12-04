@@ -1,1 +1,6 @@
-{}
+{
+  "csstag": {
+    "component": "CssAdd",
+    "composition": "children"
+  }
+}

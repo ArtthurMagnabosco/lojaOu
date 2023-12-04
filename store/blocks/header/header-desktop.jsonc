@@ -1,7 +1,7 @@
 {
   "header-layout.desktop": {
-    "title": "Header Desktop"
-    // "children": ["header-row#desk", "csstag"]
+    "title": "Header Desktop",
+    "children": ["header-row#desk", "csstag"]
   },
   "header-row#desk": {
     "title": "Conteúdo",

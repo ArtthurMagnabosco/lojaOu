@@ -1,7 +1,7 @@
 {
   "header-layout.mobile": {
-    "title": "Header Mobile"
-    // "children": ["header-row#mob", "csstag"]
+    "title": "Header Mobile",
+    "children": ["header-row#mob", "csstag"]
   },
 
   "header-row#mob": {
@@ -40,7 +40,7 @@
   "image#menuTemporario": {
     "title": "Imagem menu",
     "props": {
-      "src": "",
+      "src": "assets/png/menu-hamburguer.png",
       "maxWidth": "24px",
       "maxHeight": "24px",
       "blockClass": "menuMob"
@@ -53,7 +53,7 @@
       //"mobileWidth": 130,
       // "mobileHeight": 18,
       "href": "/",
-      "url": ""
+      "url": "assets/png/logo-header.png"
     }
   },
 

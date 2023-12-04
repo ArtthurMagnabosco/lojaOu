@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'SofiaProBold';
+  /* src: url('assets/fonts/BaskervilleMTStd-Regular.otf'); */
+}
+
+@font-face {
+  font-family: 'SofiaProLight';
+  /* src: url('assets/fonts/BaskervilleMTStd-SemiBd.otf'); */
+}
+
+@font-face {
+  font-family: 'SofiaProRegular-Italic';
+  /* src: url('assets/fonts/URBANIST-VARIABLEFONT_WGHT.TTF'); */
+}
+
+@font-face {
+  font-family: 'SofiaProRegular';
+  /* src: url('assets/fonts/URBANIST-ITALIC-VARIABLEFONT_WGHT.TTF'); */
+}
