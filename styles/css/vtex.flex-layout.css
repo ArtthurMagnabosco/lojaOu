@@ -1,5 +1,28 @@
-.flexRowContent--header-container-mob {
-  display: flex;
-  flex-direction: row;
-  background-color: black;
+.flexRow--header-container-mob {
+  width: calc(100% + 40px) !important;
+  margin-inline: -20px;
   width: 100%; }
+  @media (min-width: 1008px) {
+    .flexRow--header-container-mob {
+      width: calc(100% + 4.4vw) !important;
+      margin-inline: -2.2vw; } }
+  .flexRow--header-container-mob .flexRowContent--header-container-mob {
+    display: flex;
+    height: 3.25rem;
+    padding: 1rem 1.25rem;
+    align-items: center;
+    background-color: black; }
+    .flexRow--header-container-mob .flexRowContent--header-container-mob .flexRowContent--header-mob-menu-logo {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+    .flexRow--header-container-mob .flexRowContent--header-container-mob .stretchChildrenWidth {
+      width: unset !important; }
+    .flexRow--header-container-mob .flexRowContent--header-container-mob .flexRowContent--header-mob-icons {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      width: 100%; }
+      .flexRow--header-container-mob .flexRowContent--header-container-mob .flexRowContent--header-mob-icons :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 20px; }

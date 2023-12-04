@@ -16,20 +16,25 @@
   },
   "flex-layout.row#header-container-mob": {
     "children": [
-      "flex-layout.row#header-mob-menu",
-      "flex-layout.row#header-mob-logo",
+      "flex-layout.row#header-mob-menu-logo",
       "flex-layout.row#header-mob-icons"
     ],
     "props": {
       "blockClass": "header-container-mob"
     }
   },
+  "flex-layout.row#header-mob-menu-logo":{
+    "children":["flex-layout.col#header-mob-menu",
+    "flex-layout.col#header-mob-logo"],
+    "props":{
+      "blockClass":"header-mob-menu-logo"
+    }
+  },
 
-  "flex-layout.row#header-mob-menu": {
-    // "children": ["MenuMobile"],
-    "children": ["image#menu"],
-    "props": {
-      "blockClass": "mob-menu-search-container"
+  "flex-layout.col#header-mob-menu":{
+    "children":["image#menu"],
+    "props":{
+      "blockClass":"header-mob-menu"
     }
   },
 
@@ -39,33 +44,18 @@
     }
   },
 
-  // "autocomplete-result-list.v2": {
-  //   "title": "Autocomplete da busca",
-  //   "blocks": ["product-summary"],
-  //   "props": {
-  //     "maxTopSearches": 3,
-  //     "maxHistory": 3,
-  //     "maxSuggestedProducts": 2,
-  //     "maxSuggestedTerms": 3,
-  //     "autocompleteWidth": "100vw",
-  //     "productLayout": "HORIZONTAL",
-  //     "simulationBehavior": "skip"
-  //   }
-  // },
-
-  "flex-layout.row#header-mob-logo": {
-    "title": "Logo",
-    "children": ["logo"],
-    "props": {
-      "blockClass": "header-mob-logo"
-    }
+  "flex-layout.col#header-mob-logo":{
+    "children":["logo"],
+    "props":{"blockClass":"header-mob-logo"}
   },
 
   "logo": {
     "title": "Logo",
     "props": {
       "href": "/",
-      "url": "assets/svg/logo-ou-white.svg"
+      "url": "assets/svg/logo-ou-white.svg",
+      "maxWidth": 56,
+      "maxHeight": 24
     }
   },
 
@@ -78,10 +68,25 @@
   },
   "image#login": {
     "props": {
-      "src": "assets/svg/icon-person.svg"
+      "src": "assets/svg/icon-person.svg",
+      "maxWidth": 20,
+      "maxHeight": 20
     }
   }
 }
+ // "autocomplete-result-list.v2": {
+  //   "title": "Autocomplete da busca",
+  //   "blocks": ["product-summary"],
+  //   "props": {
+  //     "maxTopSearches": 3,
+  //     "maxHistory": 3,
+  //     "maxSuggestedProducts": 2,
+  //     "maxSuggestedTerms": 3,
+  //     "autocompleteWidth": "100vw",
+  //     "productLayout": "HORIZONTAL",
+  //     "simulationBehavior": "skip"
+  //   }
+  // },
 
 // "SearchInput": {
 //   "props": {
