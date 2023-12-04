@@ -1,7 +1,7 @@
 {
   "header-layout.mobile": {
     "title": "Header Mobile",
-     "children": ["header-row#mob"] //"csstag"
+    "children": ["header-row#mob", "csstag"]
   },
 
   "header-row#mob": {
@@ -26,20 +26,18 @@
   },
 
   "flex-layout.row#header-mob-menu": {
-   // "children": ["MenuMobile"],
-   "children":["image#menu"],
+    // "children": ["MenuMobile"],
+    "children": ["image#menu"],
     "props": {
       "blockClass": "mob-menu-search-container"
     }
   },
 
-  "image#menu":{
-    "props":{
-      "src":"assets/svg/icon-menu-white.svg"
+  "image#menu": {
+    "props": {
+      "src": "assets/svg/icon-menu-white.svg"
     }
   },
-
-  
 
   // "autocomplete-result-list.v2": {
   //   "title": "Autocomplete da busca",
@@ -65,7 +63,7 @@
 
   "logo": {
     "title": "Logo",
-    "props": { 
+    "props": {
       "href": "/",
       "url": "assets/svg/logo-ou-white.svg"
     }
@@ -73,27 +71,23 @@
 
   "flex-layout.row#header-mob-icons": {
     "title": "Icones - Login e minicart",
-    "children": ["image#login","minicart.v2"],
+    "children": ["image#login", "minicart.v2"],
     "props": {
       "blockClass": "header-mob-icons"
     }
   },
-  "image#login":{
-    "props":{
-      "src":"assets/svg/icon-person.svg"
+  "image#login": {
+    "props": {
+      "src": "assets/svg/icon-person.svg"
     }
-    
   }
 }
 
-
-
-  
-  // "SearchInput": {
-  //   "props": {
-  //     "SearchBar": "search-bar"
-  //   }
-  // },
+// "SearchInput": {
+//   "props": {
+//     "SearchBar": "search-bar"
+//   }
+// },
 
 //   "search-bar": {
 //     "title": "Busca",
@@ -118,7 +112,6 @@
 //     "blocks": ["autocomplete-result-list.v2"]
 //   }
 // }
-
 
 //   "flex-layout.col#header-container-mob": {
 //     "children": [
