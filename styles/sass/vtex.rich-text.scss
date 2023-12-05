@@ -1,1 +1,35 @@
-@import "./../padroes/padroes.scss";
+@import './../padroes/padroes.scss';
+
+.heading--home-products-title {
+  @include textFormat;
+  font-weight: $weight4;
+  font-size: $fontSize6;
+
+  color: $color--brand--primary;
+}
+
+.paragraph--home-products-text {
+  @include textFormat;
+  font-weight: $weight2;
+  font-size: $fontSize2;
+
+  color: $color--brand--primary;
+}
+
+.heading--slider-category-title {
+  @include textFormat;
+  font-weight: $weight4;
+  font-size: $fontSize6;
+
+  color: $color--brand--primary;
+
+  margin-bottom: 0.5rem;
+}
+
+.paragraph--slider-category-text {
+  @include textFormat;
+  font-weight: $weight2;
+  font-size: $fontSize2;
+
+  color: $color--brand--primary;
+}

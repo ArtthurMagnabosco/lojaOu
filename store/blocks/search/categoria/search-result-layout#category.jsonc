@@ -1,1 +1,13 @@
-{}
+{
+  "search-result-layout#category": {
+    "title": "Categoria",
+    "blocks": [
+      // "search-result-layout.desktop#category",
+      "search-result-layout.mobile#category",
+      "search-not-found-layout"
+    ],
+    "props": {
+      "skusFilter": "ALL"
+    }
+  }
+}

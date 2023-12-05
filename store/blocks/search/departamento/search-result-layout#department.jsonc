@@ -1,1 +1,14 @@
-{}
+{
+    "search-result-layout#departament": {
+      "title": "Departamento",
+      "blocks": [
+        // "search-result-layout.desktop#departament",
+        "search-result-layout.mobile#departament",
+        "search-not-found-layout"
+      ],
+      "props": {
+        "skusFilter": "ALL"
+      }
+    }
+  }
+  

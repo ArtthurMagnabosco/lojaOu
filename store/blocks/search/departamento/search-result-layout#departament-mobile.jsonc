@@ -1,1 +1,38 @@
-{}
+{
+  "search-result-layout.mobile#departament": {
+    "title": "Departamento Mobile",
+    "children": ["flex-layout.row#result-department"],
+    "props": {
+      "preventRouteChange": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "hiddenFacets": {
+        "brands": true,
+        "categories": true,
+        "priceRange": false
+      }
+    }
+  },
+
+  "flex-layout.row#result-department": {
+    "title": "Página Departamento Mobile",
+    "children": ["flex-layout.col#result-department"]
+  },
+
+  "flex-layout.col#result-department": {
+    "children": [
+      //flex com banner bread e title top
+      //text
+      //slider categoria
+      //filtro + qtd produtos
+      //menos busca mais
+      //dots vtex
+      //banner text
+    ],
+    "props": {
+      "blockClass": "departamentContainer"
+    }
+  }
+}

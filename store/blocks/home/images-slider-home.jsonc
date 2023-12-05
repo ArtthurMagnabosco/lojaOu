@@ -1,1 +1,48 @@
-{}
+{
+  "list-context.image-list#slide-categorias": {
+    "title": "Carrosel de Categorias",
+    "children": ["slider-layout#slide-show-one-and-half"],
+    "props": {
+      "height": 650,
+      "images": [
+        {
+          "mobileImage": "assets/png/image-category-1.png"
+          // "image": "assets/desktop/home/banners-home/banner-principal-1.png"
+        },
+
+        {
+          "mobileImage": "assets/png/image-category-2.png"
+          // "image": "assets/desktop/home/banners-home/banner-principal-2.png"
+        },
+
+        {
+          "mobileImage": "assets/png/image-category-3.png"
+          // "image": "assets/desktop/home/banners-home/banner-principal-3.png"
+        },
+
+        {
+          "mobileImage": "assets/png/image-category-4.png"
+          // "image": "assets/desktop/home/banners-home/banner-principal-3.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#slide-show-one-and-half": {
+    "title": "Slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 10,
+        "tablet": 2,
+        "phone": 1.5
+      },
+      "infinite": false,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "usePagination": false,
+      "navigationStep": "page",
+      "fullWidth": true,
+      "arrowSize": 20,
+      "blockClass": "slidercat"
+    }
+  }
+}

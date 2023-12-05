@@ -1,1 +1,29 @@
-{}
+{
+  "list-context.product-list#slider-products": {
+    "title": "Carrossel de Produtos",
+    "blocks": ["product-summary.shelf#products"],
+    "children": ["slider-layout#products"],
+    "props": {
+      "hideUnavailableItems": false,
+      "skusFilter": "ALL"
+    }
+  },
+
+  "slider-layout#products": {
+    "title": "Slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1.5
+      },
+      "infinite": false,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always",
+      "usePagination": false,
+      "navigationStep": "page",
+      "fullWidth": true,
+      "blockClass": "productSlider"
+    }
+  }
+}
