@@ -36,7 +36,7 @@
   },
 
   "list-context.wishlist": {
-    "blocks": ["product-summary.shelf"],
+    "blocks": ["product-summary.shelf", "wishlist-empty-list"],
     "children": ["slider-layout#wishlist"],
     "props": {
         "showViewEmptyList": true
@@ -55,6 +55,16 @@
         "infinite": false,
         "fullWidth": true,
         "blockClass": "wishlist-shelf"
+    }
+  },
+
+  "wishlist-empty-list": {
+    "children": ["rich-text#empty-description"]
+  },
+
+  "rich-text#empty-description": {
+    "props": {
+      "text": "### Ops! Você ainda não favoritou nenhum produto."
     }
   }
 }
