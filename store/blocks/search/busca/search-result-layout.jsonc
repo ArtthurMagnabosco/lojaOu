@@ -1,1 +1,13 @@
-{}
+{
+  "search-result-layout#search": {
+    "title": "Busca",
+    "blocks": [
+      // "search-result-layout.desktop#search",
+      "search-result-layout.mobile#search",
+      "search-not-found-layout"
+    ],
+    "props": {
+      "skusFilter": "ALL"
+    }
+  }
+}

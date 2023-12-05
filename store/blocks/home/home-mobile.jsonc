@@ -18,13 +18,13 @@
   "flex-layout.col#home-container-mobile": {
     "title": "Container Home",
     "children": [
-      //componente categoria??
-      "flex-layout.col#home-container-products-1"
-      //slider ambiente
+      //componente categoria
+      "flex-layout.col#home-container-products-1",
+      "flex-layout.col#container-carrossel-categoria",
       //componente explore mais
-      //   "flex-layout.col#home-container-products-2",
+      "flex-layout.col#home-container-products-2",
       //componente mosaico
-      //   "flex-layout.col#home-container-products-3",
+      "flex-layout.col#home-container-products-3"
       //trust vox
     ],
     "props": {
@@ -32,17 +32,27 @@
     }
   },
 
-  //bloco produto começo
+  //bloco produto começo 1
   "flex-layout.col#home-container-products-1": {
-    "title": "Bloco de Carrossel 1",
+    "title": "Container de Carrossel 1",
     "children": [
-      //componente categoria???
+      "toggle-layout#slider-categoria",
       "rich-text#home-products-1-title1",
       "rich-text#home-products-1-text1"
       // "list-context.product-list#slider-products"
     ],
     "props": {
       "blockClass": "home-conatiner-products"
+    }
+  },
+
+  "toggle-layout#slider-categoria": {
+    "title": "Container Toggle Slider Categoria",
+    "children": [
+      //Slider categoria component
+    ],
+    "props": {
+      "blockClass": "toggle-slider-categoria"
     }
   },
 
@@ -60,6 +70,97 @@
       "text": "Conheça os produtos que estão fazendo sucesso na casa dos nossos clientes",
       "blockClass": "home-products-text"
     }
+  },
+  //bloco produto fim 1
+
+  "flex-layout.col#container-carrossel-categoria": {
+    "title": "Container carrossel de categorias",
+    "children": [
+      "rich-text#slider-category-title",
+      "rich-text#slider-category-text",
+      "list-context.image-list#slide-categorias"
+    ],
+    "props": {
+      "blockClass": "container-slider"
+    }
+  },
+
+  "rich-text#slider-category-title": {
+    "title": "Título",
+    "props": {
+      "text": "## Ambiente",
+      "blockClass": "slider-category-title"
+    }
+  },
+
+  "rich-text#slider-category-text": {
+    "title": "Texto",
+    "props": {
+      "text": "Conheça os produtos selecionados para cada ambiente",
+      "blockClass": "slider-category-text"
+    }
+  },
+
+  //bloco produto começo 2
+  "flex-layout.col#home-container-products-2": {
+    "title": "Container de Carrossel 2",
+    "children": [
+      "toggle-layout#slider-categoria",
+      "rich-text#home-products-2-title2",
+      "rich-text#home-products-2-text2"
+      // "list-context.product-list#slider-products"
+    ],
+    "props": {
+      "blockClass": "home-conatiner-products"
+    }
+  },
+
+  "rich-text#home-products-2-title2": {
+    "title": "Título",
+    "props": {
+      "text": "## Compartilhe momentos",
+      "blockClass": "home-products-title"
+    }
+  },
+
+  "rich-text#home-products-2-text2": {
+    "title": "Texto",
+    "props": {
+      "text": "Cada café da manhã é especial se estiver em boa companhia",
+      "blockClass": "home-products-text"
+    }
+  },
+
+  //bloco produto fim 2
+
+  //bloco produto começo 3
+  "flex-layout.col#home-container-products-3": {
+    "title": "Container de Carrossel 3",
+    "children": [
+      "toggle-layout#slider-categoria",
+      "rich-text#home-products-3-title3",
+      "rich-text#home-products-3-text3"
+      // "list-context.product-list#slider-products"
+    ],
+    "props": {
+      "blockClass": "home-conatiner-products"
+    }
+  },
+
+  "rich-text#home-products-3-title3": {
+    "title": "Título",
+    "props": {
+      "text": "## Mais vendidos",
+      "blockClass": "home-products-title"
+    }
+  },
+
+  "rich-text#home-products-3-text3": {
+    "title": "Texto",
+    "props": {
+      "text": "Conheça os produtos que estão fazendo sucesso na casa dos nossos clientes",
+      "blockClass": "home-products-text"
+    }
   }
-  //bloco produto fim
+  //bloco produto fim 3
 }

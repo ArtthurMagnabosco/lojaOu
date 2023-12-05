@@ -1,1 +1,34 @@
-{}
+{
+  "search-result-layout.mobile#search": {
+    "title": "Busca Mobile",
+    "children": ["flex-layout.row#result-search"],
+    "props": {
+      "preventRouteChange": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "hiddenFacets": {
+        "brands": true,
+        "categories": true,
+        "priceRange": false
+      }
+    }
+  },
+
+  "flex-layout.row#result-search": {
+    "title": "Página Busca Mobile",
+    "children": ["flex-layout.col#result-search"]
+  },
+
+  "flex-layout.col#result-search": {
+    "children": [
+      //bread + termo pesquisado - top
+      //filtro...
+      //menos busca mais e dots
+    ],
+    "props": {
+      "blockClass": ["departament-container-master", "search-page-master"]
+    }
+  }
+}

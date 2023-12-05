@@ -1,1 +1,193 @@
-{}
+{
+  "product-summary.shelf#products": {
+    "title": "Card de produto",
+    "children": ["flex-layout.row#card"]
+  },
+
+  "flex-layout.row#card": {
+    "children": ["flex-layout.col#card"],
+    "props": {
+      "blockClass": "productCard"
+    }
+  },
+
+  "flex-layout.col#card": {
+    "children": ["flex-layout.col#cardImage", "flex-layout.col#cardInfo"],
+    "props": {
+      "blockClass": "productCard"
+    }
+  },
+
+  "flex-layout.col#cardImage": {
+    "title": "Imagem do produto e tag",
+    "children": ["product-summary-image", "flex-layout.row#collectionTag"],
+    "props": {
+      // "preventHorizontalStretch": true,
+      "blockClass": "cardImageTag"
+    }
+  },
+
+  "flex-layout.row#collectionTag": {
+    "title": "Tag de coleção",
+    "children": ["vtex.product-highlights@2.x:product-highlights"],
+    "props": {
+      "blockClass": "product-tag-container"
+      // "preventHorizontalStretch": true
+    }
+  },
+
+  "product-summary-image": {
+    "title": "Imagem",
+    "props": {
+      "blockClass": "card-image-element",
+      "showBadge": true,
+      "badgeText": "",
+      "showCollections": "",
+      "displayMode": "normal",
+      "placeholder": "",
+      "mainImageLabel": {
+        "label": "",
+        "labelMatchCriteria": "exact"
+      },
+      "hoverImage": {
+        "criteria": "index",
+        "index": "1"
+      }
+    }
+  },
+
+  "flex-layout.col#cardInfo": {
+    "title": "Informações do produto",
+    "children": [
+      "condition-layout.product#priceORunavailableText",
+      //   "product-rating-inline",
+      "product-summary-name"
+    ],
+    "props": {
+      // "preventHorizontalStretch": true,
+      "blockClass": "cardInfo"
+    }
+  },
+
+  "product-summary-name": {
+    "title": "Nome",
+    "props": {
+      "showFieldsProps": {
+        "showSku": false,
+        "showProductReference": false,
+        "showBrandName": false
+      },
+      "tag": "h3"
+    }
+  },
+
+  "condition-layout.product#priceORunavailableText": {
+    "title": "",
+    "props": {
+      "conditions": [
+        {
+          "subject": "isProductAvailable",
+          "verb": "is",
+          "object": "isProductAvailable"
+        }
+      ],
+      "Then": "flex-layout.col#cardPriceContainer",
+      "Else": "flex-layout.row#produtoIndisponivel"
+    }
+  },
+
+  "flex-layout.row#produtoIndisponivel": {
+    "title": "Indisponível",
+    "props": {
+      "blockClass": "containerIndisponivel"
+    },
+    "children": ["rich-text#text-produto-indisponivel"]
+  },
+
+  "rich-text#text-produto-indisponivel": {
+    "title": "Texto",
+    "props": {
+      "text": "Indisponível",
+      "blockClass": "prod-indisponivel"
+    }
+  },
+
+  "add-to-cart-button#card": {
+    "props": {
+      "text": "",
+      "unavailableText": "Indisponível"
+    }
+  },
+
+  "flex-layout.col#cardPriceContainer": {
+    "title": "",
+    "children": [
+      "flex-layout.row#sellingAndListPrice",
+      "flex-layout.row#cardInstallmentsContainer"
+      // "product-installments#card"
+    ],
+    "props": {
+      "blockClass": "cardPriceContainer"
+    }
+  },
+
+  "flex-layout.row#sellingAndListPrice": {
+    "title": "",
+    "children": [
+      "product-list-price",
+      "product-selling-price#card"
+      // "product-spot-price"
+    ],
+    "props": {
+      "blockClass": "sellingAndListPrice"
+    }
+  },
+
+  "product-spot-price": {
+    "props": {
+      "message": "{spotPriceValue} no PIX"
+    }
+  },
+
+  "product-selling-price#card": {
+    "props": {
+      "markers": ["highlight"],
+      "blockClass": "summary",
+      "message": "{sellingPriceValue}"
+    }
+  },
+
+  "flex-layout.row#cardInstallmentsContainer": {
+    "title": "",
+    "children": [
+      "product-selling-price#cardInstallmentsContainer",
+      "product-installments#card"
+    ],
+    "props": {
+      "blockClass": "cardInstallmentsContainer"
+    }
+  },
+
+  "product-selling-price#cardInstallmentsContainer": {
+    "props": {
+      "markers": ["highlight"],
+      "blockClass": "summary",
+      "message": "ou {sellingPriceValue}"
+    }
+  },
+
+  "product-installments#card": {
+    "props": {
+      "message": "em {installmentsNumber}x de {installmentValue}"
+    }
+  },
+
+  "vtex.product-highlights@2.x:product-highlights": {
+    "children": ["product-highlight-text"]
+  },
+  "product-highlight-text": {
+    "props": {
+      "message": "{highlightName}"
+    }
+  }
+}

@@ -1,2 +1,40 @@
-@import "./../padroes/padroes.scss";
+@import './../padroes/padroes.scss';
 
+.sliderLayoutContainer--slidercat {
+  margin-top: 1.5rem;
+}
+
+.sliderTrackContainer--slidercat {
+  @include fullWidth;
+  padding-left: 20px;
+  .sliderTrack--slidercat {
+    gap: 1rem;
+  }
+}
+
+.imageElementLink--slidercat {
+  position: relative;
+
+  &::after {
+    position: absolute;
+    z-index: 2;
+    bottom: 9.6%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    content: attr(title);
+
+    @include textFormat;
+    font-family: $fontFamily;
+    font-weight: $fontSize2;
+    font-size: $fontSize3;
+
+    color: $color--brand--primary;
+
+    display: flex;
+
+    padding: 0.75rem 1.5rem;
+
+    background: $color--brand--secondary;
+  }
+}
