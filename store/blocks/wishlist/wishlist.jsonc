@@ -1,1 +1,19 @@
-{}
+{
+  "my-account-link.wishlist-link": {
+    "props": {
+      "label": "Favoritos"
+    }
+  },
+  "my-account-page.wishlist-page": {
+    "props": {
+      "title": "Wishlist"
+    },
+    "children": ["list-context.wishlist"]
+  },
+  "store.wishlist": {
+    "children": [
+    //   "responsive-layout.desktop#wishlist",
+      "responsive-layout.mobile#wishlist"
+    ]
+  }
+}
