@@ -29,7 +29,7 @@
     "children":[
      // "SliderHeader",
       "flex-layout.row#header-main-mob",
-      "search-bar"
+      "flex-layout.row#header-search"
 ]
   },
   "flex-layout.row#header-main-mob":{
@@ -40,8 +40,7 @@
       "blockClass":"header-main-mob"
     }
   },
-
-  
+ 
   "flex-layout.row#header-mob-menu":{
     "children":["image#menu"],
     "props":{
@@ -89,28 +88,33 @@
     }
   },
 
-  "search-bar": {
+  "flex-layout.row#header-search": {
+    "title": "",
+    "children": [
+      // componente search
+      "search-bar"
+    ],
+    "props": {
+      "blockClass": "header-search"
+    }
+  },
+
+ "search-bar": {
     "title": "Busca",
     "props": {
       "autocompleteFullWidth": true,
+      "attemptPageTypeSearch": true,
       "autoFocus": true,
       "blurOnSubmit": false,
       "autocompleteAlignment": "left",
       "compactMode": false,
-      "displayMode": "search-and-clear-buttons",
+      "displayMode": "search-button",
       "maxWidth": "100vw",
       "openAutocompleteOnFocus": true,
-      "placeholder": "Digite sua busca",
+      "placeholder": "O que você está procurando?",
       "inputType": "search",
-      "containerMode": "overlay",
-      "productLayout": "HORIZONTAL",
-      "maxTopSearches": 3,
-      "maxHistory": 3,
-      "maxSuggestedProducts": 3,
-      "maxSuggestedTerms": 3,
-      "search-button":"search-button"
+      "containerMode": "overlay"
     },
-
     "blocks": ["autocomplete-result-list.v2"]
   },
 
@@ -124,7 +128,8 @@
       "maxSuggestedTerms": 3,
       "autocompleteWidth": "100vw",
       "productLayout": "HORIZONTAL",
-      "simulationBehavior": "skip"
+      "simulationBehavior": "skip",
+      "isOpen": true
     }
   }
 }

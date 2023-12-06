@@ -8,13 +8,8 @@
   margin-bottom: 3rem; }
 
 .flexRow--header-container-mob {
-  width: calc(100% + 40px) !important;
-  margin-inline: -20px;
+  width: 100%;
   background-color: black; }
-  @media (min-width: 1008px) {
-    .flexRow--header-container-mob {
-      width: calc(100% + 4.4vw) !important;
-      margin-inline: -2.2vw; } }
 
 .flexRowContent--header-main-mob {
   display: flex;

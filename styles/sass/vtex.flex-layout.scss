@@ -14,11 +14,12 @@
 
 
 .flexRow--header-container-mob{
-  @include fullWidth;
+  width: 100%;
   background-color: black;
 }
 
 .flexRowContent--header-main-mob{
+  
   display: flex;
   flex-direction: row;
   align-items: center;

@@ -1,6 +1,13 @@
 @import "./../padroes/padroes.scss";
 
-// .openIconContainer{
-//     padding: unset !important;
-//     background-image: url("assests/svg/mini-cart-white");
-// }
+.vtex-minicart-2-x-openIconContainer{
+    padding: 1px !important;
+}
+
+.vtex-flex-layout-0-x-stretchChildrenWidth{
+    padding: 1px !important;
+
+    .vtex-button__label flex items-center justify-center h-100 ph4 {
+
+    }
+}
