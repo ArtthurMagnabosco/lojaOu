@@ -9,3 +9,30 @@
 
 li {
   list-style: none; }
+
+.vtex-flex-layout-0-x-flexRowContent--quantity-selector-container .items-stretch .vtex-product-list-0-x-quantitySelector .vtex-product-list-0-x-quantitySelectorWrapper .vtex-product-list-0-x-quantitySelectorDecrease svg {
+  display: none; }
+
+.vtex-flex-layout-0-x-flexRowContent--quantity-selector-container .items-stretch .vtex-product-list-0-x-quantitySelector .vtex-product-list-0-x-quantitySelectorWrapper .vtex-product-list-0-x-quantitySelectorDecrease::after {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='2' viewBox='0 0 6 2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.152 0.76H5.608V1.768H0.152V0.76Z' fill='%233E3E3D'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  position: relative;
+  top: 0.45rem;
+  left: 0.5rem; }
+
+.vtex-flex-layout-0-x-flexRowContent--quantity-selector-container .items-stretch .vtex-product-list-0-x-quantitySelector .vtex-product-list-0-x-quantitySelectorWrapper .vtex-product-list-0-x-quantitySelectorIncrease svg {
+  display: none; }
+
+.vtex-flex-layout-0-x-flexRowContent--quantity-selector-container .items-stretch .vtex-product-list-0-x-quantitySelector .vtex-product-list-0-x-quantitySelectorWrapper .vtex-product-list-0-x-quantitySelectorIncrease::after {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg width='7' height='8' viewBox='0 0 7 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M3.164 3.28V0.528H4.172V3.28H6.94V4.288H4.172V7.056H3.164V4.288H0.412V3.28H3.164Z' fill='%233E3E3D'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  position: relative;
+  top: 0.3rem; }
