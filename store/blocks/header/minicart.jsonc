@@ -2,11 +2,11 @@
 {
     "minicart.v2": {
       "props": {
-        "MinicartIcon": "icon-cart#minicart-icon"
+        "MinicartIcon": "icon-cart#minicart-icone"
       },
       "children": ["minicart-base-content"]
     },
-    "icon-cart#minicart-icon": {
+    "icon-cart#minicart-icone": {
       "props": {
         "size": 24,
         "src": "assets/svg/mini-cart-white.svg"

@@ -1,12 +1,5 @@
 @import './../padroes/padroes.scss';
 
-.flexRowContent--header-container-mob {
-  display: flex;
-  flex-direction: row;
-  background-color: black;
-  width: 100%;
-}
-
 .flexCol--home-conatiner-products {
   margin-block: 3rem 1.5rem;
 
@@ -18,38 +11,49 @@
 .flexCol--container-slider {
   margin-bottom: 3rem;
 }
-.flexRow--header-container-mob {
-  @include fullWidth;
-  width: 100%;
-  .flexRowContent--header-container-mob {
-    display: flex;
-    height: 3.25rem;
-    padding: 1rem 1.25rem;
-    align-items: center;
-    background-color: rgb(0, 0, 0);
 
-    .flexRowContent--header-mob-menu-logo {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
+
+.flexRow--header-container-mob{
+  @include fullWidth;
+  background-color: black;
+}
+
+.flexRowContent--header-main-mob{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px; 
+}
+.flexRowContent--header-mob-menu{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+
+    .stretchChildrenWidth{
+     width: unset !important;
+    }
+}
+
+    .flexRowContent--header-mob-logo{
+      width: 4rem;
+      display: flex;     
       align-items: center;
     }
-    .stretchChildrenWidth {
-      width: unset !important;
-    }
+
+    
+    // .stretchChildrenWidth {
+    //   width: unset !important;
+    // }
 
     .flexRowContent--header-mob-icons {
+      
       display: flex;
       align-items: center;
       justify-content: flex-end;
-      width: 100%;
-
-      :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-        width: 20px;
-      }
+  
     }
-  }
-}
+  
 
 .flexColChild--container-dep-top {
   @include fullWidth;

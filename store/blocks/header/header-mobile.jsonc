@@ -6,7 +6,8 @@
 
   "header-row#mob": {
     "title": "Conteúdo",
-    "children": ["flex-layout.row#header-container-mob"],
+    "children": [
+    "flex-layout.row#header-container-mob"],
     "props": {
       "zIndex": 5,
       "sticky": true,
@@ -14,39 +15,52 @@
       "inverted": false
     }
   },
+  
   "flex-layout.row#header-container-mob": {
     "children": [
-      "flex-layout.row#header-mob-menu-logo",
-      "flex-layout.row#header-mob-icons"
+      "flex-layout.col#header-container-mob-col"
     ],
     "props": {
       "blockClass": "header-container-mob"
     }
   },
-  "flex-layout.row#header-mob-menu-logo":{
-    "children":["flex-layout.col#header-mob-menu",
-    "flex-layout.col#header-mob-logo"],
+
+  "flex-layout.col#header-container-mob-col":{
+    "children":[
+     // "SliderHeader",
+      "flex-layout.row#header-main-mob",
+      "search-bar"
+]
+  },
+  "flex-layout.row#header-main-mob":{
+    "children":["flex-layout.row#header-mob-menu",
+    "flex-layout.row#header-mob-logo",
+    "flex-layout.row#header-mob-icons"],
     "props":{
-      "blockClass":"header-mob-menu-logo"
+      "blockClass":"header-main-mob"
     }
   },
 
-  "flex-layout.col#header-mob-menu":{
+  
+  "flex-layout.row#header-mob-menu":{
     "children":["image#menu"],
     "props":{
       "blockClass":"header-mob-menu"
     }
   },
 
-  "image#menu": {
-    "props": {
-      "src": "assets/svg/icon-menu-white.svg"
+  "flex-layout.row#header-mob-logo":{
+    "children":["logo"],
+    "props":{
+      "blockClass":"header-mob-logo"
     }
   },
 
-  "flex-layout.col#header-mob-logo":{
-    "children":["logo"],
-    "props":{"blockClass":"header-mob-logo"}
+  "image#menu": {
+    "props": {
+      "src": "assets/svg/icon-menu-white.svg",
+      "blockClass":"image-menu-header"
+    }
   },
 
   "logo": {
@@ -55,7 +69,8 @@
       "href": "/",
       "url": "assets/svg/logo-ou-white.svg",
       "maxWidth": 56,
-      "maxHeight": 24
+      "maxHeight": 24,
+      "blockClass":"logo-header"
     }
   },
 
@@ -72,118 +87,44 @@
       "maxWidth": 20,
       "maxHeight": 20
     }
+  },
+
+  "search-bar": {
+    "title": "Busca",
+    "props": {
+      "autocompleteFullWidth": true,
+      "autoFocus": true,
+      "blurOnSubmit": false,
+      "autocompleteAlignment": "left",
+      "compactMode": false,
+      "displayMode": "search-and-clear-buttons",
+      "maxWidth": "100vw",
+      "openAutocompleteOnFocus": true,
+      "placeholder": "Digite sua busca",
+      "inputType": "search",
+      "containerMode": "overlay",
+      "productLayout": "HORIZONTAL",
+      "maxTopSearches": 3,
+      "maxHistory": 3,
+      "maxSuggestedProducts": 3,
+      "maxSuggestedTerms": 3,
+      "search-button":"search-button"
+    },
+
+    "blocks": ["autocomplete-result-list.v2"]
+  },
+
+  "autocomplete-result-list.v2": {
+    "title": "Autocomplete da busca",
+    "blocks": ["product-summary"],
+    "props": {
+      "maxTopSearches": 3,
+      "maxHistory": 3,
+      "maxSuggestedProducts": 2,
+      "maxSuggestedTerms": 3,
+      "autocompleteWidth": "100vw",
+      "productLayout": "HORIZONTAL",
+      "simulationBehavior": "skip"
+    }
   }
 }
- // "autocomplete-result-list.v2": {
-  //   "title": "Autocomplete da busca",
-  //   "blocks": ["product-summary"],
-  //   "props": {
-  //     "maxTopSearches": 3,
-  //     "maxHistory": 3,
-  //     "maxSuggestedProducts": 2,
-  //     "maxSuggestedTerms": 3,
-  //     "autocompleteWidth": "100vw",
-  //     "productLayout": "HORIZONTAL",
-  //     "simulationBehavior": "skip"
-  //   }
-  // },
-
-// "SearchInput": {
-//   "props": {
-//     "SearchBar": "search-bar"
-//   }
-// },
-
-//   "search-bar": {
-//     "title": "Busca",
-//     "props": {
-//       "autocompleteFullWidth": true,
-//       "autoFocus": true,
-//       "blurOnSubmit": false,
-//       "autocompleteAlignment": "left",
-//       "compactMode": false,
-//       "displayMode": "search-and-clear-buttons",
-//       "maxWidth": "100vw",
-//       "openAutocompleteOnFocus": true,
-//       "placeholder": "Digite sua busca",
-//       "inputType": "search",
-//       "containerMode": "overlay",
-//       "productLayout": "HORIZONTAL"
-//       // "maxTopSearches": 3,
-//       // "maxHistory": 3,
-//       // "maxSuggestedProducts": 3,
-//       // "maxSuggestedTerms": 3
-//     },
-//     "blocks": ["autocomplete-result-list.v2"]
-//   }
-// }
-
-//   "flex-layout.col#header-container-mob": {
-//     "children": [
-//       //slickslide tarja
-//       "flex-layout.row#header-main-mobile",
-//       "search-bar"
-//     ],
-//     "props": {
-//       "blockClass": "header-container-mob"
-//     }
-//   },
-
-//   "flex-layout.row#header-main-mobile": {
-//     "children": [
-//       "image#menuTemporario",
-//       "logo",
-//       "flex-layout.row#header-icons-mobile"
-//     ],
-//     "props": {
-//       "blockClass": "header-main-mobile"
-//     }
-//   },
-
-//   "image#menuTemporario": {
-//     "title": "Imagem menu",
-//     "props": {
-//       "src": "assets/png/slider-header.png",
-//       "maxWidth": "24px",
-//       "maxHeight": "24px",
-//       "blockClass": "menuMob"
-//     }
-//   },
-
-//   "logo": {
-//     "title": "Logo",
-//     "props": {
-//       //"mobileWidth": 130,
-//       // "mobileHeight": 18,
-//       "src":"assets/svg/logo-preto.svg",
-//       "href": "/",
-//       "url": ""
-//     }
-//   },
-
-//   "flex-layout.row#header-icons-mobile": {
-//     "children": [
-//       "image#loginMob",
-//        "minicart.v2"
-//     ],
-//     "props": {
-//       "blockClass": "header-icons-mobile"
-//     }
-//   },
-
-//   "image#loginMob": {
-//     "title": "Imagem login",
-//     "props": {
-//       "src": "",
-//       "link": {
-//         "url": "/account",
-//         "newTab": false,
-//         "attributeNofollow": true
-//       },
-//       "alt": "login",
-//       "maxWidth": "24px",
-//       "maxHeight": "24px",
-//       "blockClass": "loginMob"
-//     }
-//   }
-//}

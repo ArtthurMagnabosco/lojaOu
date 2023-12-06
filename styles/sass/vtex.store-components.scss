@@ -21,3 +21,16 @@
   width: 100%;
   height: auto;
 }
+
+.searchBarContainer{
+
+    display: flex;
+    height: 60px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  
+}
+

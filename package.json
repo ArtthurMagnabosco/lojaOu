@@ -37,6 +37,7 @@
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
     "node-sass": "^9.0.0",
+    "react-slick": "^0.29.0",
     "vtex": "^4.0.4"
   }
 }
