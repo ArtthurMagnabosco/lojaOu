@@ -23,13 +23,12 @@
 
   "flex-layout.col#result-category": {
     "children": [
-      //flex com banner bread e title top
-      //text
-      //slider categoria
-      //filtro + qtd produtos
-      //menos busca mais
-      //dots vtex
-      //banner text
+      "flex-layout.col#container-dep-top",
+      "flex-layout.col#departamentText",
+      // "flex-layout.col#container-slider-categorias",????
+      "flex-layout.col#container-filtro-quantidade",
+      "flex-layout.col#search",
+      "flex-layout.col#container-dep-bottom"
     ],
     "props": {
       "blockClass": "departamentContainer"

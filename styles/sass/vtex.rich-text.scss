@@ -1,24 +1,21 @@
 @import './../padroes/padroes.scss';
 
 .heading--home-products-title {
-  @include textFormat;
-  font-weight: $weight4;
+  @include font600;
   font-size: $fontSize6;
 
   color: $color--brand--primary;
 }
 
 .paragraph--home-products-text {
-  @include textFormat;
-  font-weight: $weight2;
+  @include font400;
   font-size: $fontSize2;
 
   color: $color--brand--primary;
 }
 
 .heading--slider-category-title {
-  @include textFormat;
-  font-weight: $weight4;
+  @include font600;
   font-size: $fontSize6;
 
   color: $color--brand--primary;
@@ -27,9 +24,50 @@
 }
 
 .paragraph--slider-category-text {
-  @include textFormat;
-  font-weight: $weight2;
+  @include font400;
   font-size: $fontSize2;
 
   color: $color--brand--primary;
+}
+
+.paragraph--topDep {
+  @include font400;
+  font-size: $fontSize2;
+
+  color: $color--brand--primary;
+}
+
+.paragraph--tittle-category {
+  @include font600;
+  font-size: $fontSize3;
+
+  color: $color--brand--primary;
+}
+
+.paragraph--text-bottom-dep {
+  @include font400;
+  font-size: $fontSize1;
+
+  color: $color--brand--primary;
+}
+
+.paragraph--not-found-title {
+  @include font600;
+  font-size: $fontSize3;
+  text-align: center;
+
+  color: $color--brand--primary;
+
+  margin-bottom: 1rem;
+}
+
+.wrapper--not-found-text {
+  width: 100%;
+  .paragraph--not-found-text {
+    @include font400;
+    font-size: $fontSize2;
+    text-align: center;
+
+    color: $color--brand--primary;
+  }
 }

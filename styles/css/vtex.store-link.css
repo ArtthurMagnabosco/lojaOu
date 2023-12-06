@@ -1,0 +1,28 @@
+.link--back-home {
+  text-decoration: none;
+  display: flex;
+  justify-content: center; }
+  .link--back-home .label--back-home {
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0px;
+    font-family: "SofiaPro";
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 0.875rem;
+    text-align: center;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+    background-color: #3e3e3d;
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem; }
+    .link--back-home .label--back-home::after {
+      content: '';
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='M7.99674 0.000387877C7.555 0.00893714 7.11558 0.159469 6.75372 0.45006L0.84439 5.17329C0.344556 5.57288 0.00195312 6.17849 0.00195312 6.85928V14.2861C0.00195312 15.2257 0.776229 16 1.71584 16H5.14361H6.2862C6.2862 14.4765 6.2862 12.9531 6.2862 11.4296C6.2862 11.1033 6.53112 10.8583 6.85749 10.8583H9.14267C9.46905 10.8583 9.71397 11.1033 9.71397 11.4296V16H10.8566H14.2843C15.2239 16 15.9982 15.2257 15.9982 14.2861V6.85928C15.9982 6.18892 15.6798 5.55687 15.1413 5.15766C13.1794 3.57285 11.2167 1.98375 9.25537 0.400964C8.88254 0.124593 8.43847 -0.00816138 7.99674 0.000387877ZM8.01682 1.14075C8.21081 1.13715 8.40616 1.19659 8.5725 1.31928C10.6255 2.97561 12.703 4.65615 14.4606 6.07598C14.7093 6.26028 14.8556 6.54978 14.8556 6.85928V14.2861C14.8556 14.6125 14.6107 14.8574 14.2843 14.8574H10.8566V11.4296C10.8566 10.49 10.0823 9.71575 9.14267 9.71575H6.85749C5.91788 9.71575 5.14361 10.49 5.14361 11.4296V14.8574H1.71584C1.38946 14.8574 1.14454 14.6125 1.14454 14.2861V6.85928C1.14454 6.56093 1.29356 6.27775 1.55851 6.06594C3.52802 4.49028 5.50109 2.917 7.46896 1.34048C7.63019 1.21099 7.82283 1.14435 8.01682 1.14075Z' fill='white'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      width: 16px;
+      height: 16px;
+      display: flex; }

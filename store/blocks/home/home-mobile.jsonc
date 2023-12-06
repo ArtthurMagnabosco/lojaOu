@@ -20,7 +20,7 @@
     "children": [
       //componente categoria
       "flex-layout.col#home-container-products-1",
-      "flex-layout.col#container-carrossel-categoria",
+      "flex-layout.col#container-carrossel-ambientes",
       //componente explore mais
       "flex-layout.col#home-container-products-2",
       //componente mosaico
@@ -34,7 +34,7 @@
 
   //bloco produto começo 1
   "flex-layout.col#home-container-products-1": {
-    "title": "Container de Carrossel 1",
+    "title": "Slider de Categoria Carrossel 1",
     "children": [
       "toggle-layout#slider-categoria",
       "rich-text#home-products-1-title1",
@@ -47,7 +47,7 @@
   },
 
   "toggle-layout#slider-categoria": {
-    "title": "Container Toggle Slider Categoria",
+    "title": "Slider Ambiente",
     "children": [
       //Slider categoria component
     ],
@@ -73,12 +73,12 @@
   },
   //bloco produto fim 1
 
-  "flex-layout.col#container-carrossel-categoria": {
-    "title": "Container carrossel de categorias",
+  "flex-layout.col#container-carrossel-ambientes": {
+    "title": "Carrossel de Ambientes",
     "children": [
       "rich-text#slider-category-title",
       "rich-text#slider-category-text",
-      "list-context.image-list#slide-categorias"
+      "list-context.image-list#slide-ambientes"
     ],
     "props": {
       "blockClass": "container-slider"
@@ -103,7 +103,7 @@
 
   //bloco produto começo 2
   "flex-layout.col#home-container-products-2": {
-    "title": "Container de Carrossel 2",
+    "title": "Slider de Categoria Carrossel 2",
     "children": [
       "toggle-layout#slider-categoria",
       "rich-text#home-products-2-title2",
@@ -135,7 +135,7 @@
 
   //bloco produto começo 3
   "flex-layout.col#home-container-products-3": {
-    "title": "Container de Carrossel 3",
+    "title": "Slider de Categoria Carrossel 3",
     "children": [
       "toggle-layout#slider-categoria",
       "rich-text#home-products-3-title3",

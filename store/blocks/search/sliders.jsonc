@@ -1,33 +1,33 @@
 {
-  "list-context.image-list#slide-ambientes": {
-    "title": "Carrosel de Ambientes",
-    "children": ["slider-layout#slide-show-one-and-half"],
+  "list-context.image-list#slide-categorias": {
+    "title": "Carrosel de Categorias",
+    "children": ["slider-layout#slide-categorias"],
     "props": {
       "height": 650,
       "images": [
         {
-          "mobileImage": "assets/png/image-ambientes-1.png"
+          "mobileImage": "assets/png/image-category-1.png"
           // "image": "assets/desktop/home/banners-home/banner-principal-1.png"
         },
 
         {
-          "mobileImage": "assets/png/image-ambientes-2.png"
+          "mobileImage": "assets/png/image-category-2.png"
           // "image": "assets/desktop/home/banners-home/banner-principal-2.png"
         },
 
         {
-          "mobileImage": "assets/png/image-ambientes-3.png"
+          "mobileImage": "assets/png/image-category-1.png"
           // "image": "assets/desktop/home/banners-home/banner-principal-3.png"
         },
 
         {
-          "mobileImage": "assets/png/image-ambientes-4.png"
+          "mobileImage": "assets/png/image-category-2.png"
           // "image": "assets/desktop/home/banners-home/banner-principal-3.png"
         }
       ]
     }
   },
-  "slider-layout#slide-show-one-and-half": {
+  "slider-layout#slide-categorias": {
     "title": "Slider",
     "props": {
       "itemsPerPage": {
@@ -42,7 +42,7 @@
       "navigationStep": "page",
       "fullWidth": true,
       "arrowSize": 20,
-      "blockClass": "sliderambiente"
+      "blockClass": "slidercat"
     }
   }
 }

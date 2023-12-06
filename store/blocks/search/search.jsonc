@@ -1,1 +1,161 @@
-{}
+{
+  "store.search": {
+    "title": "Busca",
+    "blocks": ["search-result-layout#search"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default",
+        "facetsBehavior": "dynamic",
+        "maxItemsPerPage": 20
+      }
+    }
+  },
+
+  "store.search#department": {
+    "title": "Departamento",
+    "blocks": ["search-result-layout#departament"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default",
+        "facetsBehavior": "dynamic",
+        "maxItemsPerPage": 20
+      }
+    }
+  },
+
+  "store.search#category": {
+    "title": "Categoria",
+    "blocks": ["search-result-layout#category"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default",
+        "facetsBehavior": "dynamic",
+        "maxItemsPerPage": 20
+      }
+    }
+  },
+
+  "flex-layout.col#search": {
+    "title": "Resultado da busca",
+    "children": [
+      "search-fetch-previous",
+      "search-content#mob",
+      "search-fetch-more",
+      "search-products-count-per-page",
+      "search-products-progress-bar"
+    ],
+    "props": {
+      "blockClass": "filterOrderContainer"
+    }
+  },
+
+  "search-content#mob": {
+    "title": "Resultado busca",
+    "blocks": ["gallery#mob", "not-found"],
+    "props": {
+      "blockClass": "",
+      "horizontalAlign": "left"
+    }
+  },
+
+  "gallery#mob": {
+    "title": "Galeria de Produtos",
+    "blocks": ["product-summary.shelf#products"],
+    "props": {
+      "blockClass": "",
+      "layout": {
+        "maxItemsPerRow": {
+          "desktop": 5,
+          "tablet": 1,
+          "phone": 1
+        }
+      }
+    }
+  },
+
+  "filter-navigator.v3": {
+    "title": "Filtro",
+    "blocks": ["sidebar-close-button"],
+    "props": {
+      "initiallyCollapsed": false,
+      "openFiltersMode": "many",
+      "closeOnOutsideClick": true,
+      "truncateFilters": false,
+      "appliedFiltersOverview": "hide",
+      "blockClass": "filter-navigator",
+      "maxItemsDepartment": "10",
+      "maxItemsCategory": "10",
+      "navigationTypeOnMobile": "collapsible",
+      "updateOnFilterSelectionOnMobile": false,
+      "showClearByFilter": false,
+      "fullWidthOnMobile": true,
+      "layout": "phone"
+    }
+  },
+
+  "order-by.v2": {
+    "title": "Ordenação",
+    "props": {
+      "blockClass": "",
+      "showOrderTitle": false
+    }
+  },
+
+  //Não encontrada
+
+  "search-not-found-layout": {
+    "title": "Busca não encontrada",
+    "children": ["flex-layout.row#search-not-found-content"],
+    "props": {
+      "blockClass": "not-found-container"
+    }
+  },
+
+  "flex-layout.row#search-not-found-content": {
+    "title": "Conteúdo não encontrado",
+    "children": [
+      "breadcrumb.search",
+      "search-title.v2",
+      "flex-layout.col#search-not-found-text",
+      "link#btn-home"
+    ],
+    "props": {
+      "blockClass": "not-found-content"
+    }
+  },
+
+  "flex-layout.col#search-not-found-text": {
+    "title": "Textos",
+    "props": {
+      "blockClass": "not-found-text"
+    },
+    "children": ["rich-text#not-found-title", "rich-text#not-found-text"]
+  },
+
+  "rich-text#not-found-title": {
+    "title": "Título busca não encontrada",
+    "props": {
+      "blockClass": "not-found-title",
+      "text": "Infelizmente, não encontramos nenhum resultado para sua busca."
+    }
+  },
+
+  "rich-text#not-found-text": {
+    "title": "Título busca não encontrada",
+    "props": {
+      "blockClass": "not-found-text",
+      "text": "1 - Verifique se há algum erro de digitação <br/>2 - Tente utilizar apenas uma palavra <br/>3 - Utilize sinônimos ou termos mais genéricos"
+    }
+  },
+
+  "link#btn-home": {
+    "props": {
+      "href": "/",
+      "label": "Voltar para a página inicial",
+      "blockClass": "back-home"
+    }
+  }
+}

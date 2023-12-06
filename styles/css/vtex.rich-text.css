@@ -1,36 +1,113 @@
 .heading--home-products-title {
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0px;
   font-family: "SofiaPro";
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-weight: 600;
   font-size: 1.5rem;
   color: #3e3e3d; }
 
 .paragraph--home-products-text {
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0px;
   font-family: "SofiaPro";
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
   font-size: 0.875rem;
   color: #3e3e3d; }
 
 .heading--slider-category-title {
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0px;
   font-family: "SofiaPro";
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-weight: 600;
   font-size: 1.5rem;
   color: #3e3e3d;
   margin-bottom: 0.5rem; }
 
 .paragraph--slider-category-text {
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0px;
   font-family: "SofiaPro";
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
   font-size: 0.875rem;
   color: #3e3e3d; }
+
+.paragraph--topDep {
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0px;
+  font-family: "SofiaPro";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 0.875rem;
+  color: #3e3e3d; }
+
+.paragraph--tittle-category {
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0px;
+  font-family: "SofiaPro";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
+  color: #3e3e3d; }
+
+.paragraph--text-bottom-dep {
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0px;
+  font-family: "SofiaPro";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 0.75rem;
+  color: #3e3e3d; }
+
+.paragraph--not-found-title {
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0px;
+  font-family: "SofiaPro";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
+  text-align: center;
+  color: #3e3e3d;
+  margin-bottom: 1rem; }
+
+.wrapper--not-found-text {
+  width: 100%; }
+  .wrapper--not-found-text .paragraph--not-found-text {
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0px;
+    font-family: "SofiaPro";
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 0.875rem;
+    text-align: center;
+    color: #3e3e3d; }

@@ -1,5 +1,42 @@
 @import './../padroes/padroes.scss';
 
+.sliderLayoutContainer--sliderambiente {
+  margin-top: 1.5rem;
+}
+
+.sliderTrackContainer--sliderambiente {
+  @include fullWidth;
+  padding-left: 20px;
+  .sliderTrack--sliderambiente {
+    gap: 1rem;
+  }
+}
+
+.imageElementLink--sliderambiente {
+  position: relative;
+
+  &::after {
+    position: absolute;
+    z-index: 2;
+    bottom: 9.6%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    content: attr(title);
+
+    @include font400;
+    font-size: $fontSize3;
+
+    color: $color--brand--primary;
+
+    display: flex;
+
+    padding: 0.75rem 1.5rem;
+
+    background: $color--brand--secondary;
+  }
+}
+
 .sliderLayoutContainer--slidercat {
   margin-top: 1.5rem;
 }
@@ -13,28 +50,23 @@
 }
 
 .imageElementLink--slidercat {
-  position: relative;
+  width: 100%;
+  height: 100%;
+
+  text-decoration: none;
 
   &::after {
-    position: absolute;
-    z-index: 2;
-    bottom: 9.6%;
-    left: 50%;
-    transform: translateX(-50%);
-
     content: attr(title);
 
-    @include textFormat;
-    font-family: $fontFamily;
-    font-weight: $fontSize2;
+    @include font400;
     font-size: $fontSize3;
 
     color: $color--brand--primary;
 
     display: flex;
 
-    padding: 0.75rem 1.5rem;
-
     background: $color--brand--secondary;
+
+    width: 60%;
   }
 }

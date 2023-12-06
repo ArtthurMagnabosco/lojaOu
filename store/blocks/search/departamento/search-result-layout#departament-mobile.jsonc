@@ -11,7 +11,8 @@
       "hiddenFacets": {
         "brands": true,
         "categories": true,
-        "priceRange": false
+        "priceRange": false,
+        "color": false
       }
     }
   },
@@ -23,16 +24,133 @@
 
   "flex-layout.col#result-department": {
     "children": [
-      //flex com banner bread e title top
-      //text
-      //slider categoria
-      //filtro + qtd produtos
-      //menos busca mais
-      //dots vtex
-      //banner text
+      "flex-layout.col#container-dep-top",
+      "flex-layout.col#departamentText",
+      "flex-layout.col#container-slider-categorias",
+      "flex-layout.col#container-filtro-quantidade",
+      "flex-layout.col#search",
+      "flex-layout.col#container-dep-bottom"
     ],
     "props": {
       "blockClass": "departamentContainer"
+    }
+  },
+
+  "flex-layout.col#container-dep-top": {
+    "title": "Topo Departamento",
+    "children": ["image#top-departament", "flex-layout.col#departamentInfo"],
+    "props": {
+      "blockClass": "container-dep-top"
+    }
+  },
+
+  "image#top-departament": {
+    "title": "Imagem",
+    "props": {
+      "src": "assets/png/departamento-topo.png",
+      "blockClass": "image-top-departament"
+    }
+  },
+
+  "flex-layout.col#departamentInfo": {
+    "title": "",
+    "children": ["breadcrumb.search", "search-title.v2"],
+    "props": {
+      "blockClass": "departamentTopInfo"
+    }
+  },
+
+  "breadcrumb.search": {
+    "props": {
+      "showOnMobile": true
+    }
+  },
+
+  "flex-layout.col#departamentText": {
+    "title": "Texto topo",
+    "children": ["rich-text#topDep"],
+    "props": {
+      "blockClass": "departamentTopTextContainer"
+    }
+  },
+
+  "rich-text#topDep": {
+    "title": "Texto",
+    "props": {
+      "text": "Não há nada melhor que uma casa organizada e com as coisas no lugar, não é mesmo? Pensando nisso, aqui estão todos os produtos OU que vão ajudar você a botar tudo em ordem e manter a paz interior do seu lar. Lorem ipsum dolor sit",
+      "blockClass": "topDep"
+    }
+  },
+
+  "flex-layout.col#container-slider-categorias": {
+    "title": "Slider Categorias",
+    "children": [
+      "rich-text#tittle-category",
+      "list-context.image-list#slide-categorias"
+    ],
+    "props": {
+      "blockClass": "container-slider-categorias"
+    }
+  },
+
+  "rich-text#tittle-category": {
+    "title": "Título",
+    "props": {
+      "text": "Categorias",
+      "blockClass": "tittle-category"
+    }
+  },
+
+  "flex-layout.col#container-filtro-quantidade": {
+    "title": "Filtro e quantidade",
+    "children": [
+      "flex-layout.row#filterOrder",
+      "search-products-count-per-page"
+    ],
+    "props": {
+      "blockClass": "container-filtro-quantidade"
+    }
+  },
+
+  "flex-layout.row#filterOrder": {
+    "title": "",
+    "children": ["filter-navigator.v3", "order-by.v2"],
+    "props": {
+      "blockClass": "filterOrderInner"
+    }
+  },
+
+  "flex-layout.col#container-dep-bottom": {
+    "title": "Fim Departamento",
+    "children": [
+      "flex-layout.col#image-dep-bottom",
+      "rich-text#text-bottom-departamento"
+    ],
+    "props": {
+      "blockClass": "container-dep-bottom"
+    }
+  },
+
+  "flex-layout.col#image-dep-bottom": {
+    "children": ["image#bottom-departament"],
+    "props": {
+      "blockClass": "image-dep-bottom"
+    }
+  },
+
+  "image#bottom-departament": {
+    "title": "Imagem",
+    "props": {
+      "src": "assets/png/departamento-fim.png",
+      "blockClass": "image-bottom-departament"
+    }
+  },
+
+  "rich-text#text-bottom-departamento": {
+    "title": "Texto",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla posuere sollicitudin aliquam ultrices sagittis. Eget duis at tellus at urna condimentum mattis pellentesque. A lacus vestibulum sed arcu non. Feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Sagittis orci a scelerisque purus semper eget duis at tellus. Vitae aliquet nec ullamcorper sit. Cursus turpis massa tincidunt dui ut ornare. Pellentesque sit amet porttitor eget dolor morbi non arcu. Vel quam elementum pulvinar etiam non quam lacus suspendisse faucibus. Placerat duis ultricies lacus sed turpis. Nunc faucibus a pellentesque sit. Ac placerat vestibulum lectus mauris ultrices eros in. Ac tortor vitae purus faucibus ornare suspendisse sed nisi.",
+      "blockClass": "text-bottom-dep"
     }
   }
 }

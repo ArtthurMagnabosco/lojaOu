@@ -50,3 +50,39 @@
     }
   }
 }
+
+.flexColChild--container-dep-top {
+  @include fullWidth;
+}
+
+.flexColChild--departamentTopTextContainer {
+  margin-block: 1.75rem 2rem;
+}
+
+.flexCol--container-slider-categorias {
+  margin-bottom: 2rem;
+
+  :global(.vtex-slider-layout-0-x-sliderLayoutContainer--slidercat) {
+    margin-top: 1rem !important;
+  }
+}
+
+.flexCol--container-dep-bottom {
+  margin-top: 2rem;
+}
+
+.flexColChild--image-dep-bottom {
+  @include fullWidth;
+
+  margin-bottom: 1rem;
+}
+
+.flexRowContent--not-found-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexCol--not-found-text {
+  margin-block: 2rem;
+}

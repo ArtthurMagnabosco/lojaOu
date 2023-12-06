@@ -23,12 +23,19 @@
 
   "flex-layout.col#result-search": {
     "children": [
-      //bread + termo pesquisado - top
-      //filtro...
-      //menos busca mais e dots
+      "flex-layout.col#bread-search",
+      "flex-layout.col#container-filtro-quantidade",
+      "flex-layout.col#search"
     ],
     "props": {
-      "blockClass": ["departament-container-master", "search-page-master"]
+      "blockClass": "search-page-master"
+    }
+  },
+
+  "flex-layout.col#bread-search": {
+    "children": ["breadcrumb.search", "search-title.v2"],
+    "props": {
+      "blockClass": ["search-top"]
     }
   }
 }

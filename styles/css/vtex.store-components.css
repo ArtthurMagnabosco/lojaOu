@@ -5,3 +5,11 @@
       max-width: unset !important; } }
   .container .container {
     padding: 0 !important; }
+
+.imageElement--image-top-departament {
+  width: 100%;
+  height: auto; }
+
+.imageElement--image-bottom-departament {
+  width: 100%;
+  height: auto; }
