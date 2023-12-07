@@ -62,8 +62,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.5rem;
-    border-radius: 0; }
+    gap: 0.5rem; }
     .minicartCheckoutButton :global(.vtex-button) :global(.vtex-button__label) {
       display: none; }
     .minicartCheckoutButton :global(.vtex-button)::before {
