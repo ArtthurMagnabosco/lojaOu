@@ -17,7 +17,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 20px; }
+  padding: 16px 0px; }
 
 .flexRowContent--header-mob-menu {
   justify-content: flex-start;
@@ -35,6 +35,12 @@
   display: flex;
   align-items: center;
   justify-content: flex-end; }
+
+:global(.vtex-flex-layout-0-x-flexRow--header-mob-icons) :global(.vtex-flex-layout-0-x-flexRowContent--header-mob-icons) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: unset !important; }
+
+:global(.vtex-flex-layout-0-x-flexRow--header-mob-icons) :global(.vtex-flex-layout-0-x-flexRowContent--header-mob-icons) :global(.vtex-minicart-2-x-minicartWrapperContainer--minicart) :global(.vtex-minicart-2-x-openIconContainer) {
+  padding: 0; }
 
 .flexColChild--container-dep-top {
   width: calc(100% + 40px) !important;
