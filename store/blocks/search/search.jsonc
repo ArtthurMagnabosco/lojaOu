@@ -43,9 +43,9 @@
     "children": [
       "search-fetch-previous",
       "search-content#mob",
-      "search-fetch-more",
       "search-products-count-per-page",
-      "search-products-progress-bar"
+      "search-products-progress-bar",
+      "search-fetch-more"
     ],
     "props": {
       "blockClass": "filterOrderContainer"
@@ -92,7 +92,8 @@
       "updateOnFilterSelectionOnMobile": false,
       "showClearByFilter": false,
       "fullWidthOnMobile": true,
-      "layout": "phone"
+      "layout": "phone",
+      "showQuantityBadgeOnMobile": true
     }
   },
 
@@ -100,7 +101,7 @@
     "title": "Ordenação",
     "props": {
       "blockClass": "",
-      "showOrderTitle": false
+      "showOrderTitle": true
     }
   },
 

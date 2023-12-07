@@ -1,6 +1,5 @@
 $fontFamily: 'SofiaPro';
 
-
 $fontSize1: 0.75rem;
 $fontSize2: 0.875rem;
 $fontSize3: 1rem;
@@ -21,14 +20,11 @@ $color--gray-100: #ebebeb;
 $color--gray-200: #c8c8c8;
 $color--gray-300: #838383;
 
-
 $color--brand--primary: #3e3e3d;
 $color--brand--secondary: #ffffff;
 $color--brand--sustentability: #a4a792;
 $color--brand--confort: #e5ddd2;
 $color--brand--inovation: #bdcfdb;
-
-
 
 $border--50: 1px solid $color--gray-50;
 $border--100: 1px solid $color--gray-100;
@@ -40,13 +36,11 @@ $border-radius-md: 0.5rem;
 $border-radius-lg: 1rem;
 $border-radius-circle: 50%;
 
-
 @mixin btn1 {
   background-color: $color--brand--primary;
   border: none;
-  border-radius: none;
+  border-radius: 0;
 }
-
 
 $margin: 20px;
 //$marginDesk: ;

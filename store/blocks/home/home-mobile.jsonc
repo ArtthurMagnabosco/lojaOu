@@ -38,8 +38,8 @@
     "children": [
       "toggle-layout#slider-categoria",
       "rich-text#home-products-1-title1",
-      "rich-text#home-products-1-text1"
-      // "list-context.product-list#slider-products"
+      "rich-text#home-products-1-text1",
+      "list-context.product-list#slider-products"
     ],
     "props": {
       "blockClass": "home-conatiner-products"
@@ -107,8 +107,8 @@
     "children": [
       "toggle-layout#slider-categoria",
       "rich-text#home-products-2-title2",
-      "rich-text#home-products-2-text2"
-      // "list-context.product-list#slider-products"
+      "rich-text#home-products-2-text2",
+      "list-context.product-list#slider-products"
     ],
     "props": {
       "blockClass": "home-conatiner-products"
@@ -139,8 +139,8 @@
     "children": [
       "toggle-layout#slider-categoria",
       "rich-text#home-products-3-title3",
-      "rich-text#home-products-3-text3"
-      // "list-context.product-list#slider-products"
+      "rich-text#home-products-3-text3",
+      "list-context.product-list#slider-products"
     ],
     "props": {
       "blockClass": "home-conatiner-products"

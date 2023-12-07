@@ -1,2 +1,9 @@
-@import "./../padroes/padroes.scss";
+@import './../padroes/padroes.scss';
 
+.containerNormal {
+  .clearLink {
+    .element {
+      padding: 0 !important;
+    }
+  }
+}

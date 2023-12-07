@@ -1,0 +1,129 @@
+.gallery {
+  gap: 1rem;
+  padding: 0 !important;
+  margin: 2rem 0 2rem 0 !important;
+  width: 100% !important;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px; }
+  .gallery .galleryItem--small {
+    padding: 0 !important;
+    max-width: unset !important; }
+
+.progressBarContainer .progressBar {
+  margin-block: 0 1rem !important;
+  height: 0.25rem;
+  background-color: #ebebeb; }
+  .progressBarContainer .progressBar .progressBarFiller {
+    height: 0.25rem;
+    border-radius: 0;
+    background-color: #838383; }
+
+.buttonShowMore--layout .buttonShowMore :global(.vtex-button) {
+  background-color: #3e3e3d;
+  border: none;
+  border-radius: 0;
+  padding: 0.94rem 1.5rem; }
+  .buttonShowMore--layout .buttonShowMore :global(.vtex-button) :global(.vtex-button__label) {
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0px;
+    font-family: "SofiaPro";
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 1rem;
+    color: #ffffff;
+    padding: 0 !important; }
+
+.filters {
+  width: 6rem; }
+
+.filtersWrapperMobile--filter-navigator {
+  background-color: #3e3e3d;
+  border: none;
+  border-radius: 0; }
+  .filtersWrapperMobile--filter-navigator .filterPopupButton {
+    height: unset;
+    padding: 1rem 1.5rem; }
+    .filtersWrapperMobile--filter-navigator .filterPopupButton .filterPopupTitle--filter-navigator {
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0px;
+      font-family: "SofiaPro";
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-size: 0.875rem;
+      color: #ffffff;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 0.5rem; }
+      .filtersWrapperMobile--filter-navigator .filterPopupButton .filterPopupTitle--filter-navigator::after {
+        content: '';
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 0.799996C0 0.505447 0.238784 0.266663 0.533333 0.266663H11.2C11.4945 0.266663 11.7333 0.505447 11.7333 0.799996C11.7333 1.09455 11.4945 1.33333 11.2 1.33333H0.533333C0.238784 1.33333 0 1.09455 0 0.799996ZM2.13333 4C2.13333 3.70545 2.37212 3.46666 2.66667 3.46666H9.06667C9.36117 3.46666 9.6 3.70545 9.6 4C9.6 4.29455 9.36117 4.53333 9.06667 4.53333H2.66667C2.37212 4.53333 2.13333 4.29455 2.13333 4ZM4.26667 7.2C4.26667 6.90549 4.50545 6.66666 4.8 6.66666H6.93333C7.22788 6.66666 7.46667 6.90549 7.46667 7.2C7.46667 7.4945 7.22788 7.73333 6.93333 7.73333H4.8C4.50545 7.73333 4.26667 7.4945 4.26667 7.2Z' fill='white'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        width: 12px;
+        height: 8px;
+        display: flex; }
+    .filtersWrapperMobile--filter-navigator .filterPopupButton .filterPopupArrowIcon {
+      display: none; }
+
+.orderBy--layout .orderByDropdown {
+  padding: 0 !important;
+  width: 13rem; }
+  .orderBy--layout .orderByDropdown .orderByButton {
+    border: 1px solid #ebebeb;
+    border-radius: 0;
+    padding: 1rem 1.5rem;
+    background-color: #f9f9f9;
+    justify-content: center;
+    gap: 0.25rem; }
+    .orderBy--layout .orderByDropdown .orderByButton .filterPopupTitle {
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0px;
+      font-family: "SofiaPro";
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-size: 0.875rem;
+      color: #3e3e3d;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      white-space: nowrap; }
+      .orderBy--layout .orderByDropdown .orderByButton .filterPopupTitle::before {
+        content: 'Ordernar: ';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0px;
+        font-family: "SofiaPro";
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 0.875rem;
+        color: #3e3e3d;
+        display: flex;
+        padding-right: 0.25rem; }
+      .orderBy--layout .orderByDropdown .orderByButton .filterPopupTitle .orderByText {
+        display: none; }
+    .orderBy--layout .orderByDropdown .orderByButton .filterPopupArrowIcon {
+      display: flex;
+      align-items: center;
+      padding: 0 !important; }
+      .orderBy--layout .orderByDropdown .orderByButton .filterPopupArrowIcon::after {
+        content: '';
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='10' viewBox='0 0 11 10' fill='none'%3E%3Cpath d='M2.36109 0.664751C2.57588 0.445083 2.92412 0.445083 3.13891 0.664751L5.33891 2.91475C5.55369 3.13442 5.55369 3.49058 5.33891 3.71025C5.12414 3.9299 4.77588 3.9299 4.5611 3.71025L3.3 2.42049V8.9375C3.3 9.24817 3.05376 9.5 2.75 9.5C2.44625 9.5 2.2 9.24817 2.2 8.9375V2.42049L0.938912 3.71025C0.72412 3.9299 0.375881 3.9299 0.16109 3.71025C-0.0536966 3.49058 -0.0536966 3.13442 0.16109 2.91475L2.36109 0.664751ZM7.70001 7.57951V1.0625C7.70001 0.751842 7.94624 0.5 8.25001 0.5C8.55378 0.5 8.80001 0.751842 8.80001 1.0625V7.57951L10.0611 6.28976C10.2759 6.0701 10.6241 6.0701 10.8389 6.28976C11.0537 6.50941 11.0537 6.86559 10.8389 7.08524L8.63892 9.33524C8.53579 9.44071 8.39587 9.5 8.25001 9.5C8.10415 9.5 7.96423 9.44071 7.8611 9.33524L5.6611 7.08524C5.44633 6.86559 5.44633 6.50941 5.6611 6.28976C5.87588 6.0701 6.22414 6.0701 6.43891 6.28976L7.70001 7.57951Z' fill='%233E3E3D'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        width: 11px;
+        height: 10px;
+        display: flex; }
+      .orderBy--layout .orderByDropdown .orderByButton .filterPopupArrowIcon .caretIcon {
+        display: none; }

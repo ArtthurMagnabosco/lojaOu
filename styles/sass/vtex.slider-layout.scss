@@ -7,6 +7,8 @@
 .sliderTrackContainer--sliderambiente {
   @include fullWidth;
   padding-left: 20px;
+
+  overflow-y: hidden !important;
   .sliderTrack--sliderambiente {
     gap: 1rem;
   }
@@ -44,6 +46,8 @@
 .sliderTrackContainer--slidercat {
   @include fullWidth;
   padding-left: 20px;
+
+  overflow-y: hidden !important;
   .sliderTrack--slidercat {
     gap: 1rem;
   }
@@ -68,5 +72,13 @@
     background: $color--brand--secondary;
 
     width: 60%;
+  }
+}
+
+.sliderTrackContainer--productSlider {
+  @include fullWidth;
+
+  :global(.vtex-product-summary-2-x-element) {
+    padding-block: 0 !important;
   }
 }

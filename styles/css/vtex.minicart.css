@@ -57,7 +57,7 @@
   .minicartCheckoutButton :global(.vtex-button) {
     background-color: #3e3e3d;
     border: none;
-    border-radius: none;
+    border-radius: 0;
     padding: 1.25rem;
     display: flex;
     justify-content: center;
