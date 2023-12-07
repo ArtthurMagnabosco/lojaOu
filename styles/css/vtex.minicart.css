@@ -9,7 +9,8 @@
   -moz-osx-font-smoothing: grayscale;
   color: #3e3e3d;
   font-size: 1.25rem;
-  padding: 0.75rem 1.25rem; }
+  padding: 0.75rem 1.25rem;
+  margin: 0; }
 
 .closeIcon {
   display: none; }
@@ -24,7 +25,7 @@
 .closeIconContainer {
   position: absolute;
   right: 0.5rem;
-  top: 1.25rem; }
+  top: 1.5rem; }
 
 .closeIconButton::after {
   content: "";

@@ -85,6 +85,8 @@
 .flexCol--not-found-text {
   margin-block: 2rem;
 }
+
+//Minicart
 .flexRowContent--product-wrapper-minicart {
   background-color: $color--gray-50;
   margin-bottom: 0.5rem;
@@ -124,6 +126,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    font-family: $fontFamily;
   }
 
   :global(.vtex-product-list-0-x-quantitySelectorButton) {
@@ -174,13 +178,14 @@
   position: fixed;
   bottom: 0;
   background-color: $color--brand--secondary;
+  
+  .flexCol--minicart-footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
 
-.flexCol--minicart-footer-container {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
 
 .flexColChild--departamentTopInfo {
   :global(.vtex-breadcrumb-1-x-container) {
