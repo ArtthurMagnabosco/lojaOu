@@ -1,3 +1,3 @@
-import  {SliderHeader}  from "./components/SliderHeader";
+import  SliderHeader  from "./components/SliderHeader";
 
 export default SliderHeader;

@@ -17,6 +17,7 @@
   },
   
   "flex-layout.row#header-container-mob": {
+    "title":"Section1",
     "children": [
       "flex-layout.col#header-container-mob-col"
     ],
@@ -27,7 +28,7 @@
 
   "flex-layout.col#header-container-mob-col":{
     "children":[
-     // "SliderHeader",
+      //"SliderHeader",
       "flex-layout.row#header-main-mob",
       "flex-layout.row#header-search"
 ]
@@ -42,6 +43,7 @@
   },
  
   "flex-layout.row#header-mob-menu":{
+    "title":"Menu",
     "children":["image#menu"],
     "props":{
       "blockClass":"header-mob-menu"
@@ -49,6 +51,7 @@
   },
 
   "flex-layout.row#header-mob-logo":{
+    "title":"Logo",
     "children":["logo"],
     "props":{
       "blockClass":"header-mob-logo"
@@ -57,7 +60,7 @@
 
   "image#menu": {
     "props": {
-      "src": "assets/svg/icon-menu-white.svg",
+      "src": "assets/svg/icon-menu-black.svg",
       "blockClass":"image-menu-header"
     }
   },
@@ -66,7 +69,7 @@
     "title": "Logo",
     "props": {
       "href": "/",
-      "url": "assets/svg/logo-ou-white.svg",
+      "url": "assets/svg/logo-ou-black.svg",
       "maxWidth": 56,
       "maxHeight": 24,
       "blockClass":"logo-header"
@@ -82,14 +85,14 @@
   },
   "image#login": {
     "props": {
-      "src": "assets/svg/icon-person.svg",
+      "src": "assets/svg/icon-person-black.svg",
       "maxWidth": 20,
       "maxHeight": 20
     }
   },
 
   "flex-layout.row#header-search": {
-    "title": "",
+    "title": "Barra de pesquisa",
     "children": [
       // componente search
       "search-bar"
