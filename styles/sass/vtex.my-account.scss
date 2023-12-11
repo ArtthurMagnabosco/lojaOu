@@ -418,6 +418,57 @@
     }
 }
 
+//PEDIDOS
+:global(.vtex-my-orders-app-3-x-ordersList) {
+    :global(.vtex-my-orders-app-3-x-orderCard) {
+        margin-top: 0;
+        border: $border--200;
+        border-radius: 0.25rem;
+
+        :global(.vtex-my-orders-app-3-x-orderHeader) {
+            background-color: $color--brand--secondary;
+            border: none;
+
+            :global(.vtex-my-orders-app-3-x-orderHeaderLabel) {
+                margin-bottom: 1.125rem;
+
+                font-size: $fontSize2;
+                color: $color--brand--primary;
+            }
+            :global(.vtex-my-orders-app-3-x-orderHeaderValue) {
+                font-size: $fontSize3;
+                color: $color--brand--primary;
+            }
+            :global(.mt3) {
+                margin-top: 1rem;
+
+                :global(.vtex-my-orders-app-3-x-orderId) {
+                    margin-bottom: 1rem;
+
+                    font-size: $fontSize2;
+                    color: $color--brand--primary;
+                }
+
+                :global(.dib) {
+                    background-color: $color--brand--secondary;
+                    border: 1px solid $color--brand--primary;
+                    padding: 0.875rem 2.35rem;
+                    
+                    :global(.c-on-danger) {
+                        color: $color--brand--primary;
+                        font-size: $fontSize3;
+                    }
+                }
+            }
+        }
+
+        :global(.vtex-my-orders-app-3-x-orderBody) {
+            padding: 0 1rem 1rem;
+            // PAREI AQUI
+        }
+    }
+}
+
 //ADD CARTÃO
 :global(.vtex-account__create-card) {
     padding: 0 1.25rem;
@@ -427,10 +478,150 @@
         border-radius: 0.25rem;
         padding: 1rem 0.9375rem;
     }
+}
 
-    :global(.vtex-input) {
-        :global(.vtex-input__label) {
-            outline: 1px solid red;
+//AUTENTICACAO
+:global(.vtex-account__page-body) {
+    padding: 0 1.25rem 2rem;
+
+    :global(.vtex-my-authentication-1-x-box_container) {
+        border: $border--200;
+        width: 100%;
+        min-height: unset;
+
+        :global(.vtex-my-authentication-1-x-box_content) {
+            padding: 2rem 1rem 1rem;
+
+            :global(.vtex-my-authentication-1-x-maskedPassword_title),
+            :global(.vtex-my-authentication-1-x-maskedPassword_content),
+            :global(.vtex-my-authentication-1-x-loginSessionsBox_title),
+            :global(.vtex-my-authentication-1-x-loginSessionsBox_content),
+            :global(.vtex-my-authentication-1-x-createPassword_text),
+            :global(.c-muted-1) {
+                font-size: $fontSize2;
+                color: $color--brand--primary;
+            }
+            :global(.vtex-my-authentication-1-x-codeInput_container) {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                &::before {
+                    content: "Você ainda não possui uma senha definida.";
+                    font-size: $fontSize2;
+                    color: $color--brand--primary;
+                }
+            }
+        }
+
+        :global(.vtex-my-authentication-1-x-currPassInput_container),
+        :global(.vtex-my-authentication-1-x-newPassInput_container),
+        :global(.vtex-my-authentication-1-x-codeInput_container) {
+            margin-bottom: 1rem;
+            padding: 0;
+
+            :global(.vtex-input__label) {
+                margin-bottom: 0.5625rem;
+                font-size: $fontSize2;
+                color: $color--brand--primary;
+            }
+            :global(.vtex-input-prefix__group) {
+                border: $border--50;
+                padding: 0.8125rem 0 0.945rem;
+                height: 100%;
+            }
+        }
+
+        :global(.vtex-my-authentication-1-x-resendCodeButton_container) {
+            justify-content: center;
+            text-decoration: underline;
+            :global(.vtex-button__label) {
+                color: $color--brand--primary;
+            }
+        }
+
+        :global(.vtex-my-authentication-1-x-passValidation_container) {
+            color: $color--brand--primary;
+
+            :global(.vtex-my-authentication-1-x-passValidation_minLength),
+            :global(.vtex-my-authentication-1-x-passValidation_number),
+            :global(.vtex-my-authentication-1-x-passValidation_lower),
+            :global(.vtex-my-authentication-1-x-passValidation_upper) {
+                :global(.c-danger) {
+                    :global(.vtex__icon-failure) {
+                        display: none;
+                    }
+                    &::before {
+                        content: "";
+
+                        background-image: url("data:image/svg+xml,%3Csvg width='19' height='19' viewBox='0 0 19 19' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.5 0C4.20714 0 0 4.20714 0 9.5C0 14.7929 4.20714 19 9.5 19C14.7929 19 19 14.7929 19 9.5C19 4.20714 14.7929 0 9.5 0ZM13.1643 14.25L9.5 10.5857L5.83571 14.25L4.75 13.1643L8.41428 9.5L4.75 5.83571L5.83571 4.75L9.5 8.41428L13.1643 4.75L14.25 5.83571L10.5857 9.5L14.25 13.1643L13.1643 14.25Z' fill='%23D37070'/%3E%3C/svg%3E%0A");
+
+                        display: flex;
+                        width: 19px;
+                        height: 19px;
+                    }
+                }
+                :global(.c-success) {
+                    :global(.vtex__icon-success) {
+                        display: none;
+                    }
+                    &::before {
+                        content: "";
+
+                        background-image: url("data:image/svg+xml,%3Csvg width='19' height='19' viewBox='0 0 19 19' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='9.5' cy='9.5' r='9.5' fill='%238CB16E'/%3E%3Cpath d='M8.17794 12.3117L5.80728 9.82401L5 10.6652L8.17794 14L15 6.84116L14.1984 6L8.17794 12.3117Z' fill='white'/%3E%3C/svg%3E%0A");
+
+                        display: flex;
+                        width: 19px;
+                        height: 19px;
+                    }
+                }
+            }
+        }
+
+        :global(.vtex-my-authentication-1-x-box_footer) {
+            padding: 0 1rem 2rem;
+
+            :global(.vtex-my-authentication-1-x-savePassButton_container) {
+                margin: 0;
+            }
+
+            :global(.vtex-button) {
+                @include btn1();
+                @include font300();
+                color: $color--brand--secondary;
+                font-size: $fontSize3;
+
+                padding: 0.75rem;
+            }
+        }
+    }
+}
+
+//SESSÕES ATIVAS
+:global(.vtex-my-authentication-1-x-loginSessions_list) {
+    flex-direction: column;
+    :global(.vtex-my-authentication-1-x-box_header) {
+        padding: 2rem 1rem 1rem;
+
+        :global(.vtex-my-authentication-1-x-loginSession_currSessionIcon) {
+            display: none;
+        }
+        :global(.vtex-my-authentication-1-x-loginSession_currSessionText) {
+            margin: 0;
+
+            @include font300();
+            font-size: $fontSize2;
+            color: $color--brand--primary;
+        }
+    }
+
+    :global(.vtex-my-authentication-1-x-box_content) {
+        padding: 1rem 1rem 2rem !important;
+
+        :global(.vtex-my-authentication-1-x-loginSession_device),
+        :global(.vtex-my-authentication-1-x-loginSession_lastAccess),
+        :global(.vtex-my-authentication-1-x-loginSession_originDetails),
+        :global(.vtex-my-authentication-1-x-loginSession_firstAccess) {
+            color: $color--brand--primary;
         }
     }
 }
