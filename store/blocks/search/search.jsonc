@@ -93,7 +93,8 @@
       "showClearByFilter": false,
       "fullWidthOnMobile": true,
       "layout": "phone",
-      "showQuantityBadgeOnMobile": true
+      "showQuantityBadgeOnMobile": true,
+      "drawerDirectionMobile": "drawerRight"
     }
   },
 

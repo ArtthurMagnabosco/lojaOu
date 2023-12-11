@@ -78,7 +78,17 @@
 .sliderTrackContainer--productSlider {
   @include fullWidth;
 
+  padding-left: 20px;
+
   :global(.vtex-product-summary-2-x-element) {
     padding-block: 0 !important;
   }
+}
+
+.slide--productSlider {
+  margin-inline: 0.5rem;
+}
+
+.slide--firstVisible {
+  margin-left: 0 !important;
 }

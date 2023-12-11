@@ -73,10 +73,17 @@
 
 .sliderTrackContainer--productSlider {
   width: calc(100% + 40px) !important;
-  margin-inline: -20px; }
+  margin-inline: -20px;
+  padding-left: 20px; }
   @media (min-width: 1008px) {
     .sliderTrackContainer--productSlider {
       width: calc(100% + 4.4vw) !important;
       margin-inline: -2.2vw; } }
   .sliderTrackContainer--productSlider :global(.vtex-product-summary-2-x-element) {
     padding-block: 0 !important; }
+
+.slide--productSlider {
+  margin-inline: 0.5rem; }
+
+.slide--firstVisible {
+  margin-left: 0 !important; }
