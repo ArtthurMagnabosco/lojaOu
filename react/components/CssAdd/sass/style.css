@@ -38,7 +38,28 @@ li {
   top: 0.3rem; }
 
 .vtex-flex-layout-0-x-flexRowContent--quantity-selector-container .items-stretch .vtex-product-list-0-x-quantitySelector .vtex-product-list-0-x-quantitySelectorWrapper .vtex-product-list-0-x-inputContainer .flex-auto {
-  font-family: "SofiaPro"; }
+  font-family: "SofiaPro";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0px;
+  font-family: "SofiaPro";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.vtex-minicart-2-x-minicartSummary--minicart-footer-summary #discounts-price {
+  color: #8CB16E; }
+
+.vtex-minicart-2-x-minicartSummary--minicart-footer-summary #total {
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0px;
+  font-family: "SofiaPro";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 .vtex-search-result-3-x-showingProducts span {
   font-style: normal;

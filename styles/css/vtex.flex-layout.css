@@ -91,7 +91,7 @@
     justify-content: space-between; }
   .flexRowContent--product-wrapper-minicart :global(.vtex-product-list-0-x-productName) {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: normal;
     letter-spacing: 0px;
     font-family: "SofiaPro";

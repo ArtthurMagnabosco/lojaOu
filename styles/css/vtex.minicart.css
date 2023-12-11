@@ -1,6 +1,6 @@
 .minicartTitle--minicart-base-container {
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: normal;
   letter-spacing: 0px;
   font-family: "SofiaPro";
@@ -16,6 +16,14 @@
   display: none; }
 
 .minicartTitle {
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0px;
+  font-family: "SofiaPro";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   padding: 1.5rem 1.25rem 0.5rem; }
 
 .minicartProductListContainer {
@@ -48,6 +56,15 @@
     font-size: 0.875rem;
     line-height: normal;
     color: #3e3e3d; }
+    :global(.vtex-checkout-summary-0-x-summarySmallContent) :global(.vtex-checkout-summary-0-x-summaryItemContainer) :global(.vtex-checkout-summary-0-x-summaryItemLabel) {
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0px;
+      font-family: "SofiaPro";
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; }
 
 :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
   display: none; }
