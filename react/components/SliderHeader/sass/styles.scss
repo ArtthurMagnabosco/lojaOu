@@ -6,7 +6,7 @@
    display: flex;
 
     height: 36px;
-    padding: 12px 0px;
+    padding: 10px 0px;
 
     justify-content: center;
     align-items: center;
@@ -15,14 +15,22 @@
 
     flex-shrink: 0;
 
-    
+    .headerSliderBenefitsLine{
 
-    .sliderHeaderText{
-        @include font400;
-        color: $color--brand--secondary;
-        text-align: center;
-        font-family: $fontFamily;
-        font-size: $fontSize2;
+        .headerSliderImage{
+            width: 0.75rem;
+            height: auto;
+            flex-shrink: 0;
+        }
         
+        .sliderHeaderText{
+            @include font400;
+            color: $color--brand--secondary;
+            text-align: center;
+            font-family: $fontFamily;
+            font-size: $fontSize2;
+            
+        }
     }
+    
 }

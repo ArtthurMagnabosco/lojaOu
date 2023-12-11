@@ -2,7 +2,7 @@ import React from 'react'
 import Slider from 'react-slick'
 import styles from './sass/styles.css'
 export const SliderHeader = props => {
-  //  console.log(props)
+  
   const container = props.container
 
   const settings = {
@@ -36,13 +36,11 @@ export const SliderHeader = props => {
               container?.map((e, idx) => {
                 return (
                   <div className={styles.headerSliderBenefitsLine}>
-                    
+                      <img className={styles.headerSliderImage}src={e.image}/>
                       <p className={styles.sliderHeaderText}key={idx}>
                         {e.text}
                       </p>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
-                      <circle cx="2" cy="2" r="2" fill="#C8C8C8"/>
-                      </svg>          
+                           
                   </div>
                 )
               })}
@@ -68,9 +66,15 @@ SliderHeader.schema = {
             type: 'string',
             title: 'Texto',
           },
+          image: {
+            title: 'Logo Junto ao texto(opcional)',
+            type: 'string',
+            widget: {
+              'ui:widget': 'image-uploader',
+            },
         },
       },
     },
   },
 }
-
+}

@@ -4,7 +4,7 @@
   background-color: #838383;
   display: flex;
   height: 36px;
-  padding: 12px 0px;
+  padding: 10px 0px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -14,7 +14,11 @@
     .sliderHeader {
       width: calc(100% + 4.4vw) !important;
       margin-inline: -2.2vw; } }
-  .sliderHeader .sliderHeaderText {
+  .sliderHeader .headerSliderBenefitsLine .headerSliderImage {
+    width: 0.75rem;
+    height: auto;
+    flex-shrink: 0; }
+  .sliderHeader .headerSliderBenefitsLine .sliderHeaderText {
     font-style: normal;
     font-weight: 400;
     line-height: normal;

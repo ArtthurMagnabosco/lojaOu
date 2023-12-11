@@ -1,0 +1,10 @@
+@import "../../../../styles/padroes/padroes.scss";
+
+.headerScrolled{
+    :global(.flexRow--header-container-mob) {
+        width: 100%;
+        position: fixed;
+      }
+
+    
+}

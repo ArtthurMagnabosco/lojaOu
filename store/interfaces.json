@@ -6,5 +6,9 @@
   "SliderHeader": {
     "component": "SliderHeader",
     "composition": "children"
+  },
+  "HeaderScroll": {
+    "component": "HeaderScroll",
+    "composition": "children"
   }
 }
