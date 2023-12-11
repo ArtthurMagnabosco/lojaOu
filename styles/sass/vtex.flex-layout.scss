@@ -13,16 +13,18 @@
 }
 
 .flexRow--header-container-mob {
+
   width: 100%;
-  background-color: black;
 }
 
 .flexRowContent--header-main-mob {
+
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 20px;
+
+  padding: 16px 0px;
 }
 .flexRowContent--header-mob-menu {
   justify-content: flex-start;
@@ -36,18 +38,32 @@
 
 .flexRowContent--header-mob-logo {
   width: 4rem;
+  
   display: flex;
   align-items: center;
 }
 
-// .stretchChildrenWidth {
-//   width: unset !important;
-// }
 
 .flexRowContent--header-mob-icons {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+
+
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--header-mob-icons){
+  :global(.vtex-flex-layout-0-x-flexRowContent--header-mob-icons){
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+      width: unset !important;
+    }
+    :global(.vtex-minicart-2-x-minicartWrapperContainer--minicart){
+      :global(.vtex-minicart-2-x-openIconContainer){
+        padding: 0;   
+       
+      }
+    }
+  }
 }
 
 .flexColChild--container-dep-top {
@@ -85,6 +101,8 @@
 .flexCol--not-found-text {
   margin-block: 2rem;
 }
+
+//Minicart
 .flexRowContent--product-wrapper-minicart {
   background-color: $color--gray-50;
   margin-bottom: 0.5rem;
@@ -102,7 +120,7 @@
   }
 
   :global(.vtex-product-list-0-x-productName) {
-    @include font400;
+    @include font600;
     font-size: $fontSize2;
     color: $color--brand--primary;
   }
@@ -124,6 +142,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    font-family: $fontFamily;
   }
 
   :global(.vtex-product-list-0-x-quantitySelectorButton) {
@@ -174,13 +194,14 @@
   position: fixed;
   bottom: 0;
   background-color: $color--brand--secondary;
+  
+  .flexCol--minicart-footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
 
-.flexCol--minicart-footer-container {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
 
 .flexColChild--departamentTopInfo {
   :global(.vtex-breadcrumb-1-x-container) {

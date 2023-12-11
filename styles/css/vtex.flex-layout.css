@@ -9,15 +9,14 @@
   margin-bottom: 3rem; }
 
 .flexRow--header-container-mob {
-  width: 100%;
-  background-color: black; }
+  width: 100%; }
 
 .flexRowContent--header-main-mob {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 20px; }
+  padding: 16px 0px; }
 
 .flexRowContent--header-mob-menu {
   justify-content: flex-start;
@@ -35,6 +34,12 @@
   display: flex;
   align-items: center;
   justify-content: flex-end; }
+
+:global(.vtex-flex-layout-0-x-flexRow--header-mob-icons) :global(.vtex-flex-layout-0-x-flexRowContent--header-mob-icons) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: unset !important; }
+
+:global(.vtex-flex-layout-0-x-flexRow--header-mob-icons) :global(.vtex-flex-layout-0-x-flexRowContent--header-mob-icons) :global(.vtex-minicart-2-x-minicartWrapperContainer--minicart) :global(.vtex-minicart-2-x-openIconContainer) {
+  padding: 0; }
 
 .flexColChild--container-dep-top {
   width: calc(100% + 40px) !important;
@@ -85,7 +90,7 @@
     justify-content: space-between; }
   .flexRowContent--product-wrapper-minicart :global(.vtex-product-list-0-x-productName) {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: normal;
     letter-spacing: 0px;
     font-family: "SofiaPro";
@@ -105,7 +110,8 @@
   .flexRowContent--product-wrapper-minicart .flexRowContent--quantity-selector-container {
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    font-family: "SofiaPro"; }
   .flexRowContent--product-wrapper-minicart :global(.vtex-product-list-0-x-quantitySelectorButton) {
     background-color: transparent;
     padding: 0.5rem 0.75rem;
@@ -136,11 +142,10 @@
   position: fixed;
   bottom: 0;
   background-color: #ffffff; }
-
-.flexCol--minicart-footer-container {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem; }
+  .flexRowContent--minicart-footer .flexCol--minicart-footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; }
 
 .flexColChild--departamentTopInfo :global(.vtex-breadcrumb-1-x-container) {
   padding-block: 0 !important;

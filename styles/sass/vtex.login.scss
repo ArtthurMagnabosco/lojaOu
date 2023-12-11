@@ -1,2 +1,270 @@
 @import "./../padroes/padroes.scss";
 
+.content {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+
+    max-width: unset;
+    padding-bottom: 4.5rem;
+
+    color: $color--brand--primary;
+    line-height: normal;
+
+    .contentForm {
+        width: 100%;
+    }
+}
+
+.content--emailVerification,
+.content--codeConfirmation,
+.content--beginCreatePass {
+    padding-top: 5rem;
+    @include font400();
+    
+    &::before {
+        content: "Minha Conta";
+        padding-top: 2rem;
+
+        position: absolute;
+        top: 0;
+        margin: 0 auto;
+
+        font-size: $fontSize7;
+        @include font400();
+    }
+
+    .contentForm {
+        color: $color--brand--primary;
+        text-align: center;
+
+        &::before {
+            content: "Acesse ou crie sua conta para acompanhar seus pedidos, ter acesso à ofertas e muito mais!";
+        }
+    }
+}
+
+.forgotPasswordForm,
+.emailAndPasswordForm {
+    padding-top: 1.25rem;
+    @include font400();
+
+    .formTitle {
+        font-family: $fontFamily;
+        font-size: $fontSize6;
+        margin-bottom: 2rem;
+
+        .formSubtitle {
+            margin: 0;
+
+            @include font400();
+            color: $color--brand--primary;
+            font-family: $fontFamily;
+        }
+    }
+
+    .inputContainer {
+        margin-top: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .formLinkContainer {
+        margin-top: 1rem;
+        
+        font-size: $fontSize2;
+        text-decoration: underline;
+
+        .forgotPasswordLink {
+            margin-right: auto;
+            margin-bottom: 1.25rem;
+
+            color: $color--brand--primary;
+            font-family: $fontFamily;
+            
+        }
+        .dontHaveAccount {
+            color: $color--brand--primary;
+            font-family: $fontFamily;
+        }
+    }
+}
+
+.emailAndPasswordForm {
+    .inputContainerEmail {
+        margin-top: 1rem;
+        &::before {
+            content: "E-mail";
+        }
+    }
+    .inputContainerPassword {
+        margin-top: 1rem;
+        &::before {
+            content: "Senha";
+        }
+    }
+}
+
+.formTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    padding: 0;
+    margin-bottom: 1rem;
+
+    font-family: $fontFamily;
+    @include font400();
+}
+
+.emailForm {
+    margin-top: 2rem;
+
+    .formTitle {
+        &::after {
+            content: "Informe seu e-mail para receber uma chave de acesso rápido!";
+        }
+    }
+}
+
+.codeConfirmation {
+    margin-top: 2rem;
+
+    .formTitle {
+        &::after {
+            content: "Agora é só informar o código recebido em seu email";
+        }
+    }
+}
+
+.inputContainer {
+    padding: 0;
+
+    :global(.vtex-input__suffix) {
+        display: none;
+    }
+    :global(.vtex-input-prefix__group) {
+        border: none;
+        height: 100%;
+
+        :global(.vtex-styleguide-9-x-input) {
+            border: 1px solid $color--gray-200;
+            border-radius: 0.5rem;
+            padding: 1rem;
+
+            font-size: $fontSize2;
+            font-family: $fontFamily;
+
+            background-color: $color--gray-50;
+            &::placeholder {
+                color: $color--brand--primary;
+            }
+
+            &:focus {
+                border: 1px solid $color--gray-300;
+            }
+        }
+    }
+}
+
+.backButton {
+    display: none;
+}
+
+.formFooter {
+    margin: 0;
+    border: none;
+
+    .sendButton {
+        width: 100%;
+        :global(.vtex-button) {
+            @include btn1();
+            padding: 0.75rem 0;
+            width: 100%;
+    
+            :global(.vtex-button__label) {
+                :global(.t-small) {
+                    font-size: $fontSize3;
+                    font-family: $fontFamily;
+                }
+            }
+        }
+    }
+}
+
+.content--emailAndPassword {
+    .loginOptionsContainer {
+        display: none;
+    }
+}
+
+.loginOptionsContainer {
+    width: 100%;
+    padding: 0 0.75rem;
+
+    .formTitle {
+        display: none;
+    }
+
+    .optionsList {
+        text-align: center;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0.5rem;
+
+        &::after {
+            content: "Entre com Google ou e-mail e senha";
+        }
+
+        .optionsListItem {
+            margin: 0;
+
+            :global(.vtex-button) {
+                border-radius: 0;
+                padding: 0.75rem 1rem;
+
+                :global(.vtex-button__label) {
+                    padding: 0;
+                    justify-content: flex-start;
+                    gap: 1.5rem;
+
+                    font-size: $fontSize2;
+                    color: $color--brand--primary;
+
+                    .oauthLabel {
+                        margin: 0;
+                        font-family: $fontFamily;
+
+                        .oauthProvider {
+                            @include font400();
+                        }
+                    }
+                }
+            }
+
+            .emailPasswordOptionBtn {
+                :global(.vtex-button) {
+                    background-color: $color--brand--secondary;
+
+                    :global(.vtex-button__label)::before {
+                        content: "";
+
+                        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='16' viewBox='0 0 20 16' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 1.00964C0 0.457359 0.447715 0.00964355 1 0.00964355H19C19.5523 0.00964355 20 0.457359 20 1.00964V14.5096C20 15.0619 19.5523 15.5096 19 15.5096H1C0.447715 15.5096 0 15.0619 0 14.5096V1.00964ZM2 2.00964V13.5096H18V2.00964H2Z' fill='%238A8A8A'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0.240755 0.358878C0.600173 -0.0604514 1.23147 -0.109019 1.6508 0.250398L10 7.40672L18.3492 0.250398C18.7686 -0.109019 19.3999 -0.0604514 19.7593 0.358878C20.1187 0.778208 20.0701 1.40951 19.6508 1.76893L10.6508 9.48305C10.2763 9.80403 9.72372 9.80403 9.34923 9.48305L0.349235 1.76893C-0.0700949 1.40951 -0.118663 0.778208 0.240755 0.358878Z' fill='%238A8A8A'/%3E%3C/svg%3E");
+                        background-repeat: no-repeat;
+
+                        width: 20px;
+                        height: 18px;
+                        margin-top: 2px;
+
+                        display: flex;
+                    }
+                }
+            }
+
+            .accessCodeOptionBtn {
+                display: none;
+            }
+        }
+    }
+}

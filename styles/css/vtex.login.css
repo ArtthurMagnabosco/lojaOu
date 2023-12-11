@@ -1,0 +1,225 @@
+@charset "UTF-8";
+.content {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2rem;
+  max-width: unset;
+  padding-bottom: 4.5rem;
+  color: #3e3e3d;
+  line-height: normal; }
+  .content .contentForm {
+    width: 100%; }
+
+.content--emailVerification,
+.content--codeConfirmation,
+.content--beginCreatePass {
+  padding-top: 5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0px;
+  font-family: "SofiaPro";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  .content--emailVerification::before,
+  .content--codeConfirmation::before,
+  .content--beginCreatePass::before {
+    content: "Minha Conta";
+    padding-top: 2rem;
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0px;
+    font-family: "SofiaPro";
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  .content--emailVerification .contentForm,
+  .content--codeConfirmation .contentForm,
+  .content--beginCreatePass .contentForm {
+    color: #3e3e3d;
+    text-align: center; }
+    .content--emailVerification .contentForm::before,
+    .content--codeConfirmation .contentForm::before,
+    .content--beginCreatePass .contentForm::before {
+      content: "Acesse ou crie sua conta para acompanhar seus pedidos, ter acesso à ofertas e muito mais!"; }
+
+.forgotPasswordForm,
+.emailAndPasswordForm {
+  padding-top: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0px;
+  font-family: "SofiaPro";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  .forgotPasswordForm .formTitle,
+  .emailAndPasswordForm .formTitle {
+    font-family: "SofiaPro";
+    font-size: 1.5rem;
+    margin-bottom: 2rem; }
+    .forgotPasswordForm .formTitle .formSubtitle,
+    .emailAndPasswordForm .formTitle .formSubtitle {
+      margin: 0;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0px;
+      font-family: "SofiaPro";
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color: #3e3e3d;
+      font-family: "SofiaPro"; }
+  .forgotPasswordForm .inputContainer,
+  .emailAndPasswordForm .inputContainer {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; }
+  .forgotPasswordForm .formLinkContainer,
+  .emailAndPasswordForm .formLinkContainer {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    text-decoration: underline; }
+    .forgotPasswordForm .formLinkContainer .forgotPasswordLink,
+    .emailAndPasswordForm .formLinkContainer .forgotPasswordLink {
+      margin-right: auto;
+      margin-bottom: 1.25rem;
+      color: #3e3e3d;
+      font-family: "SofiaPro"; }
+    .forgotPasswordForm .formLinkContainer .dontHaveAccount,
+    .emailAndPasswordForm .formLinkContainer .dontHaveAccount {
+      color: #3e3e3d;
+      font-family: "SofiaPro"; }
+
+.emailAndPasswordForm .inputContainerEmail {
+  margin-top: 1rem; }
+  .emailAndPasswordForm .inputContainerEmail::before {
+    content: "E-mail"; }
+
+.emailAndPasswordForm .inputContainerPassword {
+  margin-top: 1rem; }
+  .emailAndPasswordForm .inputContainerPassword::before {
+    content: "Senha"; }
+
+.formTitle {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0;
+  margin-bottom: 1rem;
+  font-family: "SofiaPro";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0px;
+  font-family: "SofiaPro";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.emailForm {
+  margin-top: 2rem; }
+  .emailForm .formTitle::after {
+    content: "Informe seu e-mail para receber uma chave de acesso rápido!"; }
+
+.codeConfirmation {
+  margin-top: 2rem; }
+  .codeConfirmation .formTitle::after {
+    content: "Agora é só informar o código recebido em seu email"; }
+
+.inputContainer {
+  padding: 0; }
+  .inputContainer :global(.vtex-input__suffix) {
+    display: none; }
+  .inputContainer :global(.vtex-input-prefix__group) {
+    border: none;
+    height: 100%; }
+    .inputContainer :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
+      border: 1px solid #c8c8c8;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      font-size: 0.875rem;
+      font-family: "SofiaPro";
+      background-color: #f9f9f9; }
+      .inputContainer :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input)::placeholder {
+        color: #3e3e3d; }
+      .inputContainer :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input):focus {
+        border: 1px solid #838383; }
+
+.backButton {
+  display: none; }
+
+.formFooter {
+  margin: 0;
+  border: none; }
+  .formFooter .sendButton {
+    width: 100%; }
+    .formFooter .sendButton :global(.vtex-button) {
+      background-color: #3e3e3d;
+      border: none;
+      border-radius: 0;
+      padding: 0.75rem 0;
+      width: 100%; }
+      .formFooter .sendButton :global(.vtex-button) :global(.vtex-button__label) :global(.t-small) {
+        font-size: 1rem;
+        font-family: "SofiaPro"; }
+
+.content--emailAndPassword .loginOptionsContainer {
+  display: none; }
+
+.loginOptionsContainer {
+  width: 100%;
+  padding: 0 0.75rem; }
+  .loginOptionsContainer .formTitle {
+    display: none; }
+  .loginOptionsContainer .optionsList {
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0.5rem; }
+    .loginOptionsContainer .optionsList::after {
+      content: "Entre com Google ou e-mail e senha"; }
+    .loginOptionsContainer .optionsList .optionsListItem {
+      margin: 0; }
+      .loginOptionsContainer .optionsList .optionsListItem :global(.vtex-button) {
+        border-radius: 0;
+        padding: 0.75rem 1rem; }
+        .loginOptionsContainer .optionsList .optionsListItem :global(.vtex-button) :global(.vtex-button__label) {
+          padding: 0;
+          justify-content: flex-start;
+          gap: 1.5rem;
+          font-size: 0.875rem;
+          color: #3e3e3d; }
+          .loginOptionsContainer .optionsList .optionsListItem :global(.vtex-button) :global(.vtex-button__label) .oauthLabel {
+            margin: 0;
+            font-family: "SofiaPro"; }
+            .loginOptionsContainer .optionsList .optionsListItem :global(.vtex-button) :global(.vtex-button__label) .oauthLabel .oauthProvider {
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              letter-spacing: 0px;
+              font-family: "SofiaPro";
+              text-rendering: optimizeLegibility;
+              -webkit-font-smoothing: antialiased;
+              -moz-osx-font-smoothing: grayscale; }
+      .loginOptionsContainer .optionsList .optionsListItem .emailPasswordOptionBtn :global(.vtex-button) {
+        background-color: #ffffff; }
+        .loginOptionsContainer .optionsList .optionsListItem .emailPasswordOptionBtn :global(.vtex-button) :global(.vtex-button__label)::before {
+          content: "";
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='16' viewBox='0 0 20 16' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 1.00964C0 0.457359 0.447715 0.00964355 1 0.00964355H19C19.5523 0.00964355 20 0.457359 20 1.00964V14.5096C20 15.0619 19.5523 15.5096 19 15.5096H1C0.447715 15.5096 0 15.0619 0 14.5096V1.00964ZM2 2.00964V13.5096H18V2.00964H2Z' fill='%238A8A8A'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0.240755 0.358878C0.600173 -0.0604514 1.23147 -0.109019 1.6508 0.250398L10 7.40672L18.3492 0.250398C18.7686 -0.109019 19.3999 -0.0604514 19.7593 0.358878C20.1187 0.778208 20.0701 1.40951 19.6508 1.76893L10.6508 9.48305C10.2763 9.80403 9.72372 9.80403 9.34923 9.48305L0.349235 1.76893C-0.0700949 1.40951 -0.118663 0.778208 0.240755 0.358878Z' fill='%238A8A8A'/%3E%3C/svg%3E");
+          background-repeat: no-repeat;
+          width: 20px;
+          height: 18px;
+          margin-top: 2px;
+          display: flex; }
+      .loginOptionsContainer .optionsList .optionsListItem .accessCodeOptionBtn {
+        display: none; }
