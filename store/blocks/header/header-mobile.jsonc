@@ -28,7 +28,7 @@
 
   "flex-layout.col#header-container-mob-col":{
     "children":[
-      //"SliderHeader",
+      "SliderHeader",
       "flex-layout.row#header-main-mob",
       "flex-layout.row#header-search"
 ]
