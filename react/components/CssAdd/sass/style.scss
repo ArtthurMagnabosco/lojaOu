@@ -64,10 +64,19 @@ li {
         .vtex-product-list-0-x-inputContainer {
           .flex-auto {
             font-family: $fontFamily;
+            @include font400();
           }
         }
       }
     }
+  }
+}
+.vtex-minicart-2-x-minicartSummary--minicart-footer-summary {
+  #discounts-price {
+    color: #8CB16E;
+  }
+  #total {
+    @include font600();
   }
 }
 

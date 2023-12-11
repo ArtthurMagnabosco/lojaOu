@@ -5,7 +5,8 @@
   gap: 2rem;
   max-width: unset;
   padding-bottom: 4.5rem;
-  color: #3e3e3d; }
+  color: #3e3e3d;
+  line-height: normal; }
   .content .contentForm {
     width: 100%; }
 

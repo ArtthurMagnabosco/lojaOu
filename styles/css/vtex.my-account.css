@@ -1,10 +1,32 @@
 .menu {
-  padding: 2rem 1.25rem; }
+  padding: 2rem 1.25rem;
+  background-color: #ffffff; }
   .menu .userInfo {
     gap: 1.125rem;
-    margin-bottom: 1.3125rem; }
+    margin-bottom: 1.3125rem;
+    align-items: center; }
     .menu .userInfo .userImage {
       display: none; }
+    .menu .userInfo .userGreeting {
+      font-size: 0.875rem;
+      color: #3e3e3d;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      letter-spacing: 0px;
+      font-family: "SofiaPro";
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; }
+    .menu .userInfo .userName {
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0px;
+      font-family: "SofiaPro";
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; }
     .menu .userInfo::before {
       content: "";
       background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60' fill='none'%3E%3Ccircle cx='30' cy='30' r='30' fill='%23EBEBEB'/%3E%3Ccircle cx='30' cy='30' r='29.5' fill='%23C8C8C8' stroke='%233E3E3D'/%3E%3Cpath d='M30.0013 30C28.168 30 26.5985 29.3472 25.293 28.0417C23.9874 26.7361 23.3346 25.1667 23.3346 23.3334C23.3346 21.5 23.9874 19.9306 25.293 18.625C26.5985 17.3195 28.168 16.6667 30.0013 16.6667C31.8346 16.6667 33.4041 17.3195 34.7096 18.625C36.0152 19.9306 36.668 21.5 36.668 23.3334C36.668 25.1667 36.0152 26.7361 34.7096 28.0417C33.4041 29.3472 31.8346 30 30.0013 30ZM16.668 43.3334V38.6667C16.668 37.7222 16.9113 36.8539 17.398 36.0617C17.8835 35.2706 18.5291 34.6667 19.3346 34.25C21.0569 33.3889 22.8069 32.7428 24.5846 32.3117C26.3624 31.8817 28.168 31.6667 30.0013 31.6667C31.8346 31.6667 33.6402 31.8817 35.418 32.3117C37.1957 32.7428 38.9457 33.3889 40.668 34.25C41.4735 34.6667 42.1191 35.2706 42.6046 36.0617C43.0913 36.8539 43.3346 37.7222 43.3346 38.6667V43.3334H16.668Z' fill='white'/%3E%3C/svg%3E");
@@ -28,27 +50,309 @@
   padding: 2rem 1.25rem 1rem; }
   :global(.vtex-pageHeader__container) :global(.vtex-pageHeader-link__container) {
     margin-bottom: 1.5rem; }
-  :global(.vtex-pageHeader__container) :global(.vtex__icon-arrow-back) {
-    display: none; }
-  :global(.vtex-pageHeader__container) :global(.t-action--small) {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin: 0;
-    color: #3e3e3d;
-    text-decoration: underline; }
-    :global(.vtex-pageHeader__container) :global(.t-action--small)::before {
-      content: "";
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='8' viewBox='0 0 4 8' fill='none'%3E%3Cpath d='M3.20737 7.36148L0.101382 4.25857C0.064516 4.22164 0.0384638 4.18162 0.0232257 4.13852C0.00774183 4.09543 0 4.04925 0 4C0 3.95075 0.00774183 3.90457 0.0232257 3.86148C0.0384638 3.81838 0.064516 3.77836 0.101382 3.74142L3.20737 0.629288C3.29339 0.543096 3.40092 0.5 3.52995 0.5C3.65899 0.5 3.76959 0.546174 3.86175 0.638522C3.95392 0.730871 4 0.83861 4 0.961741C4 1.08487 3.95392 1.19261 3.86175 1.28496L1.15207 4L3.86175 6.71504C3.94777 6.80123 3.99078 6.90737 3.99078 7.03346C3.99078 7.15979 3.9447 7.26913 3.85253 7.36148C3.76037 7.45383 3.65284 7.5 3.52995 7.5C3.40707 7.5 3.29954 7.45383 3.20737 7.36148Z' fill='%233E3E3D'/%3E%3C/svg%3E");
-      background-repeat: no-repeat;
+    :global(.vtex-pageHeader__container) :global(.vtex-pageHeader-link__container) :global(.vtex__icon-arrow-back) {
+      display: none; }
+    :global(.vtex-pageHeader__container) :global(.vtex-pageHeader-link__container) :global(.t-action--small) {
       display: flex;
-      width: 4px;
-      height: 7px; }
+      align-items: center;
+      gap: 0.5rem;
+      margin: 0;
+      color: #3e3e3d;
+      text-decoration: underline; }
+      :global(.vtex-pageHeader__container) :global(.vtex-pageHeader-link__container) :global(.t-action--small)::before {
+        content: "";
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='8' viewBox='0 0 4 8' fill='none'%3E%3Cpath d='M3.20737 7.36148L0.101382 4.25857C0.064516 4.22164 0.0384638 4.18162 0.0232257 4.13852C0.00774183 4.09543 0 4.04925 0 4C0 3.95075 0.00774183 3.90457 0.0232257 3.86148C0.0384638 3.81838 0.064516 3.77836 0.101382 3.74142L3.20737 0.629288C3.29339 0.543096 3.40092 0.5 3.52995 0.5C3.65899 0.5 3.76959 0.546174 3.86175 0.638522C3.95392 0.730871 4 0.83861 4 0.961741C4 1.08487 3.95392 1.19261 3.86175 1.28496L1.15207 4L3.86175 6.71504C3.94777 6.80123 3.99078 6.90737 3.99078 7.03346C3.99078 7.15979 3.9447 7.26913 3.85253 7.36148C3.76037 7.45383 3.65284 7.5 3.52995 7.5C3.40707 7.5 3.29954 7.45383 3.20737 7.36148Z' fill='%233E3E3D'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        display: flex;
+        width: 4px;
+        height: 7px; }
   :global(.vtex-pageHeader__container) :global(.vtex-pageHeader__title) {
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0px;
+    font-family: "SofiaPro";
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     font-size: 1.5rem;
     color: #3e3e3d; }
+  :global(.vtex-pageHeader__container) :global(.vtex-pageHeader__children) {
+    width: 100%; }
+    :global(.vtex-pageHeader__container) :global(.vtex-pageHeader__children) :global(.vtex-button) {
+      background-color: #3e3e3d;
+      border: none;
+      border-radius: 0;
+      margin-top: 1rem;
+      padding: 1rem; }
+      :global(.vtex-pageHeader__container) :global(.vtex-pageHeader__children) :global(.vtex-button) :global(.vtex-button__label) {
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 0px;
+        font-family: "SofiaPro";
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 1rem; }
 
 .profile {
   padding: 0 1.25rem; }
   .profile .boxContainerBody {
     padding: 1rem 0.75rem 0; }
+    .profile .boxContainerBody .dataEntryLabel {
+      margin-bottom: 0.8125rem;
+      font-size: 0.875rem; }
+    .profile .boxContainerBody .dataEntryChildren {
+      padding: 1rem;
+      background-color: #f9f9f9;
+      border-radius: 0.25rem;
+      color: #c8c8c8;
+      font-size: 0.875rem; }
+    .profile .boxContainerBody .firstNameSubContainer,
+    .profile .boxContainerBody .lastNameSubContainer,
+    .profile .boxContainerBody .emailContainer,
+    .profile .boxContainerBody .documentsSubContainer,
+    .profile .boxContainerBody .genderSubContainer,
+    .profile .boxContainerBody .dateOfBirthSubContainer,
+    .profile .boxContainerBody .phoneNumberSubContainer {
+      margin-bottom: 1rem; }
+  .profile .boxContainerFooter {
+    padding: 0 0.75rem 1rem; }
+    .profile .boxContainerFooter :global(.vtex-button) {
+      background-color: #3e3e3d;
+      border: none;
+      border-radius: 0;
+      padding: 1rem;
+      width: 100%; }
+      .profile .boxContainerFooter :global(.vtex-button) :global(.vtex-button__label) {
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 0px;
+        font-family: "SofiaPro";
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 1rem;
+        color: #ffffff; }
+
+:global(.vtex-dropdown__button) {
+  background-color: #f9f9f9;
+  border: 1px solid #c8c8c8;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  font-family: "SofiaPro";
+  font-size: 0.75rem;
+  color: #3e3e3d; }
+
+.profileEdit {
+  padding: 0 1.25rem; }
+  .profileEdit .boxContainerBody {
+    padding: 1rem 0.75rem; }
+    .profileEdit .boxContainerBody :global(.vtex-profile-form-3-x-styleguideInput) {
+      padding-bottom: 1rem; }
+      .profileEdit .boxContainerBody :global(.vtex-profile-form-3-x-styleguideInput) :global(.vtex-input__label) {
+        margin-bottom: 0.8125rem;
+        font-family: "SofiaPro"; }
+        .profileEdit .boxContainerBody :global(.vtex-profile-form-3-x-styleguideInput) :global(.vtex-input__label) :global(.border-box) {
+          border: none; }
+      .profileEdit .boxContainerBody :global(.vtex-profile-form-3-x-styleguideInput) :global(.border-box) {
+        background-color: #f9f9f9;
+        border: 1px solid #f9f9f9;
+        border-radius: 0.25rem;
+        padding: 1rem;
+        font-family: "SofiaPro";
+        font-size: 0.75rem;
+        color: #3e3e3d; }
+      .profileEdit .boxContainerBody :global(.vtex-profile-form-3-x-styleguideInput) :global(.vtex-dropdown__label) {
+        font-family: "SofiaPro";
+        margin-bottom: 0.8125rem; }
+    .profileEdit .boxContainerBody :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) {
+      margin-bottom: 1rem; }
+      .profileEdit .boxContainerBody :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        background-color: transparent;
+        border: none;
+        font-family: "SofiaPro";
+        color: #3e3e3d;
+        text-transform: none;
+        text-decoration: underline;
+        text-align: left; }
+        .profileEdit .boxContainerBody :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button)::after {
+          content: "";
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='5' viewBox='0 0 7 5' fill='none'%3E%3Cpath d='M6.86148 1.04409L3.75857 4.15008C3.72164 4.18695 3.68162 4.213 3.63852 4.22824C3.59543 4.24372 3.54925 4.25146 3.5 4.25146C3.45075 4.25146 3.40457 4.24372 3.36148 4.22824C3.31838 4.213 3.27836 4.18695 3.24142 4.15008L0.129287 1.04409C0.0430957 0.95807 -1.48659e-07 0.850543 -1.54299e-07 0.721511C-1.59939e-07 0.592479 0.046174 0.48188 0.138522 0.389714C0.230871 0.297548 0.33861 0.251465 0.461741 0.251465C0.584872 0.251465 0.692612 0.297548 0.78496 0.389714L3.5 3.09939L6.21504 0.389714C6.30123 0.303692 6.40737 0.260681 6.53346 0.260681C6.65979 0.260681 6.76913 0.306764 6.86148 0.39893C6.95383 0.491096 7 0.598623 7 0.721511C7 0.844399 6.95383 0.951926 6.86148 1.04409Z' fill='%233E3E3D'/%3E%3C/svg%3E");
+          display: flex;
+          width: 7px;
+          height: 4px; }
+    .profileEdit .boxContainerBody :global(.vtex-button) {
+      background-color: #3e3e3d;
+      border: none;
+      border-radius: 0;
+      padding: 1rem; }
+
+.addressList {
+  padding: 0 1.25rem 2rem; }
+  .addressList :global(.t-heading-4) {
+    color: #3e3e3d; }
+  .addressList .addressBox {
+    display: flex;
+    flex-direction: column; }
+    .addressList .addressBox .boxContainer {
+      border: 1px solid #F3F3F3; }
+      .addressList .addressBox .boxContainer .boxContainerBody {
+        padding: 1rem 1rem 1.5rem; }
+        .addressList .addressBox .boxContainer .boxContainerBody :global(.lighter) {
+          width: 100%;
+          height: unset;
+          padding: 0; }
+          .addressList .addressBox .boxContainer .boxContainerBody :global(.lighter) :global(.address-summary) {
+            color: #181818; }
+      .addressList .addressBox .boxContainer .boxContainerFooter {
+        justify-content: flex-start;
+        padding: 0 0 1rem; }
+        .addressList .addressBox .boxContainer .boxContainerFooter :global(.vtex-button) :global(.vtex-button__label) {
+          color: #3e3e3d;
+          font-size: 1rem;
+          text-decoration: underline; }
+
+.addressCreate,
+.addressEdit {
+  padding: 0 1.25rem; }
+  .addressCreate .boxContainerBody,
+  .addressEdit .boxContainerBody {
+    padding: 1rem 0.75rem; }
+    .addressCreate .boxContainerBody :global(.vtex-address-form__country),
+    .addressEdit .boxContainerBody :global(.vtex-address-form__country) {
+      padding-bottom: 1rem; }
+    .addressCreate .boxContainerBody :global(.vtex-dropdown__label),
+    .addressEdit .boxContainerBody :global(.vtex-dropdown__label) {
+      margin-bottom: 0.75rem;
+      color: #3e3e3d; }
+    .addressCreate .boxContainerBody :global(.vtex-address-form-4-x-container),
+    .addressEdit .boxContainerBody :global(.vtex-address-form-4-x-container) {
+      border: none; }
+    .addressCreate .boxContainerBody :global(.vtex-dropdown__container),
+    .addressEdit .boxContainerBody :global(.vtex-dropdown__container) {
+      height: 100%; }
+    .addressCreate .boxContainerBody :global(.vtex-address-form__postalCode),
+    .addressEdit .boxContainerBody :global(.vtex-address-form__postalCode) {
+      display: flex;
+      flex-direction: column-reverse;
+      padding-bottom: 1rem; }
+      .addressCreate .boxContainerBody :global(.vtex-address-form__postalCode) :global(.vtex-input__label),
+      .addressEdit .boxContainerBody :global(.vtex-address-form__postalCode) :global(.vtex-input__label) {
+        display: none; }
+      .addressCreate .boxContainerBody :global(.vtex-address-form__postalCode) :global(.vtex-address-form__postalCode-forgottenURL),
+      .addressEdit .boxContainerBody :global(.vtex-address-form__postalCode) :global(.vtex-address-form__postalCode-forgottenURL) {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        margin-bottom: 0.75rem; }
+        .addressCreate .boxContainerBody :global(.vtex-address-form__postalCode) :global(.vtex-address-form__postalCode-forgottenURL)::before,
+        .addressEdit .boxContainerBody :global(.vtex-address-form__postalCode) :global(.vtex-address-form__postalCode-forgottenURL)::before {
+          content: "CEP";
+          color: #3e3e3d;
+          font-size: 0.875rem; }
+        .addressCreate .boxContainerBody :global(.vtex-address-form__postalCode) :global(.vtex-address-form__postalCode-forgottenURL) :global(.pointer),
+        .addressEdit .boxContainerBody :global(.vtex-address-form__postalCode) :global(.vtex-address-form__postalCode-forgottenURL) :global(.pointer) {
+          font-size: 0.75rem;
+          color: #3e3e3d;
+          text-decoration: underline; }
+          .addressCreate .boxContainerBody :global(.vtex-address-form__postalCode) :global(.vtex-address-form__postalCode-forgottenURL) :global(.pointer) :global(.ml2),
+          .addressEdit .boxContainerBody :global(.vtex-address-form__postalCode) :global(.vtex-address-form__postalCode-forgottenURL) :global(.pointer) :global(.ml2) {
+            display: none; }
+    .addressCreate .boxContainerBody :global(.vtex-address-form-4-x-input),
+    .addressEdit .boxContainerBody :global(.vtex-address-form-4-x-input) {
+      padding: 1rem;
+      height: 51.6px; }
+    .addressCreate .boxContainerBody :global(.vtex-input-prefix__group),
+    .addressEdit .boxContainerBody :global(.vtex-input-prefix__group) {
+      border: 1px solid #c8c8c8;
+      height: 100%; }
+      .addressCreate .boxContainerBody :global(.vtex-input-prefix__group) :global(.vtex-address-form-4-x-input),
+      .addressEdit .boxContainerBody :global(.vtex-input-prefix__group) :global(.vtex-address-form-4-x-input) {
+        background-color: #f9f9f9;
+        border: 1px solid #f9f9f9;
+        border-radius: 0.25rem;
+        padding: 1rem;
+        font-family: "SofiaPro";
+        font-size: 0.75rem;
+        color: #3e3e3d; }
+      .addressCreate .boxContainerBody :global(.vtex-input-prefix__group) :global(.c-muted-2),
+      .addressEdit .boxContainerBody :global(.vtex-input-prefix__group) :global(.c-muted-2) {
+        display: none; }
+    .addressCreate .boxContainerBody :global(.mb7),
+    .addressEdit .boxContainerBody :global(.mb7) {
+      margin-bottom: 1rem;
+      color: #3e3e3d; }
+      .addressCreate .boxContainerBody :global(.mb7) :global(.address-summary) :global(.pointer),
+      .addressEdit .boxContainerBody :global(.mb7) :global(.address-summary) :global(.pointer) {
+        color: #3e3e3d;
+        text-decoration: underline; }
+    .addressCreate .boxContainerBody :global(.vtex-input__label),
+    .addressEdit .boxContainerBody :global(.vtex-input__label) {
+      margin-bottom: 0.75rem;
+      color: #3e3e3d; }
+    .addressCreate .boxContainerBody :global(.vtex-address-form__number),
+    .addressCreate .boxContainerBody :global(.vtex-address-form__complement),
+    .addressCreate .boxContainerBody :global(.vtex-address-form__receiverName),
+    .addressCreate .boxContainerBody :global(.vtex-address-form__street),
+    .addressCreate .boxContainerBody :global(.vtex-address-form__neighborhood),
+    .addressCreate .boxContainerBody :global(.vtex-address-form__city),
+    .addressCreate .boxContainerBody :global(.vtex-address-form__state),
+    .addressEdit .boxContainerBody :global(.vtex-address-form__number),
+    .addressEdit .boxContainerBody :global(.vtex-address-form__complement),
+    .addressEdit .boxContainerBody :global(.vtex-address-form__receiverName),
+    .addressEdit .boxContainerBody :global(.vtex-address-form__street),
+    .addressEdit .boxContainerBody :global(.vtex-address-form__neighborhood),
+    .addressEdit .boxContainerBody :global(.vtex-address-form__city),
+    .addressEdit .boxContainerBody :global(.vtex-address-form__state) {
+      padding-bottom: 1rem; }
+    .addressCreate .boxContainerBody :global(.vtex-button),
+    .addressEdit .boxContainerBody :global(.vtex-button) {
+      background-color: #3e3e3d;
+      border: none;
+      border-radius: 0;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      letter-spacing: 0px;
+      font-family: "SofiaPro";
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      padding: 1rem;
+      font-size: 1rem; }
+      .addressCreate .boxContainerBody :global(.vtex-button)[disabled],
+      .addressEdit .boxContainerBody :global(.vtex-button)[disabled] {
+        background-color: #f9f9f9;
+        border: none;
+        border-radius: 3.25rem;
+        color: #3e3e3d; }
+    .addressCreate .boxContainerBody :global(.mt5) :global(.vtex-button),
+    .addressEdit .boxContainerBody :global(.mt5) :global(.vtex-button) {
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      letter-spacing: 0px;
+      font-family: "SofiaPro";
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      background-color: transparent;
+      border: 1px solid #838383;
+      color: #3e3e3d;
+      font-size: 1rem; }
+
+:global(.vtex-account__create-card) {
+  padding: 0 1.25rem; }
+  :global(.vtex-account__create-card) :global(.w-100) {
+    border: 1px solid #F3F3F3;
+    border-radius: 0.25rem;
+    padding: 1rem 0.9375rem; }
+  :global(.vtex-account__create-card) :global(.vtex-input) :global(.vtex-input__label) {
+    outline: 1px solid red; }

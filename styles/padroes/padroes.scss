@@ -15,6 +15,7 @@ $weight3: 500;
 $weight4: 600;
 $weight5: 700;
 
+$color--gray-25: #F3F3F3;
 $color--gray-50: #f9f9f9;
 $color--gray-100: #ebebeb;
 $color--gray-200: #c8c8c8;
@@ -28,6 +29,7 @@ $color--brand--inovation: #bdcfdb;
 
 $color--warning--red: #D37070;
 
+$border--25: 1px solid $color--gray-25;
 $border--50: 1px solid $color--gray-50;
 $border--100: 1px solid $color--gray-100;
 $border--200: 1px solid $color--gray-200;
@@ -42,6 +44,12 @@ $border-radius-circle: 50%;
   background-color: $color--brand--primary;
   border: none;
   border-radius: 0;
+}
+
+@mixin btn2 {
+  background-color: $color--gray-50;
+  border: none;
+  border-radius: 3.25rem;
 }
 
 $margin: 20px;
