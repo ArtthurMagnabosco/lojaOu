@@ -9,7 +9,9 @@
   margin-bottom: 3rem; }
 
 .flexRow--header-container-mob {
-  width: 100%; }
+  margin-top: 170px;
+  width: 100%;
+  position: fixed; }
 
 .flexRowContent--header-main-mob {
   display: flex;
@@ -349,3 +351,75 @@
     justify-content: center; }
   .flexRowContent--not-found-content :global(.vtex-search-result-3-x-galleryTitle--layout) {
     justify-content: center; }
+
+.flexCol--news-container {
+  width: calc(100% + 40px) !important;
+  margin-inline: -20px;
+  display: flex;
+  padding: 1.5rem 0rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem; }
+  @media (min-width: 1008px) {
+    .flexCol--news-container {
+      width: calc(100% + 4.4vw) !important;
+      margin-inline: -2.2vw; } }
+  .flexCol--news-container .flexCol--news-text-container {
+    display: flex;
+    width: 24.5625rem;
+    padding: 0rem 1.25rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem; }
+
+.flexCol--formas-de-pagamento-footer {
+  width: calc(100% + 40px) !important;
+  margin-inline: -20px;
+  display: flex;
+  padding: 2rem 1.25rem 0 1.25rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  background: #f9f9f9; }
+  @media (min-width: 1008px) {
+    .flexCol--formas-de-pagamento-footer {
+      width: calc(100% + 4.4vw) !important;
+      margin-inline: -2.2vw; } }
+
+.flexCol--certificados-footer {
+  width: calc(100% + 40px) !important;
+  margin-inline: -20px;
+  display: flex;
+  padding: 2rem 1.25rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  background: #f9f9f9; }
+  @media (min-width: 1008px) {
+    .flexCol--certificados-footer {
+      width: calc(100% + 4.4vw) !important;
+      margin-inline: -2.2vw; } }
+
+.flexCol--info-container {
+  width: 100%;
+  padding: 1.5rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem; }
+
+.flexRowContent--bywecode-container {
+  width: calc(100% + 40px) !important;
+  margin-inline: -20px;
+  display: flex;
+  width: 100%;
+  padding: 0.6875rem 7.0625rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  background: #043766; }
+  @media (min-width: 1008px) {
+    .flexRowContent--bywecode-container {
+      width: calc(100% + 4.4vw) !important;
+      margin-inline: -2.2vw; } }

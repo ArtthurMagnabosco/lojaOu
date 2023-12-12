@@ -1,0 +1,14 @@
+@import "../../../../styles/padroes/padroes.scss";
+
+.containerMasterRedes_sociais{
+    @include fullWidth;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    background-color: $color--brand--primary;
+    padding: 0 1.25rem 2rem 1.25rem;
+
+    .imageRede_social{
+        width: 1.5rem;
+    }
+}

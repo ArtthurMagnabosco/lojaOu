@@ -1,0 +1,14 @@
+.containerMasterRedes_sociais {
+  width: calc(100% + 40px) !important;
+  margin-inline: -20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  background-color: #3e3e3d;
+  padding: 0 1.25rem 2rem 1.25rem; }
+  @media (min-width: 1008px) {
+    .containerMasterRedes_sociais {
+      width: calc(100% + 4.4vw) !important;
+      margin-inline: -2.2vw; } }
+  .containerMasterRedes_sociais .imageRede_social {
+    width: 1.5rem; }

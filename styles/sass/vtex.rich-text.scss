@@ -77,3 +77,47 @@
     color: $color--brand--primary;
   }
 }
+
+.paragraph--news-tittle{
+  @include font400;
+  color: $color--brand--primary;
+  font-size: $fontSize6;
+  font-weight: bold;
+  
+}
+
+.paragraph--news-text{
+  @include font400;
+  color: $color--brand--primary;
+  font-size: $fontSize2;
+  
+}
+
+.paragraph--formas-de-pagamento-title{
+  color: $color--brand--primary;
+  font-size: $fontSize3;
+  @include font400;
+}
+
+.paragraph--certificados-title{
+  color: $color--brand--primary;
+  font-size: $fontSize3;
+  @include font400;
+}
+
+.paragraph--info-text-caps{
+  color: $color--brand--primary;
+  font-size: 0.625rem;
+  @include font400;
+
+  text-align: center;
+  
+}
+
+.paragraph--info-text-normal{
+  color: $color--brand--primary;
+  font-size: 0.625rem;
+  @include font400;
+
+  text-align: center;
+}

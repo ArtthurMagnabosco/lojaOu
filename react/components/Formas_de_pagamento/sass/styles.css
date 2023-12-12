@@ -1,0 +1,10 @@
+.containerMasterFormas_de_pagamento {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  gap: 1rem;
+  flex-wrap: wrap; }
+  .containerMasterFormas_de_pagamento .styles.image_forma_pagamento {
+    max-width: 2.5rem;
+    max-height: 1.3rem; }

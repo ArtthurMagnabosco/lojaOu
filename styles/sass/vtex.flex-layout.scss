@@ -13,8 +13,9 @@
 }
 
 .flexRow--header-container-mob {
+  margin-top: 170px;
   width: 100%;
-  
+  position: fixed;
 }
 
 .flexRowContent--header-main-mob {
@@ -418,4 +419,70 @@
   :global(.vtex-search-result-3-x-galleryTitle--layout) {
     justify-content: center;
   }
+}
+
+.flexCol--news-container{
+  @include fullWidth;
+  display: flex;
+  padding: 1.5rem 0rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  .flexCol--news-text-container{
+    
+    display: flex;
+    width: 24.5625rem;
+    padding: 0rem 1.25rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
+
+.flexCol--formas-de-pagamento-footer{
+  @include fullWidth;
+
+  display: flex;
+  padding: 2rem 1.25rem 0 1.25rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+
+  
+  background: $color--gray-50;
+}
+
+.flexCol--certificados-footer{
+  @include fullWidth;
+
+  display: flex;
+  padding: 2rem 1.25rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+
+  
+  background: $color--gray-50;
+}
+
+.flexCol--info-container{
+  width: 100%;
+  padding: 1.5rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:  0.25rem;
+
+}
+
+.flexRowContent--bywecode-container{
+  @include fullWidth;
+  display: flex;
+  width: 100%;
+  padding: 0.6875rem 7.0625rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  background: #043766;
 }

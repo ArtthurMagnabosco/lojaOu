@@ -1,0 +1,39 @@
+@import "../../../../styles/padroes/padroes.scss";
+
+.todos_beneficios{
+    @include fullWidth;
+    
+    .beneficios{
+        display: flex;
+        width: 100%;
+        padding: 2rem 1.25rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 1rem;
+        border-bottom: 1px solid  $color--gray-100;
+        background: $color--gray-50;
+
+        .beneficio{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 1rem;
+            width: 100%;
+    
+            .imageBeneficio{
+                height: 1.25rem;
+            }
+            
+            .textBeneficio{
+                @include font400;
+                color: var(--colors-brand-primary, #3E3E3D);
+                text-align: center;
+                font-size: $fontSize1;
+                
+            }
+        }
+    }
+
+    
+}

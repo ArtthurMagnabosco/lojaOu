@@ -123,3 +123,78 @@
     font-size: 0.875rem;
     text-align: center;
     color: #3e3e3d; }
+
+.paragraph--news-tittle {
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0px;
+  font-family: "SofiaPro";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #3e3e3d;
+  font-size: 1.5rem;
+  font-weight: bold; }
+
+.paragraph--news-text {
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0px;
+  font-family: "SofiaPro";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #3e3e3d;
+  font-size: 0.875rem; }
+
+.paragraph--formas-de-pagamento-title {
+  color: #3e3e3d;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0px;
+  font-family: "SofiaPro";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.paragraph--certificados-title {
+  color: #3e3e3d;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0px;
+  font-family: "SofiaPro";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.paragraph--info-text-caps {
+  color: #3e3e3d;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0px;
+  font-family: "SofiaPro";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center; }
+
+.paragraph--info-text-normal {
+  color: #3e3e3d;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0px;
+  font-family: "SofiaPro";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center; }

@@ -15,11 +15,11 @@
   "flex-layout.col#footer-mobile": {
     "title": "Conteúdo",
     "children": [
-      //componente svg + infos(?)
+      "BeneficiosFooter",
       "flex-layout.col#newsletter-container",
-      //componente sobre nós abre fecha
-      //formas de pagamento
-      //certificados e selos
+      "flex-layout.col#sobre-duvidas-redes",
+      "flex-layout.col#formas-de-pagamento",
+      "flex-layout.col#selos-certificados",
       "flex-layout.col#info-wec-end-container"
     ],
     "props": {
@@ -30,8 +30,8 @@
   "flex-layout.col#newsletter-container": {
     "title": "Newsletter Container",
     "children": [
-      "flex-layout.col#newsletter-text-container"
-      //flex form col
+      "flex-layout.col#newsletter-text-container",
+      "form#form-footer"
     ],
     "props": {
       "blockClass": "news-container"
@@ -59,6 +59,134 @@
     "props": {
       "text": "Inscreva-se e não perca nenhuma novidade da OU!",
       "blockClass": "news-text"
+    }
+  },
+  "form#form-footer": {
+    "title": "Formulário",
+    "props": {
+      "entity": "PT",
+      "schema": "newsletter",
+      "blockClass": "form-news-fotter"
+    },
+    "children": ["flex-layout.row#newsletter-form-wrapper"],
+    "blocks": ["form-success#newsletter"]
+  },
+
+  "flex-layout.row#newsletter-form-wrapper": {
+    "title": "",
+    "children": [
+      "form-input.text#name1",
+      "form-input.text#email1",
+      "form-submit#newsletter",
+      "form-input.checkbox#agreement"
+    ],
+    "props": {
+      "blockClass": "newsletter-form-wrapper"
+    }
+  },  
+
+  "form-input.text#name1": {
+    "props": {
+      "pointer": "#/properties/name",
+      "placeholder": "Escreva seu nome"
+    }
+  },
+
+  "form-input.text#email1": {
+    "props": {
+      "pointer": "#/properties/email",
+      "placeholder": "Escreva seu e-mail"
+    }
+  },
+
+  "form-input.checkbox#agreement": {
+    "props": {
+      "pointer": "#/properties/agreement",
+      "label": "Aceito receber novidades e promoções por e-mail"
+    }
+  },
+
+  "form-submit#newsletter": {
+    "props": {
+      "label": "Quero receber"
+    }
+  },
+
+  "form-success#newsletter": {
+    "children": [
+      "flex-layout.col#sucess-container"
+      // "NewsletterSuccesMessage"
+    ],
+    "props": {
+      "blockClass": "form-success-container"
+    }
+  },
+
+  "flex-layout.col#sucess-container": {
+    "title": "Confirmação",
+    "children": ["rich-text#title-sucess", "rich-text#text-sucess"],
+    "props": {
+      "blockClass": "sucess-container"
+    }
+  },
+
+  "rich-text#title-sucess": {
+    "title": "Título",
+    "props": {
+      "text": "Parabéns",
+      "blockClass": "title-sucess"
+    }
+  },
+
+  "rich-text#text-sucess": {
+    "title": "Texto",
+    "props": {
+      "text": "Você se inscreveu na nossa newsletter e ficará sabendo de todas as novidades com antecedência. Abaixo você pode copiar o cupom de desconto:",
+      "blockClass": "text-sucess"
+    }
+  },
+
+  "flex-layout.col#sobre-duvidas-redes":{
+    "title":"Sobre nós Duvidas Redes",
+    "children":[
+      "SobreNos_Duvidas",
+      "Redes_sociais_footer"
+    ]
+  }, 
+  "flex-layout.col#formas-de-pagamento":{
+    "title":"Formas de pagamento",
+    "children":[
+      "rich-text#formas-de-pagamento",
+      "Formas_de_pagamento"
+      
+    ],
+    "props":{
+      "blockClass":"formas-de-pagamento-footer"
+    }
+  },
+  "rich-text#formas-de-pagamento":{
+    "title":"titulo",
+    "props":{
+      "text":"Formas de pagamento",
+      "blockClass":"formas-de-pagamento-title"
+    }
+  },
+
+  "flex-layout.col#selos-certificados":{
+    "children":[
+      "rich-text#certificados",
+      "Certificados_Selos"
+    ],
+    "props":{
+      "blockClass":"certificados-footer"
+    }
+  },
+
+  "rich-text#certificados":{
+    "title":"titulo",
+    "props":{
+      "text":"Certificados e Selos",
+      "blockClass":"certificados-title"
     }
   },
 
@@ -111,7 +239,7 @@
   "image#wecode": {
     "props": {
       "title": "By Wecode",
-      "src": "",
+      "src": "assets/png/logo-bywecode.png",
       "link": {
         "url": "https://www.wecode.digital",
         "newTab": true,

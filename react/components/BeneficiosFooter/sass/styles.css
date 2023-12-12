@@ -1,0 +1,37 @@
+.todos_beneficios {
+  width: calc(100% + 40px) !important;
+  margin-inline: -20px; }
+  @media (min-width: 1008px) {
+    .todos_beneficios {
+      width: calc(100% + 4.4vw) !important;
+      margin-inline: -2.2vw; } }
+  .todos_beneficios .beneficios {
+    display: flex;
+    width: 100%;
+    padding: 2rem 1.25rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    border-bottom: 1px solid #ebebeb;
+    background: #f9f9f9; }
+    .todos_beneficios .beneficios .beneficio {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 1rem;
+      width: 100%; }
+      .todos_beneficios .beneficios .beneficio .imageBeneficio {
+        height: 1.25rem; }
+      .todos_beneficios .beneficios .beneficio .textBeneficio {
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0px;
+        font-family: "SofiaPro";
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: var(--colors-brand-primary, #3E3E3D);
+        text-align: center;
+        font-size: 0.75rem; }

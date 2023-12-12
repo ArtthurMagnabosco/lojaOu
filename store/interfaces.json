@@ -10,5 +10,25 @@
   "HeaderScroll": {
     "component": "HeaderScroll",
     "composition": "children"
+  },
+  "BeneficiosFooter": {
+    "component": "BeneficiosFooter",
+    "composition": "children"
+  },
+  "SobreNos_Duvidas": {
+    "component": "SobreNos_Duvidas",
+    "composition": "children"
+  },
+  "Redes_sociais_footer": {
+    "component": "Redes_sociais_footer",
+    "composition": "children"
+  },
+  "Formas_de_pagamento": {
+    "component": "Formas_de_pagamento",
+    "composition": "children"
+  },
+  "Certificados_Selos": {
+    "component": "Certificados_Selos",
+    "composition": "children"
   }
 }
