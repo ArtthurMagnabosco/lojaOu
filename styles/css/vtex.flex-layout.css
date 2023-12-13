@@ -9,7 +9,7 @@
   margin-bottom: 3rem; }
 
 .flexRow--header-container-mob {
-  margin-top: 170px;
+  margin-top: 145px;
   width: 100%;
   position: fixed; }
 
@@ -18,7 +18,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 0px; }
+  padding: 8px 0px; }
 
 .flexRowContent--header-mob-menu {
   justify-content: flex-start;
@@ -423,3 +423,5 @@
     .flexRowContent--bywecode-container {
       width: calc(100% + 4.4vw) !important;
       margin-inline: -2.2vw; } }
+  .flexRowContent--bywecode-container :first-child {
+    text-align: center; }

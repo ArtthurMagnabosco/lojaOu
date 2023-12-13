@@ -109,3 +109,7 @@
 
 :global(.vtex-minicart-2-x-minicartIconContainer--minicart) :global(.vtex-store-icons-0-x-cartIcon) {
   display: none; }
+
+:global(.vtex-minicart-2-x-minicartIconContainer--minicart) :global(.vtex-minicart-2-x-minicartQuantityBadge) {
+  background-color: transparent;
+  top: 3px; }

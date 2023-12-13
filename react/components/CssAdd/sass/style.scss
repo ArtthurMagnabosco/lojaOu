@@ -94,13 +94,18 @@ li {
 .vtex-store-components-3-x-autoCompleteOuterContainer{
   .vtex-input-prefix__group{
     input{
-      color: $color--gray-200;
-      text-align: center;
-      font-family: Sofia Pro;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
+      @include font400;
+      color: $color--brand--secondary;
+      
+      font-size: $fontSize1;
+      
+    }
+    input::placeholder{
+      @include font400;
+      color: $color--brand--secondary;
+      
+      font-size: $fontSize1;
+      
     }
 
     span{
@@ -138,6 +143,21 @@ li {
   .lojaou-lojaou-1-x-headerScrolled{
     .vtex-store-components-3-x-autoCompleteOuterContainer{
       .vtex-input-prefix__group{
+
+        input{
+          @include font400;
+          color: $color--gray-200;
+         
+          font-size: $fontSize1;
+          
+        }
+        input::placeholder{
+          @include font400;
+          color: $color--gray-200;
+          
+          font-size: $fontSize1;
+          
+        }
 
         span{
           

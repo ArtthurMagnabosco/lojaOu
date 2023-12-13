@@ -74,13 +74,28 @@ li {
   color: #3e3e3d; }
 
 .vtex-store-components-3-x-autoCompleteOuterContainer .vtex-input-prefix__group input {
-  color: #c8c8c8;
-  text-align: center;
-  font-family: Sofia Pro;
-  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal; }
+  line-height: normal;
+  letter-spacing: 0px;
+  font-family: "SofiaPro";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #ffffff;
+  font-size: 0.75rem; }
+
+.vtex-store-components-3-x-autoCompleteOuterContainer .vtex-input-prefix__group input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0px;
+  font-family: "SofiaPro";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #ffffff;
+  font-size: 0.75rem; }
 
 .vtex-store-components-3-x-autoCompleteOuterContainer .vtex-input-prefix__group span .vtex-store-components-3-x-suffixWrapper > div .vtex-store-components-3-x-searchBarIcon::after {
   content: '';
@@ -93,6 +108,30 @@ li {
 
 .vtex-store-components-3-x-autoCompleteOuterContainer .vtex-input-prefix__group span .vtex-store-components-3-x-suffixWrapper > div .vtex-store-components-3-x-searchIcon {
   display: none; }
+
+.lojaou-lojaou-1-x-headerScrolled .vtex-store-components-3-x-autoCompleteOuterContainer .vtex-input-prefix__group input {
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0px;
+  font-family: "SofiaPro";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #c8c8c8;
+  font-size: 0.75rem; }
+
+.lojaou-lojaou-1-x-headerScrolled .vtex-store-components-3-x-autoCompleteOuterContainer .vtex-input-prefix__group input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0px;
+  font-family: "SofiaPro";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #c8c8c8;
+  font-size: 0.75rem; }
 
 .lojaou-lojaou-1-x-headerScrolled .vtex-store-components-3-x-autoCompleteOuterContainer .vtex-input-prefix__group span .vtex-store-components-3-x-suffixWrapper > div .vtex-store-components-3-x-searchBarIcon::after {
   content: '';
