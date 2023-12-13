@@ -14,20 +14,19 @@
     .sliderHeader {
       width: calc(100% + 4.4vw) !important;
       margin-inline: -2.2vw; } }
-  .sliderHeader .headerSliderBenefitsLine .headerSliderImage {
-    width: 0.75rem;
-    height: auto;
-    flex-shrink: 0; }
-  .sliderHeader .headerSliderBenefitsLine .sliderHeaderText {
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0px;
-    font-family: "SofiaPro";
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #ffffff;
-    text-align: center;
-    font-family: "SofiaPro";
-    font-size: 0.875rem; }
+  .sliderHeader .headerSliderBenefitsLine {
+    width: 80%;
+    display: flex;
+    text-align: center; }
+    .sliderHeader .headerSliderBenefitsLine .sliderHeaderText {
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0px;
+      font-family: "SofiaPro";
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color: #ffffff;
+      font-family: "SofiaPro";
+      font-size: 0.875rem; }

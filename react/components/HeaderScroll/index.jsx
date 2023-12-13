@@ -2,7 +2,7 @@ import React, {useEffect,useState} from 'react'
 import styles from './sass/styles.css'
 
 export const HeaderScroll = ({Header}) => {
-    const [scrolledDown, setScrolledDown] = useState(true);
+    const [scrolledDown, setScrolledDown] = useState(false);
     useEffect(() => {
       const handleScroll = () => {
         window.scrollY ? setScrolledDown(true) : setScrolledDown(false);

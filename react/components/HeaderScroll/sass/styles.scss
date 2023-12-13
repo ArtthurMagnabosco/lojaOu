@@ -1,10 +1,52 @@
 @import "../../../../styles/padroes/padroes.scss";
 
 .headerScrolled{
-    :global(.flexRow--header-container-mob) {
+  background: $color--brand--secondary;
+    :global(.vtex-flex-layout-0-x-flexRow--header-container-mob) {
         width: 100%;
         position: fixed;
-        background-color: rgb(250, 142, 0);
+        background: $color--brand--secondary;
+        :global(.vtex-store-components-3-x-searchBarContainer){
+
+          :global(.vtex-store-components-3-x-searchBarInnerContainer){
+            
+            :global(.vtex-store-components-3-x-autoCompleteOuterContainer){
+              
+              :global(.vtex-input-prefix__group){
+                border: 1px solid $color--gray-100;
+        
+                :global(.vtex-styleguide-9-x-input){
+                    text-align: start;
+                    font-family: Sofia Pro;
+                    font-size: 1rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    color: $color--brand--primary;
+                    background-color: $color--gray-50;
+                }
+                :global(.vtex-input__suffix){
+                    background-color: $color--gray-50;
+         
+                   :global(.vtex-store-components-3-x-suffixWrapper){
+                      background-color: $color--gray-50;
+         
+                     :global(.vtex-store-components-3-x-searchBarIcon){
+                      background-color: $color--gray-50;
+                       
+                      
+                     }
+              }
+            }
+          }
+        }
+      }
+    }
+        
+        :global(.vtex-flex-layout-0-x-flexRowContent--header-main-mob){
+          filter: brightness(0);
+        }
+        
       }
 
     

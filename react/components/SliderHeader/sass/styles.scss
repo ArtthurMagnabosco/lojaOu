@@ -16,17 +16,19 @@
     flex-shrink: 0;
 
     .headerSliderBenefitsLine{
-
+        
+        width: 80%;
+        display: flex;
+        text-align: center;
+        
         .headerSliderImage{
-            width: 0.75rem;
-            height: auto;
-            flex-shrink: 0;
+       //  text-align: center
         }
         
         .sliderHeaderText{
             @include font400;
             color: $color--brand--secondary;
-            text-align: center;
+           // text-align: center;
             font-family: $fontFamily;
             font-size: $fontSize2;
             

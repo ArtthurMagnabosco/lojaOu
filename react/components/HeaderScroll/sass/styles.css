@@ -1,4 +1,25 @@
-.headerScrolled :global(.flexRow--header-container-mob) {
-  width: 100%;
-  position: fixed;
-  background-color: #fa8e00; }
+.headerScrolled {
+  background: #ffffff; }
+  .headerScrolled :global(.vtex-flex-layout-0-x-flexRow--header-container-mob) {
+    width: 100%;
+    position: fixed;
+    background: #ffffff; }
+    .headerScrolled :global(.vtex-flex-layout-0-x-flexRow--header-container-mob) :global(.vtex-store-components-3-x-searchBarContainer) :global(.vtex-store-components-3-x-searchBarInnerContainer) :global(.vtex-store-components-3-x-autoCompleteOuterContainer) :global(.vtex-input-prefix__group) {
+      border: 1px solid #ebebeb; }
+      .headerScrolled :global(.vtex-flex-layout-0-x-flexRow--header-container-mob) :global(.vtex-store-components-3-x-searchBarContainer) :global(.vtex-store-components-3-x-searchBarInnerContainer) :global(.vtex-store-components-3-x-autoCompleteOuterContainer) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
+        text-align: start;
+        font-family: Sofia Pro;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: #3e3e3d;
+        background-color: #f9f9f9; }
+      .headerScrolled :global(.vtex-flex-layout-0-x-flexRow--header-container-mob) :global(.vtex-store-components-3-x-searchBarContainer) :global(.vtex-store-components-3-x-searchBarInnerContainer) :global(.vtex-store-components-3-x-autoCompleteOuterContainer) :global(.vtex-input-prefix__group) :global(.vtex-input__suffix) {
+        background-color: #f9f9f9; }
+        .headerScrolled :global(.vtex-flex-layout-0-x-flexRow--header-container-mob) :global(.vtex-store-components-3-x-searchBarContainer) :global(.vtex-store-components-3-x-searchBarInnerContainer) :global(.vtex-store-components-3-x-autoCompleteOuterContainer) :global(.vtex-input-prefix__group) :global(.vtex-input__suffix) :global(.vtex-store-components-3-x-suffixWrapper) {
+          background-color: #f9f9f9; }
+          .headerScrolled :global(.vtex-flex-layout-0-x-flexRow--header-container-mob) :global(.vtex-store-components-3-x-searchBarContainer) :global(.vtex-store-components-3-x-searchBarInnerContainer) :global(.vtex-store-components-3-x-autoCompleteOuterContainer) :global(.vtex-input-prefix__group) :global(.vtex-input__suffix) :global(.vtex-store-components-3-x-suffixWrapper) :global(.vtex-store-components-3-x-searchBarIcon) {
+            background-color: #f9f9f9; }
+    .headerScrolled :global(.vtex-flex-layout-0-x-flexRow--header-container-mob) :global(.vtex-flex-layout-0-x-flexRowContent--header-main-mob) {
+      filter: brightness(0); }

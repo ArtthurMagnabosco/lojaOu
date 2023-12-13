@@ -120,7 +120,7 @@
       "blurOnSubmit": false,
       "autocompleteAlignment": "left",
       "compactMode": false,
-      "displayMode": "search-button",
+      "displayMode": "search-button-clear-buttons",
       "maxWidth": "100vw",
       "openAutocompleteOnFocus": true,
       "placeholder": "O que você está procurando?",
@@ -134,14 +134,15 @@
     "title": "Autocomplete da busca",
     "blocks": ["product-summary"],
     "props": {
-      "maxTopSearches": 3,
+      "maxTopSearches": 0,
       "maxHistory": 3,
       "maxSuggestedProducts": 2,
       "maxSuggestedTerms": 3,
+      "hideTitles": false,
       "autocompleteWidth": "100vw",
       "productLayout": "HORIZONTAL",
       "simulationBehavior": "skip",
-      "isOpen": false
+      "isOpen": true
     }
   }
 }

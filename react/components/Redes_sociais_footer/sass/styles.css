@@ -5,7 +5,8 @@
   align-items: flex-start;
   gap: 1.5rem;
   background-color: #3e3e3d;
-  padding: 0 1.25rem 2rem 1.25rem; }
+  padding: 0 1.25rem 2rem 1.25rem;
+  margin-top: -1px; }
   @media (min-width: 1008px) {
     .containerMasterRedes_sociais {
       width: calc(100% + 4.4vw) !important;

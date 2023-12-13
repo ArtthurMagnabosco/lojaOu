@@ -30,8 +30,8 @@
   "flex-layout.col#newsletter-container": {
     "title": "Newsletter Container",
     "children": [
-      "flex-layout.col#newsletter-text-container",
-      "form#form-footer"
+      "flex-layout.col#newsletter-text-container"
+     // "form#form-footer"
     ],
     "props": {
       "blockClass": "news-container"
@@ -61,90 +61,90 @@
       "blockClass": "news-text"
     }
   },
-  "form#form-footer": {
-    "title": "Formulário",
-    "props": {
-      "entity": "PT",
-      "schema": "newsletter",
-      "blockClass": "form-news-fotter"
-    },
-    "children": ["flex-layout.row#newsletter-form-wrapper"],
-    "blocks": ["form-success#newsletter"]
-  },
+  // "form#form-footer": {
+  //   "title": "Formulário",
+  //   "props": {
+  //     "entity": "PT",
+  //     "schema": "newsletter",
+  //     "blockClass": "form-news-fotter"
+  //   },
+  //   "children": ["flex-layout.row#newsletter-form-wrapper"],
+  //   "blocks": ["form-success#newsletter"]
+  // },
 
-  "flex-layout.row#newsletter-form-wrapper": {
-    "title": "",
-    "children": [
-      "form-input.text#name1",
-      "form-input.text#email1",
-      "form-submit#newsletter",
-      "form-input.checkbox#agreement"
-    ],
-    "props": {
-      "blockClass": "newsletter-form-wrapper"
-    }
-  },  
+  // "flex-layout.row#newsletter-form-wrapper": {
+  //   "title": "",
+  //   "children": [
+  //     "form-input.text#name1",
+  //     "form-input.text#email1",
+  //     "form-submit#newsletter",
+  //     "form-input.checkbox#agreement"
+  //   ],
+  //   "props": {
+  //     "blockClass": "newsletter-form-wrapper"
+  //   }
+  // },  
 
-  "form-input.text#name1": {
-    "props": {
-      "pointer": "#/properties/name",
-      "placeholder": "Escreva seu nome"
-    }
-  },
+  // "form-input.text#name1": {
+  //   "props": {
+  //     "pointer": "#/properties/name",
+  //     "placeholder": "Escreva seu nome"
+  //   }
+  // },
 
-  "form-input.text#email1": {
-    "props": {
-      "pointer": "#/properties/email",
-      "placeholder": "Escreva seu e-mail"
-    }
-  },
+  // "form-input.text#email1": {
+  //   "props": {
+  //     "pointer": "#/properties/email",
+  //     "placeholder": "Escreva seu e-mail"
+  //   }
+  // },
 
-  "form-input.checkbox#agreement": {
-    "props": {
-      "pointer": "#/properties/agreement",
-      "label": "Aceito receber novidades e promoções por e-mail"
-    }
-  },
+  // "form-input.checkbox#agreement": {
+  //   "props": {
+  //     "pointer": "#/properties/agreement",
+  //     "label": "Aceito receber novidades e promoções por e-mail"
+  //   }
+  // },
 
-  "form-submit#newsletter": {
-    "props": {
-      "label": "Quero receber"
-    }
-  },
+  // "form-submit#newsletter": {
+  //   "props": {
+  //     "label": "Quero receber"
+  //   }
+  // },
 
-  "form-success#newsletter": {
-    "children": [
-      "flex-layout.col#sucess-container"
-      // "NewsletterSuccesMessage"
-    ],
-    "props": {
-      "blockClass": "form-success-container"
-    }
-  },
+  // "form-success#newsletter": {
+  //   "children": [
+  //     "flex-layout.col#sucess-container"
+  //     // "NewsletterSuccesMessage"
+  //   ],
+  //   "props": {
+  //     "blockClass": "form-success-container"
+  //   }
+  // },
 
-  "flex-layout.col#sucess-container": {
-    "title": "Confirmação",
-    "children": ["rich-text#title-sucess", "rich-text#text-sucess"],
-    "props": {
-      "blockClass": "sucess-container"
-    }
-  },
+  // "flex-layout.col#sucess-container": {
+  //   "title": "Confirmação",
+  //   "children": ["rich-text#title-sucess", "rich-text#text-sucess"],
+  //   "props": {
+  //     "blockClass": "sucess-container"
+  //   }
+  // },
 
-  "rich-text#title-sucess": {
-    "title": "Título",
-    "props": {
-      "text": "Parabéns",
-      "blockClass": "title-sucess"
-    }
-  },
+  // "rich-text#title-sucess": {
+  //   "title": "Título",
+  //   "props": {
+  //     "text": "Parabéns",
+  //     "blockClass": "title-sucess"
+  //   }
+  // },
 
-  "rich-text#text-sucess": {
-    "title": "Texto",
-    "props": {
-      "text": "Você se inscreveu na nossa newsletter e ficará sabendo de todas as novidades com antecedência. Abaixo você pode copiar o cupom de desconto:",
-      "blockClass": "text-sucess"
-    }
-  },
+  // "rich-text#text-sucess": {
+  //   "title": "Texto",
+  //   "props": {
+  //     "text": "Você se inscreveu na nossa newsletter e ficará sabendo de todas as novidades com antecedência. Abaixo você pode copiar o cupom de desconto:",
+  //     "blockClass": "text-sucess"
+  //   }
+  // },
 
   "flex-layout.col#sobre-duvidas-redes":{
     "title":"Sobre nós Duvidas Redes",

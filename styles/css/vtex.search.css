@@ -1,0 +1,126 @@
+.biggy-js-container--hidden {
+  opacity: 1;
+  max-height: unset !important; }
+
+.biggy-autocomplete-wrapper {
+  width: 100vw;
+  margin-left: 0rem; }
+  @media screen and (min-width: 1008px) {
+    .biggy-autocomplete-wrapper {
+      margin-left: 0; } }
+
+.itemList--suggestion {
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0px;
+  font-family: "SofiaPro";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #3e3e3d;
+  font-size: 1rem;
+  display: block; }
+  .itemList--suggestion .itemListTitle {
+    display: none !important; }
+    .itemList--suggestion .itemListTitle .itemListLinkTitle {
+      display: none !important; }
+  .itemList--suggestion .itemListList {
+    display: block !important; }
+
+.biggy-autocomplete {
+  background-color: white;
+  padding-block: 0;
+  width: 100vw;
+  z-index: 99;
+  top: 160px; }
+  @media screen and (min-width: 1008px) {
+    .biggy-autocomplete {
+      width: 40vw;
+      top: 38px;
+      left: 0; }
+      .biggy-autocomplete::-webkit-scrollbar-track {
+        background-color: #f4f4f4 !important; }
+      .biggy-autocomplete::-webkit-scrollbar {
+        width: 8px;
+        background: #cecece !important; }
+      .biggy-autocomplete::-webkit-scrollbar-thumb {
+        background: #dad7d7 !important; } }
+  .biggy-autocomplete .priceContainer {
+    display: flex; }
+    .biggy-autocomplete .priceContainer .sellingPriceValue .currencyContainer {
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0px;
+      font-family: "SofiaPro";
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color: #3e3e3d;
+      font-size: 0.875rem; }
+  .biggy-autocomplete .tileListItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; }
+    .biggy-autocomplete .tileListItem .imageContainer {
+      height: fit-content;
+      max-height: unset !important; }
+    .biggy-autocomplete .tileListItem .image {
+      width: 7.0625rem;
+      height: 7.0625rem;
+      flex-shrink: 0;
+      border-radius: 0.125rem; }
+    .biggy-autocomplete .tileListItem .productBrand {
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0px;
+      font-family: "SofiaPro";
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color: #3e3e3d;
+      font-size: 0.875rem; }
+    .biggy-autocomplete .tileListItem .no-underline {
+      width: 94vw;
+      display: flex; }
+    .biggy-autocomplete .tileListItem .element {
+      display: flex;
+      width: 100%;
+      align-items: flex-start;
+      align-items: center;
+      padding: 0 !important; }
+      .biggy-autocomplete .tileListItem .element .imageContainer {
+        width: fit-content; }
+      .biggy-autocomplete .tileListItem .element .information {
+        display: flex;
+        width: 14.5rem;
+        height: 7.5625rem;
+        padding: var(--spacing-1, 0.5rem);
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: var(--spacing-3, 1.5rem);
+        flex-shrink: 0;
+        background: var(--colors-gray-50, #F9F9F9); }
+  .biggy-autocomplete .tileListList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem; }
+  .biggy-autocomplete .tileListTitle {
+    display: none; }
+  .biggy-autocomplete .itemListTitle {
+    display: none; }
+  .biggy-autocomplete .itemListList {
+    display: none; }
+  .biggy-autocomplete .close-btn {
+    display: none; }
+  .biggy-autocomplete .tileListSeeMore {
+    font-size: 0.875rem;
+    height: 35px;
+    line-height: 27px; }
+  .biggy-autocomplete .itemListItem:hover .itemListSubItemLink {
+    background-color: transparent;
+    padding-inline: 30px !important; }
